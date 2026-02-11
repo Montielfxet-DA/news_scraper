@@ -1,0 +1,356 @@
+{
+  "fecha_analisis": "2026-02-11T10:46:53.058492",
+  "num_noticias": 4,
+  "score_general": -0.1275,
+  "impacto_agregado": {
+    "produccion": -1.9124999999999999,
+    "exportaciones": -2.8687500000000004,
+    "precios": 0.9562499999999999,
+    "empleo": -0.9562499999999999,
+    "importaciones": -2.295
+  },
+  "noticias": [
+    {
+      "fecha": "2026-02-10T17:00:00",
+      "titulo": "Kristi Noem Firma Contrato Para la Compra de Acero para el Muro entre EUA y México - N+",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "1",
+          "95",
+          "0",
+          "5",
+          "1",
+          "2",
+          "2",
+          "01",
+          "05",
+          "5",
+          "1",
+          "1",
+          "0",
+          "9",
+          "2",
+          "2",
+          "1",
+          "19",
+          "6",
+          "1",
+          "1",
+          "09",
+          "3",
+          "1",
+          "1",
+          "9",
+          "28",
+          "3",
+          "3",
+          "5",
+          "4",
+          "9",
+          "1",
+          "0",
+          "3",
+          "6",
+          "3",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "N+",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPamxsVURNOGU0aGN5Z1g2QVpTeFZxcFNFY2tJS01MWC05ZWF5bG1tU1hnN0RRSG9Fd2VxM2hqVDBNd1pwdThmeUJkUXVCM19DdEVhSHFiaENnLUdkVXhyYTd6WS1pdy1sM09jUXhoU3BJTVBCUVdTNWIzWTZyb1R1ZWdPLXduNFVmdDhhbURERl9YUkVCR28yamVVZmFrWEpHdGNNeWZYM3RLSmR3SjY5VGJjTWhJWUpVcU4tZW9JS1dkbFMxQkgyMGlCb0F3WUZvdUh6amd3?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 6
+    },
+    {
+      "fecha": "2026-02-08T21:20:47",
+      "titulo": "Jóvenes escalan chimenea de AHMSA en Monclova y se viralizan en redes - vanguardia.com.mx",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [
+          "ahmsa"
+        ],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "2",
+          "2",
+          "1",
+          "9",
+          "9",
+          "3",
+          "1",
+          "1",
+          "1",
+          "1",
+          "3",
+          "0",
+          "3",
+          "2",
+          "3",
+          "5",
+          "9",
+          "05",
+          "1",
+          "1",
+          "215",
+          "1",
+          "3",
+          "5",
+          "2",
+          "9",
+          "6",
+          "25",
+          "3",
+          "5",
+          "2",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "vanguardia.com.mx",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeHNyWFhVTVVoNGcySjIzSTZXSGsxM2pfc2VCMC1rbDgweU9odG9IaGp3Y1ROU1lWTGZQbHRyQXVWVWRwX1o1aXduamZ3QzJUOEpGZlVqZEFqU0t3XzBITmU2bmNyX3dMVW5pUWlkaE9hUy05SkU1YS1WX215RWZZMS1BMkt3ZVRQSG5CaUJXckx2QV9lZWJyeXdKbGlxUER6T25zVDBHU3loTEFkdnBKSThpSU5ka2duTllFSXVfSFFYUQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 8
+    },
+    {
+      "fecha": "2026-02-08T14:00:00",
+      "titulo": "Entre fuego y acero, la herencia artesanal de los cuchilleros de Sayula de México - UDG TV",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "1",
+          "0",
+          "5",
+          "3",
+          "1",
+          "4",
+          "010",
+          "5",
+          "3",
+          "3",
+          "1",
+          "9",
+          "5",
+          "1",
+          "2",
+          "14",
+          "3",
+          "2",
+          "0",
+          "1",
+          "5",
+          "3",
+          "0",
+          "1",
+          "5",
+          "2",
+          "3",
+          "11",
+          "5",
+          "2",
+          "5",
+          "1",
+          "1",
+          "3",
+          "0",
+          "3",
+          "3",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "UDG TV",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQWVLdjlMX1J0MHY5dHNrMjA3WlJTTWJkV1o4N010UGR5d3dtUzVpc3RUenYwR1BoeG9vNllDLXN5dU1sb2hsZjNFSkNtSE14aVJ3S2N0cXRxM1Q5d3M0ZERHay1KZFpVNm5mUDlGOWl2Y3VoNC11anZSRUd5T2p5QW1IZVBJS1RWVFR3dUsyNzRnYXo0dks3bHp3?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 6
+    },
+    {
+      "fecha": "2026-02-05T10:28:49",
+      "titulo": "Estados Unidos ultima un acuerdo con México para permitir un cupo de acero sin aranceles del 50% - MSN",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico",
+          "estados unidos",
+          "unidos"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          50.0,
+          50.0
+        ],
+        "cantidades": [
+          "50",
+          "95",
+          "5",
+          "1",
+          "2",
+          "6",
+          "0",
+          "05",
+          "2",
+          "2",
+          "0",
+          "2",
+          "1",
+          "3",
+          "5",
+          "5",
+          "0",
+          "1",
+          "0",
+          "4",
+          "1",
+          "0",
+          "1",
+          "1",
+          "0",
+          "1",
+          "25",
+          "25",
+          "2",
+          "3",
+          "05",
+          "2",
+          "1",
+          "1",
+          "4",
+          "4",
+          "1",
+          "0",
+          "5",
+          "4",
+          "1",
+          "5",
+          "3",
+          "8",
+          "0",
+          "1",
+          "3",
+          "4",
+          "4",
+          "8",
+          "1",
+          "2",
+          "1",
+          "2",
+          "2",
+          "5",
+          "29",
+          "3",
+          "5",
+          "2",
+          "21",
+          "5",
+          "50",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "muy_alto",
+      "score_impacto": -0.51,
+      "impacto_indicadores": {
+        "produccion": -7.6499999999999995,
+        "exportaciones": -11.475000000000001,
+        "precios": 3.8249999999999997,
+        "empleo": -3.8249999999999997,
+        "importaciones": -9.18
+      },
+      "fuente": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxPaExJTk5rcW1hc2R6emFudkwwMXBudWxGdHhONkJORUczQ0xwb05kQTdDUnZzS2xBZVVQY2RoQ0JvVHk2Z1NDTThiLVM3RWJJSXNmNm5ITmdCZnhkWHpaZlA5NTkzd0FVcG1IcUZtNDZBTnpKczlScjVhdHVGRmdCdklOOGRUakllWDgzZGhLM0o4aVp1eUZLdVlIazlnZEJrY0k1djU1a0FLbjlJcXI1NnZUd25VMGtWY25XdGdKNjJJU2hfNUJwNXBJZlVhQmVyVFN3NWdqS05TX2EwamJrMmFCZEdqNS1nTTc1WTR4RFlHSFVPOXY4cW1PNDhxVnZtb0d5REpyUzZseGNLalZkbzV4MjJ1ZXo5QzZ3Qk8xdEJfNjBDT0w1eFFkd3lyYjVoajJZWFJ4TlpBWDctTVkxYnpUTVJMZFFxaTl4aTFtbF8tdjJ1dmRkQUt2NTNnQjBDM1pKZGlqemdGejk2VHlVdWVFU2dQUVBKcE5Cc29WVVduZmZBVmJXc3E5YXFCdDdTSzQ2eHVnQVhfa21UbGdMeWtB?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 14
+    }
+  ]
+}

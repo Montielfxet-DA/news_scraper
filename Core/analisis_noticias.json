@@ -1,0 +1,282 @@
+{
+  "fecha_analisis": "2026-02-11T10:44:36.386004",
+  "num_noticias": 5,
+  "score_general": 0.25439999999999996,
+  "impacto_agregado": {
+    "produccion": 1.3343999999999998,
+    "exportaciones": 0.7295999999999999,
+    "precios": 1.0368,
+    "empleo": 0.2992,
+    "importaciones": 0.5068799999999999
+  },
+  "noticias": [
+    {
+      "fecha": "2026-02-11T10:44:36.380073",
+      "titulo": "Donald Trump anuncia aranceles del 25% a importaciones de acero de México",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        },
+        "importacion": {
+          "matches": 1,
+          "peso": 1.5,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico",
+          "mexicana",
+          "estados unidos",
+          "unidos"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          25.0,
+          25.0
+        ],
+        "cantidades": [
+          "25",
+          "25",
+          "5"
+        ]
+      },
+      "magnitud": "bajo",
+      "score_impacto": -0.44800000000000006,
+      "impacto_indicadores": {
+        "produccion": -2.688,
+        "exportaciones": -4.032,
+        "precios": 1.344,
+        "empleo": -1.344,
+        "importaciones": -3.2256000000000005
+      }
+    },
+    {
+      "fecha": "2026-02-09T10:44:36.380073",
+      "titulo": "Ternium anuncia inversión de $2,000 millones en nueva planta en México",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {
+        "nearshoring": {
+          "matches": 1,
+          "peso": 1.5,
+          "tipo": "positivo"
+        },
+        "produccion": {
+          "matches": 2,
+          "peso": 1.2,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [
+          "ternium"
+        ],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          15.0
+        ],
+        "cantidades": [
+          "2,000",
+          "2",
+          "3,500",
+          "15",
+          "2026"
+        ]
+      },
+      "magnitud": "alto",
+      "score_impacto": 1,
+      "impacto_indicadores": {
+        "produccion": 3.5999999999999996,
+        "exportaciones": 4.8,
+        "precios": 2.4,
+        "empleo": 2.4,
+        "importaciones": 3.5999999999999996
+      }
+    },
+    {
+      "fecha": "2026-02-06T10:44:36.380073",
+      "titulo": "Demanda de acero en México cae 8% por desaceleración en construcción",
+      "sentimiento": {
+        "score": -1.0,
+        "clasificacion": "negativo"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        },
+        "demanda": {
+          "matches": 2,
+          "peso": 1.4,
+          "tipo": "neutral"
+        },
+        "precios": {
+          "matches": 2,
+          "peso": 1.2,
+          "tipo": "neutral"
+        },
+        "crisis": {
+          "matches": 2,
+          "peso": 1.6,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          8.0,
+          8.0,
+          5.0
+        ],
+        "cantidades": [
+          "8",
+          "8",
+          "5"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -6.0,
+        "exportaciones": -4.0,
+        "precios": -4.0,
+        "empleo": -5.0,
+        "importaciones": -3.0
+      }
+    },
+    {
+      "fecha": "2026-02-10T10:44:36.380073",
+      "titulo": "Gobierno anuncia subsidio de $500 millones para modernizar industria del acero",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {
+        "subsidios": {
+          "matches": 2,
+          "peso": 1.4,
+          "tipo": "negativo"
+        },
+        "produccion": {
+          "matches": 1,
+          "peso": 1.2,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [
+          "economía",
+          "secretaría de economía"
+        ],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "500",
+          "500",
+          "25"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.72,
+      "impacto_indicadores": {
+        "produccion": 5.76,
+        "exportaciones": 2.88,
+        "precios": 1.44,
+        "empleo": 1.44,
+        "importaciones": 2.16
+      }
+    },
+    {
+      "fecha": "2026-02-08T10:44:36.380073",
+      "titulo": "Infraestructura: Plan Nacional de carreteras impulsará demanda de acero 12%",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 4,
+          "peso": 1.3,
+          "tipo": "positivo"
+        },
+        "demanda": {
+          "matches": 1,
+          "peso": 1.4,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          12.0,
+          12.0
+        ],
+        "cantidades": [
+          "12",
+          "5,000",
+          "3",
+          "12",
+          "150",
+          "15,000"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 1,
+      "impacto_indicadores": {
+        "produccion": 6.0,
+        "exportaciones": 4.0,
+        "precios": 4.0,
+        "empleo": 4.0,
+        "importaciones": 3.0
+      }
+    }
+  ]
+}

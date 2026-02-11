@@ -1,0 +1,174 @@
+{
+  "fecha_analisis": "2026-02-10T10:04:36.371936",
+  "num_noticias": 3,
+  "score_general": -0.33,
+  "impacto_agregado": {
+    "produccion": -1.8333333333333333,
+    "exportaciones": -1.67,
+    "precios": -0.9766666666666666,
+    "empleo": -1.5833333333333333,
+    "importaciones": -1.284
+  },
+  "noticias": [
+    {
+      "fecha": "2026-02-10T10:04:36.370973",
+      "titulo": "Donald Trump anuncia aranceles del 25% a importaciones de acero de México",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.5,
+          "tipo": "negativo"
+        },
+        "importacion": {
+          "matches": 1,
+          "peso": 0.9,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico",
+          "estados unidos"
+        ],
+        "empresas": [],
+        "personas": [
+          "donald trump"
+        ],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          25.0,
+          25.0
+        ],
+        "cantidades": [
+          "25",
+          "25"
+        ]
+      },
+      "magnitud": "bajo",
+      "score_impacto": -0.21000000000000002,
+      "impacto_indicadores": {
+        "produccion": -1.26,
+        "exportaciones": -1.8900000000000001,
+        "precios": 0.63,
+        "empleo": -0.63,
+        "importaciones": -1.5120000000000002
+      },
+      "fuente": "Demo",
+      "url": ""
+    },
+    {
+      "fecha": "2026-02-09T10:04:36.370973",
+      "titulo": "Ternium anuncia inversión de $2,000 millones en nueva planta en México",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "produccion": {
+          "matches": 2,
+          "peso": 1.1,
+          "tipo": "neutral"
+        },
+        "inversion": {
+          "matches": 1,
+          "peso": 1.1,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [
+          "ternium"
+        ],
+        "personas": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "2,000",
+          "2"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.22000000000000003,
+      "impacto_indicadores": {
+        "produccion": 1.7600000000000002,
+        "exportaciones": 0.8800000000000001,
+        "precios": 0.44000000000000006,
+        "empleo": 0.8800000000000001,
+        "importaciones": 0.6600000000000001
+      },
+      "fuente": "Demo",
+      "url": ""
+    },
+    {
+      "fecha": "2026-02-08T10:04:36.370973",
+      "titulo": "Demanda de acero en México cae 8% por desaceleración en construcción",
+      "sentimiento": {
+        "score": -1.0,
+        "clasificacion": "negativo"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.0,
+          "tipo": "positivo"
+        },
+        "demanda": {
+          "matches": 1,
+          "peso": 1.2,
+          "tipo": "neutral"
+        },
+        "crisis": {
+          "matches": 1,
+          "peso": 1.4,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "personas": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [
+          8.0,
+          8.0
+        ],
+        "cantidades": [
+          "8",
+          "8"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -6.0,
+        "exportaciones": -4.0,
+        "precios": -4.0,
+        "empleo": -5.0,
+        "importaciones": -3.0
+      },
+      "fuente": "Demo",
+      "url": ""
+    }
+  ]
+}
