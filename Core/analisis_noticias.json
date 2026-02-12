@@ -1,5 +1,5 @@
 {
-  "fecha_analisis": "2026-02-11T10:44:36.386004",
+  "fecha_analisis": "2026-02-11T11:28:59.540805",
   "num_noticias": 5,
   "score_general": 0.25439999999999996,
   "impacto_agregado": {
@@ -11,7 +11,7 @@
   },
   "noticias": [
     {
-      "fecha": "2026-02-11T10:44:36.380073",
+      "fecha": "2026-02-11T11:28:59.538811",
       "titulo": "Donald Trump anuncia aranceles del 25% a importaciones de acero de México",
       "sentimiento": {
         "score": 0,
@@ -64,7 +64,7 @@
       }
     },
     {
-      "fecha": "2026-02-09T10:44:36.380073",
+      "fecha": "2026-02-09T11:28:59.538811",
       "titulo": "Ternium anuncia inversión de $2,000 millones en nueva planta en México",
       "sentimiento": {
         "score": 1.0,
@@ -117,7 +117,7 @@
       }
     },
     {
-      "fecha": "2026-02-06T10:44:36.380073",
+      "fecha": "2026-02-06T11:28:59.538811",
       "titulo": "Demanda de acero en México cae 8% por desaceleración en construcción",
       "sentimiento": {
         "score": -1.0,
@@ -178,7 +178,7 @@
       }
     },
     {
-      "fecha": "2026-02-10T10:44:36.380073",
+      "fecha": "2026-02-10T11:28:59.538811",
       "titulo": "Gobierno anuncia subsidio de $500 millones para modernizar industria del acero",
       "sentimiento": {
         "score": 1.0,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "fecha": "2026-02-08T10:44:36.380073",
+      "fecha": "2026-02-08T11:28:59.538811",
       "titulo": "Infraestructura: Plan Nacional de carreteras impulsará demanda de acero 12%",
       "sentimiento": {
         "score": 1.0,

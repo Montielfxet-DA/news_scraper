@@ -1,23 +1,42 @@
 [
   {
-    "titulo": "Tras el cruce con el Gobierno por los tubos, una empresa de Techint compró dos siderúrgicas en Brasil - Infobae",
-    "fuente": "Infobae",
-    "score": 5,
+    "titulo": "Tras el cruce con Milei, Rocca aumentó sus inversiones en Brasil - BorderPeriodismo",
+    "fuente": "BorderPeriodismo",
+    "score": 0,
     "razones": [
-      "✓ Sector: 'siderúrgica' (+5)",
-      "✗ RECHAZADO: No menciona contexto mexicano"
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
-    "titulo": "Trump amaga con aranceles de 100 % a farmacéuticas mexicanas; quiere su producción en EU - La Crónica de Hoy",
-    "fuente": "La Crónica de Hoy",
-    "score": 11,
+    "titulo": "INAH CONCLUYE TRABAJOS DE MANTENIMIENTO GENERAL EN LA CUBIERTA DEL GRAN BASAMENTO DE CACAXTLA - Gob MX",
+    "fuente": "Gob MX",
+    "score": 0,
     "razones": [
-      "✓ México: 'mexicana' (+3)",
-      "✓ Evento: 'arancel' (+3)",
-      "✓ Evento: 'aranceles' (+3)",
-      "✓ Evento: 'producción' (+2)",
-      "✗ RECHAZADO: No menciona sector del acero"
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Puentes que no unen, la infraestructura que genera aun más fricción entre Canadá y EEUU - mipuntodevista.com.mx",
+    "fuente": "mipuntodevista.com.mx",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Convenio entre el Cabildo Catedral de Sevilla y Ayesa para el estudio técnico y científico del Giraldillo",
+    "fuente": "Europapress.es",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
@@ -27,36 +46,50 @@
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
-    "titulo": "Mientras se disipa la polémica por los caños, Techint se expande en la industria siderúrgica regional - El Cronista",
-    "fuente": "El Cronista",
-    "score": 6,
+    "titulo": "Eurocámara suspenderá pacto comercial con EU si Trump amenaza de nuevo - Plano Informativo",
+    "fuente": "Plano Informativo",
+    "score": 0,
     "razones": [
-      "✓ Sector: 'siderúrgica' (+5)",
-      "✓ Contiene datos: toneladas (+1)",
-      "✗ RECHAZADO: No menciona contexto mexicano"
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
-    "titulo": "Ternium completa adquisición de acciones de Usiminas por 315,2 millones de dólares - Investing.com Español",
-    "fuente": "Investing.com Español",
-    "score": 5,
+    "titulo": "Los mejores momios del Rayadas vs Toluca en la Liga MX Femenil - Mediotiempo",
+    "fuente": "Mediotiempo",
+    "score": -5,
     "razones": [
-      "✓ Sector: 'ternium' (+5)",
-      "✗ RECHAZADO: No menciona contexto mexicano"
+      "✗ Exclusión: 'liga mx' (-5)",
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (-5 < 2)"
     ]
   },
   {
-    "titulo": "El Volkswagen Virtus 2026 ya tiene precio en México: el sucesor del Vento ofrece dos motores, tres versiones y este equipamiento",
-    "fuente": "Motorpasión México",
-    "score": 5,
+    "titulo": "La inesperada disputa entre Trump y Carney por un puente que unirá Estados Unidos y Canadá",
+    "fuente": "La Nacion",
+    "score": 0,
     "razones": [
-      "✓ México: 'méxico' (+3)",
-      "✓ Evento: 'precio' (+2)",
-      "✗ RECHAZADO: No menciona sector del acero"
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Top Ten Cine y Series 2025",
+    "fuente": "Zonanegativa.com",
+    "score": -9,
+    "razones": [
+      "✗ Exclusión: 'película' (-5)",
+      "✗ Exclusión: 'serie' (-4)",
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (-9 < 2)"
     ]
   },
   {
@@ -66,7 +99,7 @@
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
@@ -76,7 +109,7 @@
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
@@ -86,115 +119,7 @@
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
-    ]
-  },
-  {
-    "titulo": "Trump amenaza con bloquear la apertura de un nuevo puente entre Detroit y Canadá",
-    "fuente": "Boston Herald",
-    "score": 0,
-    "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
-    ]
-  },
-  {
-    "titulo": "Empleo formal en México registra en enero su peor inicio de año desde 2009 - bloomberglinea.com",
-    "fuente": "bloomberglinea.com",
-    "score": 4,
-    "razones": [
-      "✓ México: 'méxico' (+3)",
-      "✓ Contiene datos: toneladas (+1)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: Score insuficiente (4 < 5)"
-    ]
-  },
-  {
-    "titulo": "Rayadas vs Toluca EN VIVO: A qué hora y dónde VER partido HOY Jornada 8 de la Liga MX Femenil 2026",
-    "fuente": "Milenio",
-    "score": -5,
-    "razones": [
-      "✓ Sector: 'acero' (+3)",
-      "✗ Exclusión: 'partido' (-3)",
-      "✗ Exclusión: 'liga mx' (-5)",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (-5 < 5)"
-    ]
-  },
-  {
-    "titulo": "El Chevrolet Onix 2026 baja de precio en México: más interesante que Aveo y ahora más barato",
-    "fuente": "Motorpasión México",
-    "score": 5,
-    "razones": [
-      "✓ México: 'méxico' (+3)",
-      "✓ Evento: 'precio' (+2)",
-      "✗ RECHAZADO: No menciona sector del acero"
-    ]
-  },
-  {
-    "titulo": "SRE pide a EE.UU. investigar detención de ICE que dejó a mexicano con ocho fracturas en el cráneo",
-    "fuente": "Aristeguinoticias.com",
-    "score": 3,
-    "razones": [
-      "✓ México: 'mexicano' (+3)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: Score insuficiente (3 < 5)"
-    ]
-  },
-  {
-    "titulo": "Efecto de los aranceles sobre las exportaciones mexicanas",
-    "fuente": "Abcblogs.abc.es",
-    "score": 9,
-    "razones": [
-      "✓ México: 'mexicana' (+3)",
-      "✓ Evento: 'arancel' (+3)",
-      "✓ Evento: 'aranceles' (+3)",
-      "✗ RECHAZADO: No menciona sector del acero"
-    ]
-  },
-  {
-    "titulo": "Mikel Arriola es captado en el Levi's Stadium para ver el Super Bowl 2026 | VIDEO",
-    "fuente": "Milenio",
-    "score": -7,
-    "razones": [
-      "✓ México: 'mexicana' (+3)",
-      "✗ Exclusión: 'futbol' (-5)",
-      "✗ Exclusión: 'liga mx' (-5)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: Score insuficiente (-7 < 5)"
-    ]
-  },
-  {
-    "titulo": "Prevén caída de hasta un 6% del valor de la producción de autopartes de México - vanguardia.com.mx",
-    "fuente": "vanguardia.com.mx",
-    "score": 7,
-    "razones": [
-      "✓ México: 'méxico' (+3)",
-      "✓ Evento: 'producción' (+2)",
-      "✓ Contiene datos: porcentajes (+2)",
-      "✗ RECHAZADO: No menciona sector del acero"
-    ]
-  },
-  {
-    "titulo": "Aranceles de EE. UU. y puertos mexicanos: impacto, tensiones y respuestas del sector logístico - Transporte.mx",
-    "fuente": "Transporte.mx",
-    "score": 9,
-    "razones": [
-      "✓ México: 'mexicano' (+3)",
-      "✓ Evento: 'arancel' (+3)",
-      "✓ Evento: 'aranceles' (+3)",
-      "✗ RECHAZADO: No menciona sector del acero"
-    ]
-  },
-  {
-    "titulo": "Economía va contra la piratería con decomisos, aduanas reforzadas y trazabilidad",
-    "fuente": "Milenio",
-    "score": 3,
-    "razones": [
-      "✓ México: 'secretaría de economía' (+3)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: Score insuficiente (3 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
@@ -204,69 +129,108 @@
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
-    "titulo": "La logia del tiempo: para comprar relojes de ultralujo no basta con dinero",
-    "fuente": "Milenio",
+    "titulo": "Vuelve a San Nicolás Fototeca va a tu Club, una propuesta de verano para construir memoria colectiva - La Opinion Online",
+    "fuente": "La Opinion Online",
     "score": 0,
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
-    "titulo": "Hospital Nova implementa tecnología de automatización total en su laboratorio clínico - de reporteros",
-    "fuente": "de reporteros",
+    "titulo": "Vuelve “Fototeca va a tu club”: una acción de verano para la construcción de memoria - El Informante",
+    "fuente": "El Informante",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Más de 100 empleos en vilo tras el cierre de una firma de Techint - El Ciudadano",
+    "fuente": "El Ciudadano",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Techint ajusta en Ramallo y crece la tensión por despidos - Punto Biz",
+    "fuente": "Punto Biz",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Regresa “Fototeca va a tu club”, una iniciativa para mantener viva la memoria de las instituciones deportivas - Diario El Norte - San Nicolás",
+    "fuente": "Diario El Norte - San Nicolás",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Crisis en el cordón industrial: Techint cierra una tercerizada y hay 110 despidos que ponen en jaque a la UOM - Política y Medios",
+    "fuente": "Política y Medios",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Hacienda cambiará la aleación con la que fabrica las monedas de 10 pesos - Proceso",
+    "fuente": "Proceso",
     "score": 1,
     "razones": [
       "✓ Contiene datos: toneladas (+1)",
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (1 < 5)"
+      "✗ RECHAZADO: Score insuficiente (1 < 2)"
     ]
   },
   {
-    "titulo": "Choque entre tráiler y auto particular deja dos muertos en la carretera México-Texcoco - La Jornada",
-    "fuente": "La Jornada",
-    "score": 3,
-    "razones": [
-      "✓ México: 'méxico' (+3)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: Score insuficiente (3 < 5)"
-    ]
-  },
-  {
-    "titulo": "México ante el injerencismo de Estados Unidos en Cuba - Cambio de Michoacán",
-    "fuente": "Cambio de Michoacán",
-    "score": 6,
-    "razones": [
-      "✓ México: 'méxico' (+3)",
-      "✓ México: 'michoacán' (+2)",
-      "✓ Contiene datos: toneladas (+1)",
-      "✗ RECHAZADO: No menciona sector del acero"
-    ]
-  },
-  {
-    "titulo": "Techint cierra una tercerizada y hay 110 despidos que desesperan a la UOM - Urgente24",
-    "fuente": "Urgente24",
+    "titulo": "Robotización: la familia de emprendedores que llegó hasta Alemania por un deslumbrante desarrollo",
+    "fuente": "La Nacion",
     "score": 0,
     "razones": [
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 5)"
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   },
   {
-    "titulo": "El dinero que usas todos los días cambiará en 2026: así serán las nuevas monedas de 10 pesos en México",
-    "fuente": "Xataka.com.mx",
-    "score": 3,
+    "titulo": "El resultado de una licitación sacude el tablero empresario argentino",
+    "fuente": "La Nacion",
+    "score": 0,
     "razones": [
-      "✓ México: 'méxico' (+3)",
       "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: Score insuficiente (3 < 5)"
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "ONU exige respuestas en el caso de desaparecidos; se ha brindado la atención: SG",
+    "fuente": "Jornada.com.mx",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
     ]
   }
 ]

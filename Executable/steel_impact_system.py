@@ -36,14 +36,14 @@ class RealNewsCollector:
     def __init__(self, newsapi_key=None):
         self.newsapi_key = newsapi_key
         self.keywords_busqueda = [
-            'acero México',
-            'industria siderúrgica México',
-            'producción acero México',
-            'Ternium México',
-            'AHMSA',
-            'aranceles acero',
-            'exportación acero México',
-            'precio acero'
+            'acero México', 'industria siderúrgica México', 'Ternium',
+            'aranceles acero', 'exportación acero México', 'precio acero',
+            'construcción México acero', 'CANACERO', 'lámina acero México',
+            'varilla construcción México', 'siderurgia México', 'importación acero',
+            'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec', 'Gerdau México',
+            'sector construcción México', 'infraestructura México', 'metalúrgica México',
+            'regulación acero', 'recesión', 'regulación', 'demanda acero', 'importación',
+            'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin',
         ]
 
     def fetch_newsapi(self, keyword, dias_atras=7):
@@ -105,7 +105,7 @@ class RealNewsCollector:
             print(f"  ❌ Error en NewsAPI: {e}")
             return []
 
-    def fetch_google_news(self, keyword, max_results=10):
+    def fetch_google_news(self, keyword, max_results=20):
         """
         Obtiene noticias de Google News
         Requiere: pip install pygooglenews
@@ -155,8 +155,8 @@ class RealNewsCollector:
                     texto = entry.title + ' ' + entry.get('summary', entry.get('description', ''))
 
                     # Filtrar solo noticias relacionadas con acero
-                    if any(kw in texto.lower() for kw in ['acero', 'siderúrgica', 'ternium', 'ahmsa',
-                                                          'metalúrgica', 'siderurgia', 'fundición']):
+                    if any(kw in texto.lower() for kw in ['acero', 'siderúrgica', 'ternium', 'tyasa',
+                                                          'metalúrgica', 'siderurgia', 'fundición', 'chatarra']):
 
                         fecha = datetime.now()
                         if hasattr(entry, 'published_parsed') and entry.published_parsed:
@@ -251,9 +251,12 @@ class RealNewsCollector:
         # 3. RSS Feeds de medios mexicanos
         print("\n📰 Fuente: Feeds RSS")
         rss_feeds = [
-            'https://www.eleconomista.com.mx/rss/empresas.xml',
-            'https://www.elfinanciero.com.mx/rss/economia/',
+            'https://www.eleconomista.com.mx',
+            'https://www.elfinanciero.com.mx',
             'https://www.milenio.com/rss/negocios',
+            'https://www.economia.gob.mx',
+            'https://mx.investing.com',
+            'https://expansion.mx/economia'
         ]
 
         for feed_url in rss_feeds:
@@ -479,7 +482,7 @@ def main():
     print("-" * 80)
 
     collector = RealNewsCollector(newsapi_key=NEWSAPI_KEY if USE_NEWSAPI else None)
-    noticias = collector.collect_all(dias_atras=7, max_por_keyword=5)
+    noticias = collector.collect_all(dias_atras=30, max_por_keyword=15)
 
     if not noticias:
         print("\n⚠️ No se pudieron recolectar noticias reales.")
@@ -502,7 +505,7 @@ def main():
     print("\nPASO 1.5: Filtrado de Relevancia")
     print("-" * 80)
 
-    filtro = NewsRelevanceFilter(min_score=5)
+    filtro = NewsRelevanceFilter(min_score=2)
     noticias_relevantes, noticias_rechazadas = filtro.filtrar_noticias(noticias, verbose=False)
 
     # Guardar noticias rechazadas para revisión

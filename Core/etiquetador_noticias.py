@@ -27,11 +27,11 @@ class NewsLabelerGUI:
 
         # Maximizar ventana o tamaño grande
         # Opción 1: Maximizar
-        self.root.state('zoomed')  # Windows
+        # self.root.state('zoomed')  # Windows
         # Si estás en Mac/Linux, usa: self.root.attributes('-zoomed', True)
 
         # Opción 2: Tamaño fijo más grande
-        # self.root.geometry("1400x900")
+        self.root.geometry("1400x900")
 
         # Hacer la ventana redimensionable
         self.root.resizable(True, True)
@@ -54,44 +54,38 @@ class NewsLabelerGUI:
         self.mostrar_noticia_actual()
 
     def setup_ui(self):
-        """Configurar la interfaz de usuario"""
+        """Configurar la interfaz de usuario - VERSIÓN COMPACTA"""
 
-        # ================================================================
-        # HEADER - Estadísticas
-        # ================================================================
+        # HEADER
         header_frame = tk.Frame(self.root, bg="#34495e")
         header_frame.pack(fill=tk.X, padx=10, pady=5)
 
-        # Título
         title_label = tk.Label(
             header_frame,
             text="📰 ETIQUETADOR DE NOTICIAS",
-            font=("Arial", 14, "bold"),
+            font=("Arial", 13, "bold"),
             bg="#34495e",
             fg="white"
         )
-        title_label.pack(pady=8)
+        title_label.pack(pady=6)
 
-        # Estadísticas
         self.stats_label = tk.Label(
             header_frame,
             text="Cargando estadísticas...",
-            font=("Arial", 9),
+            font=("Arial", 8),
             bg="#34495e",
             fg="white"
         )
-        self.stats_label.pack(pady=5)
+        self.stats_label.pack(pady=3)
 
-        # ================================================================
         # PROGRESS BAR
-        # ================================================================
         progress_frame = tk.Frame(self.root)
-        progress_frame.pack(fill=tk.X, padx=10, pady=5)
+        progress_frame.pack(fill=tk.X, padx=10, pady=3)
 
         self.progress_label = tk.Label(
             progress_frame,
             text="Noticia 0 de 0",
-            font=("Arial", 10, "bold")
+            font=("Arial", 9, "bold")
         )
         self.progress_label.pack()
 
@@ -100,198 +94,137 @@ class NewsLabelerGUI:
             mode='determinate',
             length=400
         )
-        self.progress_bar.pack(pady=5)
+        self.progress_bar.pack(pady=3)
 
-        # ================================================================
-        # CONTENIDO - Información de la noticia
-        # ================================================================
+        # CONTENIDO
         content_frame = tk.Frame(self.root, bg="white")
-        content_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        content_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=3)
 
-        # Metadata frame
+        # Metadata
         meta_frame = tk.Frame(content_frame, bg="#ecf0f1")
-        meta_frame.pack(fill=tk.X, padx=5, pady=5)
+        meta_frame.pack(fill=tk.X, padx=5, pady=3)
 
-        self.id_label = tk.Label(
-            meta_frame,
-            text="ID: -",
-            font=("Arial", 9),
-            bg="#ecf0f1",
-            anchor="w"
-        )
-        self.id_label.pack(side=tk.LEFT, padx=10)
+        self.id_label = tk.Label(meta_frame, text="ID: -", font=("Arial", 8), bg="#ecf0f1", anchor="w")
+        self.id_label.pack(side=tk.LEFT, padx=5)
 
-        self.fecha_label = tk.Label(
-            meta_frame,
-            text="Fecha: -",
-            font=("Arial", 9),
-            bg="#ecf0f1",
-            anchor="w"
-        )
-        self.fecha_label.pack(side=tk.LEFT, padx=10)
+        self.fecha_label = tk.Label(meta_frame, text="Fecha: -", font=("Arial", 8), bg="#ecf0f1", anchor="w")
+        self.fecha_label.pack(side=tk.LEFT, padx=5)
 
-        self.fuente_label = tk.Label(
-            meta_frame,
-            text="Fuente: -",
-            font=("Arial", 9),
-            bg="#ecf0f1",
-            anchor="w"
-        )
-        self.fuente_label.pack(side=tk.LEFT, padx=10)
+        self.fuente_label = tk.Label(meta_frame, text="Fuente: -", font=("Arial", 8), bg="#ecf0f1", anchor="w")
+        self.fuente_label.pack(side=tk.LEFT, padx=5)
 
-        # Score automático
         self.score_frame = tk.Frame(meta_frame, bg="#ecf0f1")
-        self.score_frame.pack(side=tk.RIGHT, padx=10)
+        self.score_frame.pack(side=tk.RIGHT, padx=5)
 
-        tk.Label(
-            self.score_frame,
-            text="🤖 Auto:",
-            font=("Arial", 9, "bold"),
-            bg="#ecf0f1"
-        ).pack(side=tk.LEFT)
-
-        self.score_label = tk.Label(
-            self.score_frame,
-            text="Score: -",
-            font=("Arial", 9),
-            bg="#ecf0f1"
-        )
-        self.score_label.pack(side=tk.LEFT, padx=5)
+        tk.Label(self.score_frame, text="🤖 Auto:", font=("Arial", 8, "bold"), bg="#ecf0f1").pack(side=tk.LEFT)
+        self.score_label = tk.Label(self.score_frame, text="Score: -", font=("Arial", 8), bg="#ecf0f1")
+        self.score_label.pack(side=tk.LEFT, padx=3)
 
         # Título
         titulo_frame = tk.Frame(content_frame, bg="white")
-        titulo_frame.pack(fill=tk.X, padx=5, pady=5)
+        titulo_frame.pack(fill=tk.X, padx=5, pady=3)
 
-        tk.Label(
-            titulo_frame,
-            text="📌 TÍTULO:",
-            font=("Arial", 10, "bold"),
-            bg="white",
-            anchor="w"
-        ).pack(anchor="w")
+        tk.Label(titulo_frame, text="📌 TÍTULO:", font=("Arial", 9, "bold"), bg="white", anchor="w").pack(anchor="w")
 
-        self.titulo_text = tk.Text(
-            titulo_frame,
-            height=3,
-            wrap=tk.WORD,
-            font=("Arial", 11),
-            bg="#f8f9fa",
-            relief=tk.FLAT
-        )
-        self.titulo_text.pack(fill=tk.X, pady=5)
+        self.titulo_text = tk.Text(titulo_frame, height=2, wrap=tk.WORD, font=("Arial", 10), bg="#f8f9fa",
+                                   relief=tk.FLAT)
+        self.titulo_text.pack(fill=tk.X, pady=2)
         self.titulo_text.config(state=tk.DISABLED)
 
         # Contenido
         contenido_frame = tk.Frame(content_frame, bg="white")
-        contenido_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+        contenido_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=3)
 
-        tk.Label(
-            contenido_frame,
-            text="📄 CONTENIDO:",
-            font=("Arial", 10, "bold"),
-            bg="white",
-            anchor="w"
-        ).pack(anchor="w")
+        tk.Label(contenido_frame, text="📄 CONTENIDO:", font=("Arial", 9, "bold"), bg="white", anchor="w").pack(
+            anchor="w")
 
         self.contenido_text = scrolledtext.ScrolledText(
-            contenido_frame,
-            wrap=tk.WORD,
-            font=("Arial", 10),
-            bg="#f8f9fa",
-            relief=tk.FLAT
+            contenido_frame, wrap=tk.WORD, font=("Arial", 9), bg="#f8f9fa", relief=tk.FLAT, height=12
         )
-        self.contenido_text.pack(fill=tk.BOTH, expand=True, pady=5)
+        self.contenido_text.pack(fill=tk.BOTH, expand=True, pady=2)
         self.contenido_text.config(state=tk.DISABLED)
 
-        # ================================================================
         # BOTONES DE ACCIÓN
-        # ================================================================
         action_frame = tk.Frame(self.root, bg="white")
-        action_frame.pack(fill=tk.X, padx=10, pady=15)
+        action_frame.pack(fill=tk.X, padx=10, pady=8)
 
-        # Pregunta
         question_label = tk.Label(
             action_frame,
-            text="¿Esta noticia es RELEVANTE para la industria del acero en México?",
-            font=("Arial", 14, "bold"),
+            text="¿Esta noticia es RELEVANTE?",
+            font=("Arial", 11, "bold"),
             bg="white"
         )
-        question_label.pack(pady=15)
+        question_label.pack(pady=5)
 
-        # Frame de botones
         buttons_frame = tk.Frame(action_frame, bg="white")
-        buttons_frame.pack(pady=10)
+        buttons_frame.pack(pady=5)
 
-        # Botón RELEVANTE
         self.btn_relevante = tk.Button(
-            buttons_frame,
-            text="✅ SÍ\nRELEVANTE",
-            font=("Arial", 14, "bold"),
-            bg=self.color_relevante,
-            fg="white",
-            width=20,
-            height=3,
-            command=lambda: self.etiquetar(1),
-            cursor="hand2",
-            relief=tk.RAISED,
-            bd=3
+            buttons_frame, text="✅ RELEVANTE", font=("Arial", 11, "bold"),
+            bg=self.color_relevante, fg="white", width=16, height=2,
+            command=lambda: self.etiquetar(1), cursor="hand2", relief=tk.RAISED, bd=3
         )
-        self.btn_relevante.pack(side=tk.LEFT, padx=15)
+        self.btn_relevante.pack(side=tk.LEFT, padx=8)
 
-        # Botón NO RELEVANTE
         self.btn_no_relevante = tk.Button(
-            buttons_frame,
-            text="❌ NO\nNO RELEVANTE",
-            font=("Arial", 14, "bold"),
-            bg=self.color_no_relevante,
-            fg="white",
-            width=20,
-            height=3,
-            command=lambda: self.etiquetar(0),
-            cursor="hand2",
-            relief=tk.RAISED,
-            bd=3
+            buttons_frame, text="❌ NO RELEVANTE", font=("Arial", 11, "bold"),
+            bg=self.color_no_relevante, fg="white", width=16, height=2,
+            command=lambda: self.etiquetar(0), cursor="hand2", relief=tk.RAISED, bd=3
         )
-        self.btn_no_relevante.pack(side=tk.LEFT, padx=15)
+        self.btn_no_relevante.pack(side=tk.LEFT, padx=8)
 
-        # Botón SALTAR
         self.btn_saltar = tk.Button(
+            buttons_frame, text="⏭️ SALTAR", font=("Arial", 10, "bold"),
+            bg="#95a5a6", fg="white", width=14, height=2,
+            command=self.saltar, cursor="hand2", relief=tk.RAISED, bd=3
+        )
+        self.btn_saltar.pack(side=tk.LEFT, padx=8)
+
+        # Botón VER COMPLETO
+        self.btn_ver_completo = tk.Button(
             buttons_frame,
-            text="⏭️ SALTAR",
-            font=("Arial", 12, "bold"),
-            bg="#95a5a6",
+            text="🔍 VER COMPLETO",
+            font=("Arial", 10, "bold"),
+            bg="#3498db",
             fg="white",
-            width=18,
-            height=3,
-            command=self.saltar,
+            width=14,
+            height=2,
+            command=self.ver_completo,
             cursor="hand2",
             relief=tk.RAISED,
             bd=3
         )
-        self.btn_saltar.pack(side=tk.LEFT, padx=15)
+        self.btn_ver_completo.pack(side=tk.LEFT, padx=8)
 
-        # ================================================================
-        # FOOTER - Ayuda y controles
-        # ================================================================
-        footer_frame = tk.Frame(self.root, bg="#ecf0f1", height=40)
+        # Botón ABRIR EN WEB
+        self.btn_navegador = tk.Button(
+            buttons_frame,
+            text="🌐 ABRIR WEB",
+            font=("Arial", 10, "bold"),
+            bg="#16a085",
+            fg="white",
+            width=14,
+            height=2,
+            command=self.ver_en_navegador,
+            cursor="hand2",
+            relief=tk.RAISED,
+            bd=3
+        )
+        self.btn_navegador.pack(side=tk.LEFT, padx=8)
+
+        # FOOTER
+        footer_frame = tk.Frame(self.root, bg="#ecf0f1", height=25)
         footer_frame.pack(fill=tk.X, side=tk.BOTTOM)
         footer_frame.pack_propagate(False)
 
-        help_text = "💡 Atajos: [1] Relevante | [0] No Relevante | [S] Saltar | [H] Ayuda | [Q] Salir"
-        help_label = tk.Label(
-            footer_frame,
-            text=help_text,
-            font=("Arial", 9),
-            bg="#ecf0f1",
-            fg="#7f8c8d"
-        )
-        help_label.pack(pady=10)
+        help_text = "💡 [1] Relevante | [0] No Relevante | [S] Saltar | [Q] Salir"
+        help_label = tk.Label(footer_frame, text=help_text, font=("Arial", 8), bg="#ecf0f1", fg="#7f8c8d")
+        help_label.pack(pady=4)
 
-        # Menú
+        # Menú y atajos (sin cambios)
         menubar = tk.Menu(self.root)
         self.root.config(menu=menubar)
 
-        # Menú Archivo
         file_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="Archivo", menu=file_menu)
         file_menu.add_command(label="Estadísticas", command=self.mostrar_estadisticas)
@@ -299,13 +232,11 @@ class NewsLabelerGUI:
         file_menu.add_separator()
         file_menu.add_command(label="Salir", command=self.salir)
 
-        # Menú Ayuda
         help_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="Ayuda", menu=help_menu)
         help_menu.add_command(label="Guía de Etiquetado", command=self.mostrar_ayuda)
         help_menu.add_command(label="Acerca de", command=self.acerca_de)
 
-        # Atajos de teclado
         self.root.bind('1', lambda e: self.etiquetar(1))
         self.root.bind('0', lambda e: self.etiquetar(0))
         self.root.bind('s', lambda e: self.saltar())
@@ -315,8 +246,111 @@ class NewsLabelerGUI:
         self.root.bind('q', lambda e: self.salir())
         self.root.bind('Q', lambda e: self.salir())
 
-        # Protocolo de cierre
         self.root.protocol("WM_DELETE_WINDOW", self.salir)
+
+    def ver_en_navegador(self):
+        """Abrir noticia en navegador"""
+        if not self.noticias or self.current_index >= len(self.noticias):
+            return
+
+        noticia = self.noticias[self.current_index]
+        url = noticia.get('url', '')
+
+        if not url:
+            messagebox.showwarning("Sin URL", "Esta noticia no tiene URL disponible")
+            return
+
+        import webbrowser
+        webbrowser.open(url)
+
+    def ver_completo(self):
+        """Scraping del artículo completo"""
+        if not self.noticias or self.current_index >= len(self.noticias):
+            return
+
+        noticia = self.noticias[self.current_index]
+        url = noticia.get('url', '')
+
+        if not url:
+            messagebox.showwarning("Sin URL", "Esta noticia no tiene URL disponible")
+            return
+
+        loading = tk.Toplevel(self.root)
+        loading.title("Cargando...")
+        loading.geometry("300x100")
+        tk.Label(loading, text="🔄 Descargando artículo completo...",
+                 font=("Arial", 11)).pack(pady=30)
+        loading.update()
+
+        try:
+            from newspaper import Article
+
+            article = Article(url)
+            article.download()
+            article.parse()
+
+            contenido_completo = article.text
+
+            if not contenido_completo:
+                raise Exception("No se pudo extraer contenido")
+
+            loading.destroy()
+            self.mostrar_ventana_contenido(contenido_completo, noticia['titulo'])
+
+        except ImportError:
+            loading.destroy()
+            messagebox.showerror(
+                "Librería Faltante",
+                "Instala newspaper3k:\n\npip install newspaper3k"
+            )
+        except Exception as e:
+            loading.destroy()
+            messagebox.showerror(
+                "Error",
+                f"No se pudo obtener el contenido:\n{str(e)}"
+            )
+
+    def mostrar_ventana_contenido(self, contenido, titulo):
+        """Muestra ventana con contenido completo"""
+        ventana = tk.Toplevel(self.root)
+        ventana.title("Artículo Completo")
+        ventana.geometry("800x600")
+
+        titulo_label = tk.Label(
+            ventana,
+            text=titulo,
+            font=("Arial", 12, "bold"),
+            wraplength=750,
+            justify=tk.LEFT,
+            bg="#ecf0f1",
+            padx=10,
+            pady=10
+        )
+        titulo_label.pack(fill=tk.X)
+
+        frame = tk.Frame(ventana)
+        frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        text_widget = scrolledtext.ScrolledText(
+            frame,
+            wrap=tk.WORD,
+            font=("Arial", 10),
+            bg="white"
+        )
+        text_widget.pack(fill=tk.BOTH, expand=True)
+        text_widget.insert(1.0, contenido)
+        text_widget.config(state=tk.DISABLED)
+
+        btn_cerrar = tk.Button(
+            ventana,
+            text="Cerrar",
+            command=ventana.destroy,
+            font=("Arial", 10),
+            bg="#95a5a6",
+            fg="white",
+            width=15
+        )
+        btn_cerrar.pack(pady=10)
 
     def cargar_noticias(self):
         """Cargar noticias pendientes de etiquetar"""

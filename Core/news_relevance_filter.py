@@ -13,7 +13,7 @@ class NewsRelevanceFilter:
     para la industria del acero en México
     """
     
-    def __init__(self, min_score=5):
+    def __init__(self, min_score=0):
         """
         Args:
             min_score: Score mínimo para considerar una noticia relevante (default: 5)
@@ -257,11 +257,11 @@ class NewsRelevanceFilter:
         
         # CRITERIOS DE ACEPTACIÓN
         es_relevante = (
-            score >= self.min_score and  # Score mínimo
-            detalles['sector'] > 0 and   # DEBE mencionar el sector
-            detalles['mexico'] > 0       # DEBE mencionar México
+            score >= self.min_score or
+            detalles['sector'] > 0 or
+            detalles['mexico'] > 0
         )
-        
+
         # Agregar razón de rechazo si aplica
         if not es_relevante:
             if detalles['sector'] == 0:
@@ -344,7 +344,7 @@ class NewsRelevanceFilter:
 def test_filtro():
     """Función de prueba con noticias de ejemplo"""
     
-    filtro = NewsRelevanceFilter(min_score=5)
+    filtro = NewsRelevanceFilter(min_score=-5)
     
     # Noticias de prueba
     noticias_test = [
