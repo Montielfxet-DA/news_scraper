@@ -10,6 +10,16 @@
     ]
   },
   {
+    "titulo": "Nueva regulación fiscal pone en riesgo al crowdfunding y reducirá la competencia",
+    "fuente": "Expansión - Economía",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
     "titulo": "INAH CONCLUYE TRABAJOS DE MANTENIMIENTO GENERAL EN LA CUBIERTA DEL GRAN BASAMENTO DE CACAXTLA - Gob MX",
     "fuente": "Gob MX",
     "score": 0,
@@ -57,17 +67,6 @@
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
       "✗ RECHAZADO: Score insuficiente (0 < 2)"
-    ]
-  },
-  {
-    "titulo": "Los mejores momios del Rayadas vs Toluca en la Liga MX Femenil - Mediotiempo",
-    "fuente": "Mediotiempo",
-    "score": -5,
-    "razones": [
-      "✗ Exclusión: 'liga mx' (-5)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (-5 < 2)"
     ]
   },
   {
@@ -123,6 +122,16 @@
     ]
   },
   {
+    "titulo": "14 de febrero: Ideas de regalos para mujer en Liverpool - El Informador",
+    "fuente": "El Informador",
+    "score": 0,
+    "razones": [
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
     "titulo": "¡TUBOS CHINOS! - LE PONEN OJO - NOTIVER",
     "fuente": "NOTIVER",
     "score": 0,
@@ -130,6 +139,17 @@
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
       "✗ RECHAZADO: Score insuficiente (0 < 2)"
+    ]
+  },
+  {
+    "titulo": "Acuerdo con EE.UU: cuáles son los plazos, la letra chica y los grandes “ausentes” - El Cronista",
+    "fuente": "El Cronista",
+    "score": 1,
+    "razones": [
+      "✓ Contiene datos: toneladas (+1)",
+      "✗ RECHAZADO: No menciona sector del acero",
+      "✗ RECHAZADO: No menciona contexto mexicano",
+      "✗ RECHAZADO: Score insuficiente (1 < 2)"
     ]
   },
   {
@@ -190,17 +210,6 @@
       "✗ RECHAZADO: No menciona sector del acero",
       "✗ RECHAZADO: No menciona contexto mexicano",
       "✗ RECHAZADO: Score insuficiente (0 < 2)"
-    ]
-  },
-  {
-    "titulo": "Hacienda cambiará la aleación con la que fabrica las monedas de 10 pesos - Proceso",
-    "fuente": "Proceso",
-    "score": 1,
-    "razones": [
-      "✓ Contiene datos: toneladas (+1)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (1 < 2)"
     ]
   },
   {

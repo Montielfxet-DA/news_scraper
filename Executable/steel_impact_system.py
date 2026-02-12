@@ -142,46 +142,89 @@ class RealNewsCollector:
     def fetch_rss_feed(self, url):
         """
         Obtiene noticias de un feed RSS
-        Requiere: pip install feedparser
+        VERSIÓN MEJORADA - Con manejo de errores y filtrado
         """
         try:
             import feedparser
+            import requests
 
-            feed = feedparser.parse(url)
+            # Headers para evitar bloqueos
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+            }
+
+            # Obtener feed con requests (más control)
+            try:
+                response = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+
+                if response.status_code != 200:
+                    print(f"  ❌ HTTP {response.status_code}")
+                    return []
+
+                feed = feedparser.parse(response.content)
+
+            except requests.Timeout:
+                print(f"  ❌ Timeout")
+                return []
+            except Exception as e:
+                print(f"  ❌ Error: {str(e)[:50]}")
+                return []
+
+            if not feed.entries:
+                print(f"  ⚠️  Feed vacío")
+                return []
+
+            # Palabras clave para filtrar (solo noticias de acero)
+            keywords_acero = [
+                'acero México', 'industria siderúrgica México', 'Ternium',
+                'aranceles acero', 'exportación acero México', 'precio acero',
+                'construcción México acero', 'CANACERO', 'lámina acero México',
+                'varilla construcción México', 'siderurgia México', 'importación acero',
+                'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec', 'Gerdau México',
+                'sector construcción México', 'infraestructura México', 'metalúrgica México',
+                'regulación acero', 'recesión', 'regulación', 'demanda acero', 'importación',
+                'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin'
+            ]
+
             noticias = []
 
-            for entry in feed.entries[:15]:
+            for entry in feed.entries[:20]:
                 try:
-                    texto = entry.title + ' ' + entry.get('summary', entry.get('description', ''))
+                    titulo = entry.get('title', '')
+                    contenido = entry.get('summary', entry.get('description', ''))
+                    texto = f"{titulo} {contenido}".lower()
 
-                    # Filtrar solo noticias relacionadas con acero
-                    if any(kw in texto.lower() for kw in ['acero', 'siderúrgica', 'ternium', 'tyasa',
-                                                          'metalúrgica', 'siderurgia', 'fundición', 'chatarra']):
+                    # FILTRAR: solo si menciona acero
+                    if not any(kw in texto for kw in keywords_acero):
+                        continue
 
-                        fecha = datetime.now()
-                        if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                            try:
-                                fecha = datetime(*entry.published_parsed[:6])
-                            except:
-                                pass
+                    # Extraer fecha
+                    fecha = datetime.now()
+                    if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                        try:
+                            fecha = datetime(*entry.published_parsed[:6])
+                        except:
+                            pass
 
-                        noticias.append({
-                            'titulo': entry.title,
-                            'contenido': entry.get('summary', entry.get('description', '')),
-                            'url': entry.get('link', ''),
-                            'fecha': fecha,
-                            'fuente': feed.feed.get('title', 'RSS Feed')
-                        })
-                except Exception as e:
+                    noticias.append({
+                        'titulo': titulo,
+                        'contenido': contenido[:500],
+                        'url': entry.get('link', ''),
+                        'fecha': fecha,
+                        'fuente': feed.feed.get('title', 'RSS Feed')
+                    })
+
+                except:
                     continue
 
             return noticias
 
         except ImportError:
-            print("  ⚠️ feedparser no instalado: pip install feedparser")
+            print(f"  ⚠️ feedparser no instalado")
             return []
         except Exception as e:
-            print(f"  ❌ Error en RSS {url}: {e}")
+            print(f"  ❌ Error: {str(e)[:50]}")
             return []
 
     def scrape_web_simple(self, url):
@@ -251,12 +294,13 @@ class RealNewsCollector:
         # 3. RSS Feeds de medios mexicanos
         print("\n📰 Fuente: Feeds RSS")
         rss_feeds = [
-            'https://www.eleconomista.com.mx',
-            'https://www.elfinanciero.com.mx',
+            'https://www.eleconomista.com.mx/rss/empresas.xml',
+            'https://www.eleconomista.com.mx/rss/economia.xml',
+            'https://www.elfinanciero.com.mx/rss/economia/',
             'https://www.milenio.com/rss/negocios',
-            'https://www.economia.gob.mx',
-            'https://mx.investing.com',
-            'https://expansion.mx/economia'
+            'https://expansion.mx/rss/empresas',
+            'https://expansion.mx/rss/economia',
+            'https://www.eluniversal.com.mx/rss/cartera.xml',
         ]
 
         for feed_url in rss_feeds:

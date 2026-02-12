@@ -1,13 +1,13 @@
 {
-  "fecha_analisis": "2026-02-12T09:51:45.540427",
+  "fecha_analisis": "2026-02-12T10:10:22.868807",
   "num_noticias": 57,
   "score_general": -0.07708771929824562,
   "impacto_agregado": {
-    "produccion": -1.1654947368421054,
-    "exportaciones": -1.7489929824561403,
-    "precios": 0.5585298245614037,
-    "empleo": -0.6666140350877193,
-    "importaciones": -1.3944421052631581
+    "produccion": -1.0426877192982458,
+    "exportaciones": -1.5560105263157895,
+    "precios": 0.43572280701754396,
+    "empleo": -0.6139824561403509,
+    "importaciones": -1.2365473684210528
   },
   "noticias": [
     {
@@ -2482,78 +2482,79 @@
       "relevancia_score": 4
     },
     {
-      "fecha": "2026-02-09T09:59:16",
-      "titulo": "Tubos Reunidos registra unas pérdidas de 71,3 millones de euros por los aranceles estadounidenses al acero - MSN",
+      "fecha": "2026-02-09T14:01:02",
+      "titulo": "El Chevrolet Onix 2026 baja de precio en México: más interesante que Aveo y ahora más barato - Motorpasión México",
       "sentimiento": {
         "score": -1.0,
         "clasificacion": "negativo"
       },
       "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
+        "precios": {
+          "matches": 1,
+          "peso": 1.2,
+          "tipo": "neutral"
         }
       },
       "entidades": {
         "paises": [
-          "unidos"
+          "méxico"
         ],
         "empresas": [],
         "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
+        "productos": []
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "71",
-          "3",
-          "95",
-          "2",
-          "3",
-          "3",
-          "3",
-          "9",
-          "3",
-          "3",
-          "3",
-          "01",
-          "3",
-          "1",
-          "0",
-          "5",
-          "0",
-          "1",
-          "01",
-          "83",
-          "2",
-          "1",
-          "9",
-          "0",
+          "2026",
           "0",
           "3",
+          "8",
+          "0",
           "25",
+          "3",
+          "2",
+          "1",
+          "2",
+          "25",
+          "4",
+          "2",
+          "2",
+          "1",
           "5",
           "2",
-          "13",
-          "3",
-          "1",
-          "0",
-          "3",
-          "3",
-          "0",
-          "0",
-          "1",
-          "0",
+          "2",
+          "4",
+          "4",
           "5",
+          "2",
+          "53",
+          "3",
+          "10",
+          "42",
           "1",
+          "3",
+          "0",
+          "4",
           "9",
-          "29",
-          "5",
-          "71",
           "3",
+          "4",
+          "0",
+          "2",
+          "3",
+          "5",
+          "2",
+          "2",
+          "5",
+          "0",
+          "2",
+          "6",
+          "0",
+          "0",
+          "56",
+          "0",
+          "5",
+          "2026",
           "6",
           "6",
           "6"
@@ -2562,16 +2563,16 @@
       "magnitud": "medio",
       "score_impacto": -1,
       "impacto_indicadores": {
-        "produccion": -10.0,
-        "exportaciones": -15.0,
-        "precios": 5.0,
-        "empleo": -5.0,
-        "importaciones": -12.0
+        "produccion": -3.0,
+        "exportaciones": -4.0,
+        "precios": -2.0,
+        "empleo": -2.0,
+        "importaciones": -3.0
       },
-      "fuente": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQWGd2c3B3X3ZadU9tMnp3cWFWSmMySUdMT3ZKTUIxQXRnMmpfWFZfZ3MySlZaNUJJZHhhck01TFVQX3ZMelhNc1ZNQUFsYXVaODVkM0U5aUpzU0V1S01lcFgySDhzNkotUl83OFZVd2ZMd1dRcm9fclZXYVF0VVh0eUdkQ3hmQVhlaXkyQ25fNkxzRFB5d2tvWC13MEZhLVhYZjFjNlZZR3dhZmhQY1YyelQ0Q3JVRmxUUFpsRTRJR3RyS0pURXlaYUREM0ctajFwSkZxUHFITEY1VEwtbEJUbmxxNjVHM0pzNG5iQ1ctYW9RWkFRb29adg?oc=5",
+      "fuente": "Motorpasión México",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zS0lrcFRsSkhCNmpodzZJU25nc3llWGx2d1J2ejNpMXVEQzBJUjZVX25STUg4WGxXNGRSZXVGTHR2WmJKUTREMUl2eEVzdnRFcmJLTUx1MFQ5X2FnOVBQV2JLQzBadGt4WDQ4blJfaUYzaTJicVN5aUpZdnQ2YknSAYQBQVVfeXFMTW53d3kyVG10MjNkVnkxUGJPaU42VzFvdzlpU1I3OEFuR0o4WHQzaVhkSU9HckJ3RFB4X0NZR2ZNR3k5VUFOd2wyQmxFS2txZUpYNTdyMzVtczhoWXdGbGo5UUlwMTFYNUJwR0ktR2J6YnM0bnh0bE56SndZeEJSVGpwc0JF?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 9
+      "relevancia_score": 5
     },
     {
       "fecha": "2026-02-08T21:20:47",
@@ -3490,7 +3491,7 @@
     },
     {
       "fecha": "2026-02-06T01:00:44",
-      "titulo": "Argentina firma acuerdo de comercio e inversión con EE.UU. - DW.com",
+      "titulo": "Argentina firma acuerdo de comercio e inversión con EE.UU. - dw.com",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
@@ -3564,7 +3565,7 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "DW.com",
+      "fuente": "dw.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3NNdWcwQk1RMjFGMnkzUmVXbld4N29wX2N1d0ZBakdzNHBsWDV1NnVhY1ZOVHpEV0J2SzNQQURjdmRQaDhabkRXcTRxSjltcjQ3amJHQzZGSFBLVFRwRVoyLXFRQkpja2hZQS1XLV8wbmxoRlJ4UWxQRmMyTVpOcXNWOEhwYnpCdWc0NXFqUnJOOXhPS0owSkpB0gGaAUFVX3lxTE13NFZoWVpEYWdseWJOcUgtY1BoTkpqR0RIclNhaHpnUVp6dkdxdUZBcDFIM01CLTEydnhJVzd6MVpWUGNieGxOUXgyRm9tRGVWdnNuM3h5TnQ5YTlfWDJBRU5NR1NKQmlSWXJIQWZ6Q3hhQU9ZeWg0dWd1WEx1TG5mb1VzLTBGeDFwdmlzMVlBaVk5d0tlQS1YTGc?oc=5",
       "relevancia_auto": "incierto",
       "relevancia_score": 2
