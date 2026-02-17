@@ -1,27 +1,246 @@
 {
-  "fecha_analisis": "2026-02-12T10:10:22.868807",
-  "num_noticias": 57,
-  "score_general": -0.07708771929824562,
+  "fecha_analisis": "2026-02-17T11:52:24.794483",
+  "num_noticias": 49,
+  "score_general": -0.04673469387755104,
   "impacto_agregado": {
-    "produccion": -1.0426877192982458,
-    "exportaciones": -1.5560105263157895,
-    "precios": 0.43572280701754396,
-    "empleo": -0.6139824561403509,
-    "importaciones": -1.2365473684210528
+    "produccion": -0.6715306122448979,
+    "exportaciones": -1.0212244897959186,
+    "precios": 0.433265306122449,
+    "empleo": -0.3092857142857144,
+    "importaciones": -0.8225510204081631
   },
   "noticias": [
     {
-      "fecha": "2026-02-12T15:11:01",
-      "titulo": "México pide a EU revisar aranceles a acero, aluminio y sector automotriz: Ebrard - Tiempo La Noticia Digital",
+      "fecha": "2026-02-17T07:36:00",
+      "titulo": "El nuevo Plan de Inversión en Infraestructura para el Desarrollo - El Financiero",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "0",
+          "95",
+          "5",
+          "1",
+          "1",
+          "1",
+          "1",
+          "00",
+          "03",
+          "3",
+          "3",
+          "3",
+          "5",
+          "1",
+          "5",
+          "2",
+          "0",
+          "1",
+          "3",
+          "04",
+          "1",
+          "4",
+          "1",
+          "3",
+          "1",
+          "5",
+          "2",
+          "0",
+          "3",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "El Financiero",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTm5hR1pVWG1YLUFWd1NRdmJFd1BLWS00OTBHdFhkSmRMUktvUWwzQjdQOFBpUzVtWmktLW03RnpFTWxXVThBc3haWWtSNUpYRmZHaWI3S3VaSVVjOTd5R1FHSXMwalJjanVOOXZIZzV5S2RnWVBac0VwNHZnXzFOaEVGOEFXLU1jN3JaWnVPWVlGSi04R1kwclhDSVBGdGlaTW4zeGhUQ1hZRUcyM3ktMFRGOWJzWjVJUDhwZzVCQXlsR1o5QnVoa2h0MjI3ZnJjSzFz?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 48.5
+    },
+    {
+      "fecha": "2026-02-17T05:01:03",
+      "titulo": "Una publicación unifica la terminología sobre economía circular - Residuos Profesional",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [
+          "economía"
+        ],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "4",
+          "6",
+          "0",
+          "6",
+          "1",
+          "0",
+          "9",
+          "0",
+          "90",
+          "8",
+          "5",
+          "25",
+          "0",
+          "4",
+          "091",
+          "0",
+          "5",
+          "3",
+          "90",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "Residuos Profesional",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVg4YmFpNDNDemhNZUN6V0VkYjBhQTh6b1dnaTB0UHVIMUxPRFNpaXRPeV9sWWo0YjlkTWJYQlJJMk90UF8zcVY5aFpVc25pSjJUNFJlWTZBU0xCRWd4QXVTSTJKbXNGSkZSVTFhTlZlU091bXZ0ZGc5OXJTQ3FOeF90NFlZOWVIRnJPNC1mLVA?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 45.6
+    },
+    {
+      "fecha": "2026-02-17T03:47:00",
+      "titulo": "México y Canadá perfilan plan de acción económico; incluye minerales, inversiones e infraestructura - Contralínea",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico",
+          "canadá"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "1",
+          "95",
+          "4",
+          "1",
+          "4",
+          "5",
+          "3",
+          "0",
+          "19",
+          "1",
+          "25",
+          "1",
+          "0",
+          "3",
+          "14",
+          "1",
+          "3",
+          "0",
+          "9",
+          "1",
+          "2",
+          "6",
+          "2",
+          "1",
+          "4",
+          "9",
+          "1",
+          "3",
+          "80",
+          "5",
+          "1",
+          "2",
+          "8",
+          "6",
+          "1",
+          "1",
+          "5",
+          "3",
+          "42",
+          "2",
+          "0",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "Contralínea",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYTFkSHN4SXBxX1J4TkZ5WXNJY3Z0YURYTFpVb19URmhpakx1a25kQkxRV1Y0MHVJS3NqbzQtNE14SXB1RUVOM3dBZU0tbm9GUW1tQ2VoWVRtcHp6Z2w1UTRDTkM4am9KZ1JYamNOVGZUVjZCMUVmcEljNjdkNTlhczh3NW80MGh5c1RGWmVteWJ2eTlxQjhiOG8zYlBrdFRWQVRwZjB6a1dBSXNHeE1kOUpTZWJEYjZaajdkSHZBeTRhTlpqVE5venBHR3poZm42Wng2V0EyUQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 47.3
+    },
+    {
+      "fecha": "2026-02-17T01:57:00",
+      "titulo": "CFE e ICA supervisan infraestructura eléctrica del Estadio Ciudad de México para el Mundial 2026 - MVS Noticias",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
         }
       },
       "entidades": {
@@ -30,186 +249,322 @@
         ],
         "empresas": [],
         "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
+        "productos": []
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
+          "2026",
+          "4",
           "95",
+          "2",
+          "45",
+          "0",
           "3",
+          "3",
+          "9",
+          "4",
+          "3",
+          "0",
+          "0",
+          "3",
+          "3",
+          "1",
+          "5",
+          "21",
+          "9",
+          "4",
           "0",
           "4",
+          "82",
           "1",
+          "3",
+          "6",
+          "9",
+          "3",
           "2",
           "1",
           "5",
-          "3",
-          "5",
-          "3",
           "0",
           "1",
-          "3",
-          "5",
-          "1",
-          "2",
           "5",
           "0",
-          "2",
+          "0",
           "1",
-          "3",
-          "5",
           "9",
           "0",
+          "4",
+          "9",
+          "4",
+          "95",
+          "2",
+          "45",
+          "0",
           "3",
+          "3",
+          "9",
+          "4",
+          "3",
+          "0",
+          "0",
+          "3",
+          "3",
+          "1",
           "5",
+          "21",
+          "9",
+          "4",
+          "0",
+          "4",
+          "82",
+          "1",
+          "3",
+          "6",
+          "9",
+          "3",
+          "2",
+          "1",
+          "5",
+          "0",
+          "1",
+          "5",
+          "0",
+          "0",
+          "1",
+          "9",
+          "0",
+          "4",
+          "5",
+          "2026",
           "6",
           "6",
           "6"
         ]
       },
       "magnitud": "medio",
-      "score_impacto": -0.34,
+      "score_impacto": 0.26,
       "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
       },
-      "fuente": "Tiempo La Noticia Digital",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNajFrU3ZnYTV0NE4yd1ZBLWNidEExT2JicmdjVWhWaWJRU1Q5TWUzT3MxVW5rWjE3bFo0YjVUTy1UUDdtN3NtbHdxSng5RHNTMy1uSTZPSklxeHRMNzhxQ2NkUWNQWFpnVWg5OEQ0TktlbDBSNTJpb2JIczEwSjUtRXhBUm1lTkJWVXVtbWNaSDlfQzJkbWlraVFsQ3dUWE5IVk9IU0xfRVhKZjVjalV3dg?oc=5",
+      "fuente": "MVS Noticias",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTlVOWVc2MnpCOW45ZFhwVTRMbFZ0MlZkbGxTM3Z3NmJlQl9TcmE4ZzhpY3dJR0dBVmtzdFI0S3FyVTN3NktRN1M5bGZuV21qUkZrVl9pSjJkSnRNcmY4X0VFUTJOUlVtWFNCajY4VUgyeUVVVm82cFM1c3JtVjFGcFRkaEd6SG9rTjdtd3FGZ2N1aFpmeUNZcVBhbkhKZDVlNG5pQWUtaFVrVzdPMTRtY0F1blhGNEs5MFhyY0xyU0xyeHNQSUpzTHBjSzBPUDNELS1wLV9jNEZmb0lNVkhmRXF4a9IB4wFBVV95cUxQTlVOWVc2MnpCOW45ZFhwVTRMbFZ0MlZkbGxTM3Z3NmJlQl9TcmE4ZzhpY3dJR0dBVmtzdFI0S3FyVTN3NktRN1M5bGZuV21qUkZrVl9pSjJkSnRNcmY4X0VFUTJOUlVtWFNCajY4VUgyeUVVVm82cFM1c3JtVjFGcFRkaEd6SG9rTjdtd3FGZ2N1aFpmeUNZcVBhbkhKZDVlNG5pQWUtaFVrVzdPMTRtY0F1blhGNEs5MFhyY0xyU0xyeHNQSUpzTHBjSzBPUDNELS1wLV9jNEZmb0lNVkhmRXF4aw?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 12
+      "relevancia_score": 43.4
     },
     {
-      "fecha": "2026-02-12T14:07:00",
-      "titulo": "Ternium toma el control de Usiminas tras comprar la participación de Nippon en Brasil - La Nación",
+      "fecha": "2026-02-17T01:24:00",
+      "titulo": "La CFE supervisa infraestructura eléctrica del Estadio Ciudad de México para el Mundial 2026 - Infobae",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
-      "categorias": {},
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
       "entidades": {
         "paises": [
-          "brasil"
+          "méxico"
         ],
-        "empresas": [
-          "ternium"
-        ],
+        "empresas": [],
         "instituciones_mx": [],
         "productos": []
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "3",
+          "2026",
+          "0",
           "95",
-          "2",
           "0",
           "1",
-          "2",
-          "4",
-          "0",
-          "84",
-          "3",
-          "3",
-          "283",
-          "3",
-          "1",
-          "2",
-          "09",
-          "0",
-          "5",
-          "1",
-          "1",
-          "0",
-          "2",
-          "4",
-          "3",
-          "1",
-          "16",
-          "1",
-          "4",
-          "0",
-          "2",
           "3",
           "5",
           "3",
-          "29",
-          "2",
-          "3",
-          "5",
-          "0",
-          "5",
-          "1",
-          "0",
-          "2",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "La Nación",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd2s0M1NwcVpIQVdGNDhEdXQ2RzR4Wkc0VHFkcTZCZmxoNl84NkVqYWpXdURHOWlObmRuLWxnRWljU3BzdmtXX3dqS283dDJqQ3JMeU1nU2ROOXpERTFoWHgzQ09aM0hyRkV5NjJYU1ZybHNmbkRya1ZoX0V2czk4YXUta3FkSzlURjA1blpvME16N1JVclY4V0d2d3RsMVRVSWcteE5fLVp3OWpsM29Ra2xndnA3emFpeGI5TnoxTDczZ0psYlpBaWxSQUdzVHc5Q1I0YVF2RjRCWDVS?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-12T13:56:03",
-      "titulo": "Ternium toma el control de una acerera de Brasil - Ejes",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "brasil"
-        ],
-        "empresas": [
-          "ternium"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
           "9",
-          "4",
-          "6",
-          "3",
-          "6",
-          "9",
-          "2",
+          "5",
           "04",
-          "3",
-          "245",
-          "5",
-          "3",
-          "0",
+          "1",
+          "1",
+          "1",
           "1",
           "2",
           "1",
           "1",
+          "2",
+          "95",
+          "2",
+          "4",
+          "4",
+          "0",
           "5",
+          "6",
+          "6",
+          "0",
+          "1",
+          "05",
+          "60",
+          "3",
+          "9",
+          "2",
+          "2",
           "1",
           "3",
+          "2",
+          "3",
+          "2",
+          "2",
+          "19",
+          "8",
           "1",
+          "3",
           "5",
+          "3",
+          "9",
+          "3",
+          "5",
+          "1",
+          "0",
+          "4",
+          "2",
+          "2",
+          "95",
+          "3",
+          "2",
+          "0",
+          "5",
+          "2",
+          "2",
+          "3",
+          "3",
+          "5",
+          "0",
+          "0",
+          "3",
+          "9",
+          "0",
+          "1",
+          "2",
+          "5",
+          "2026",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "Infobae",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVVFNY0NHcFBNQXo1dGVwNEdIY3RWNGM5T3JPQnNORU9idUQxRmY5cHdtMm04eG1sWUJoUi1aZHNiU1dtNGx1OEM2bzBwNFNxa1Nuc1J2am95RDRVejBNTHBXMkpvWjNnSWhVNlhmOTZwalNUbURoc2NONjZzSTN4ZTU4eUQzcDRzQWtxOGJxX0lpWEJ5MkFqWWxURjN6Nkd6MGlxQnJjVWtkcWFsdzVXZ0tManZVSTM1RDNjVkkxYUVvbVMwYXdlNVJnQU05QlR60gHrAUFVX3lxTE9oaDBJVElWTHAxS2ViN2xMbHpmb1QzN3ZsNjZ2Q3o2R2pfa19MMzhEYV8xMVB1M3dudGxmbjI5TnViTElrbzMtbzAwbDNyVVU3dE9FTzZ3NkF5WWhvNUxqem1mN0E4d2ZMQlZ2VUNTZElJUF95N3BLR2NFT0tCeWRQclMyZngzNllIYlJBdEQ5cFNSemNXbGloNVhOcmZ2SVczVlBrcUVKd2pPa3ZTQmFQNmVvREJVSWVEckhXaGJhcVB3LU5WVkk0UUJ0M3VITDJBWFpwcU9vdlpsb0lKOWRFdC1DNEFEb2NaSjg?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 42.5
+    },
+    {
+      "fecha": "2026-02-16T22:03:44",
+      "titulo": "Confirman una inversión de u$s 7000 millones para el desarrollo de megaproyecto minero - El Cronista",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "7000",
+          "1",
+          "95",
+          "9",
+          "6",
+          "1",
+          "0",
+          "4",
+          "3",
+          "9",
+          "1",
+          "3",
+          "3",
+          "9",
+          "1",
+          "1",
+          "6",
+          "1",
+          "1",
+          "2",
+          "4",
+          "5",
+          "0",
+          "2",
+          "3",
+          "2",
+          "4",
+          "8",
+          "1",
+          "00",
+          "11",
+          "2",
+          "5",
+          "3",
+          "8",
+          "01",
+          "03",
+          "1",
+          "95",
+          "9",
+          "6",
+          "1",
+          "0",
+          "4",
+          "3",
+          "9",
+          "1",
+          "3",
+          "3",
+          "9",
+          "1",
+          "1",
+          "6",
+          "1",
+          "1",
+          "2",
+          "4",
+          "5",
+          "0",
+          "2",
+          "3",
+          "2",
+          "4",
+          "8",
+          "1",
+          "00",
+          "11",
+          "2",
+          "5",
+          "3",
+          "8",
+          "01",
+          "03",
+          "5",
+          "7000",
           "6",
           "6",
           "6"
@@ -224,14 +579,186 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "Ejes",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVUxyZk9HTE4wQXhYeEV6dUpoamlSM3FpWkFMNVB6VHNINW9KbTFiOVNMejZtLUVnX2duek04MllENHpYUmRYWEp3R245Qk5kYjdZTGRYUWNnMWpabmJtR3NBUFJtaWM0MDFBLUxNeW1XcDhwd2hLVzRiT1VMamgyeW1hWk5FVUhyR1RranNadzNGQlpJR3BqWS1WMzM?oc=5",
+      "fuente": "El Cronista",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaF9zMlBqQUVxeGNXSEZUSnZTWjAxbFB6YUtRcWlmaTRfUk1vQWg0cFJ4ejlzbnE3SW9pSGFqM1BkS3RTZ3VocW9oMHBPaGJFYW1FOUM1MnR6V1pzWlpHMU1xVXRIblN2MEw4UVNOanhNVm5tZHJydXE0R2tKSTduVldGOUVLY3VJSGtvM2J4eTFqSGxDWG8yQkk1aU00elRDWlpaQk11bGQ2WVM5WnBLbWNFTkRJZHUtUFZ3WU8xM01qRW03bExFMUVfcDVBZzBIZEVBaXNfONIB1wFBVV95cUxOaF9zMlBqQUVxeGNXSEZUSnZTWjAxbFB6YUtRcWlmaTRfUk1vQWg0cFJ4ejlzbnE3SW9pSGFqM1BkS3RTZ3VocW9oMHBPaGJFYW1FOUM1MnR6V1pzWlpHMU1xVXRIblN2MEw4UVNOanhNVm5tZHJydXE0R2tKSTduVldGOUVLY3VJSGtvM2J4eTFqSGxDWG8yQkk1aU00elRDWlpaQk11bGQ2WVM5WnBLbWNFTkRJZHUtUFZ3WU8xM01qRW03bExFMUVfcDVBZzBIZEVBaXNfOA?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 5
+      "relevancia_score": 47.2
     },
     {
-      "fecha": "2026-02-12T12:15:18",
-      "titulo": "China y México mantienen conversaciones en medio de tensiones comerciales por aranceles - El Economista",
+      "fecha": "2026-02-16T21:56:00",
+      "titulo": "Ebrard anuncia plan México-Canadá en minería e infraestructura - La Silla Rota",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico",
+          "canadá"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "00",
+          "2",
+          "2",
+          "2",
+          "3",
+          "3",
+          "2",
+          "1",
+          "9",
+          "0",
+          "5",
+          "9",
+          "1",
+          "9",
+          "2",
+          "5",
+          "0",
+          "3",
+          "5",
+          "2",
+          "3",
+          "1",
+          "5",
+          "3",
+          "4",
+          "1",
+          "95",
+          "00",
+          "2",
+          "2",
+          "2",
+          "3",
+          "3",
+          "2",
+          "1",
+          "9",
+          "0",
+          "5",
+          "9",
+          "1",
+          "9",
+          "2",
+          "5",
+          "0",
+          "3",
+          "5",
+          "2",
+          "3",
+          "1",
+          "5",
+          "3",
+          "4",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "La Silla Rota",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOFMxYjBoenZWX00yVzNScWtNSUtWdTd2d2xYSVVNVkM2emFQOVF3QWNVX3E2VVIyTlNZWHBCWXZhcjEybWxRdWktbzdCaDlmT1UycElLUWxvOHNIdm9hLThEWGYzaVZMUkc0cVFqaWN5SG9rY1RieEpxcVNWSFVROF9mQUg2WFA5cll0LTR3THo5UFlndmxua2s3aUFlS1liOEx5WjZjRzZ3bGQzTlN4VS1FekFSUdIBtgFBVV95cUxNOFMxYjBoenZWX00yVzNScWtNSUtWdTd2d2xYSVVNVkM2emFQOVF3QWNVX3E2VVIyTlNZWHBCWXZhcjEybWxRdWktbzdCaDlmT1UycElLUWxvOHNIdm9hLThEWGYzaVZMUkc0cVFqaWN5SG9rY1RieEpxcVNWSFVROF9mQUg2WFA5cll0LTR3THo5UFlndmxua2s3aUFlS1liOEx5WjZjRzZ3bGQzTlN4VS1FekFSUQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 48.5
+    },
+    {
+      "fecha": "2026-02-16T20:59:00",
+      "titulo": "Sector electromecánico en México busca certificarse ante expansión de inversión • Infraestructura - Forbes México",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "2",
+          "2",
+          "0",
+          "3",
+          "5",
+          "5",
+          "2",
+          "0",
+          "05",
+          "0",
+          "5",
+          "4",
+          "9",
+          "2",
+          "2",
+          "1",
+          "1",
+          "1",
+          "5",
+          "03",
+          "1",
+          "9",
+          "25",
+          "9",
+          "1",
+          "5",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "Forbes México",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ2xDZWlKWWJZQmxhQkpnVGFEcnMwMWdaX2JhZkNaNlJBUEF0cmNMTkxsQTBjQ3N5YU5WSFkyS2pOTGZZS0kzN05oNlNLTGt0WVN5TWNnZFE4dE9jbDJYRkY2U2diT1ROVnF1NUcyb1h5WW03Y1ZSejFuRU9TcEkzRHlSQ25EUVAyZEkwRUZoNl9DNHZkalFaU1VtenZpeU5LaTNzaQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 52.0
+    },
+    {
+      "fecha": "2026-02-16T20:57:25",
+      "titulo": "México inicia investigación antidumping contra acero de EU, China y Malasia - EL CEO",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
@@ -250,77 +777,38 @@
         ],
         "empresas": [],
         "instituciones_mx": [],
-        "productos": []
+        "productos": [
+          "acero"
+        ]
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "0",
           "95",
-          "0",
-          "2",
           "2",
           "1",
+          "3",
+          "1",
+          "1",
+          "96",
+          "1",
+          "0",
+          "2",
+          "0",
+          "3",
+          "21",
           "6",
-          "2",
-          "25",
+          "09",
+          "1",
           "5",
-          "41",
           "0",
-          "2",
           "3",
-          "25",
-          "1",
-          "1",
-          "0",
-          "1",
-          "3",
-          "0",
           "9",
-          "4",
-          "2",
-          "1",
+          "6",
           "6",
           "3",
-          "2",
-          "02",
-          "2",
-          "0",
-          "3",
-          "1",
-          "5",
-          "0",
-          "3",
-          "1",
-          "9",
-          "9",
-          "4",
-          "013",
-          "1",
           "0",
           "2",
-          "3",
-          "4",
-          "29",
-          "0",
-          "2",
-          "5",
-          "5",
-          "2",
-          "3",
-          "81",
-          "1",
-          "0",
-          "5",
-          "4",
-          "5",
-          "1",
-          "4",
-          "3",
-          "2",
-          "5",
-          "2",
-          "1",
           "5",
           "6",
           "6",
@@ -336,192 +824,21 @@
         "empleo": -1.7000000000000002,
         "importaciones": -4.08
       },
-      "fuente": "El Economista",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT0lpWWt2MXo2Ym1fbHdrVEF6V2loR25WSkZkLXVuTHNtOUp5dW41bWZ0a2V3dFAyY25ONmhGMHlrT1JMRE1fWmNIS0hRSXAwM1dUa3UwblBNR0dySkktRmpKdF9aTVFoZXpVbFF4MlEtRmwzSTd2Yzc1OWxUNXBYUFJ6empNLTY3NlFKZFVmcXhwX2ptWUdZZmZIOTNPbm02a2RENmpUb0h3LTFIbEtBeERzWGFxZlBPLVdsOUQyaXlIZ1Utekl5UUFsWndXdHJwUGlJ0gHYAUFVX3lxTE1aZVMxYU9VdjdqUzMzUW9aVEdMVWN4elpjX013R1RkQ0VDb2V3WjRyMEx4VFhYRjRDUTlVb29XVFBxNkxtRGZJZ0hpV2V5LXVuOGRadE5NSHRPRGdkRzJaVUN2bjNkUEpnbHdVUnVXN3FfQlhtZGhheDFUTHdNdE81aXdNZEozYTdKampaajJNZWdtc1RnTUx0Tmw5UWY4ME5iRHROLXJhLTZoSVFiUUl1TzdZTDd4T3E2WHZLSjNKWkZkdG5NcGdmWmpGNkxhR2RtQndUck1iVg?oc=5",
+      "fuente": "EL CEO",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2ZfazlCdERaTXB1SHF3Wm1lQ1BpRE96MFVZZ1liaEtyM0dsY2ljaERobDFpU0RHWlBpMVA3NWxTREhVQ21fNVVGdWV6T09qMkUtUVFHY1VYZHhOZldwSUgyTDJBVk5CemNZM0VLNXNMaVBSOVlwZUdyR3UzZDAtWHhiTmxHek9lNWN6aURsQTR6aEhISUd3bGJlU0ZLaDRJMHR2eA?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 9
+      "relevancia_score": 54.5
     },
     {
-      "fecha": "2026-02-12T11:16:54",
-      "titulo": "CEO de Thyssenkrupp: Aranceles mejoran panorama del acero y negociaciones con Jindal - Investing.com México - Finanzas, Bolsa y Forex",
-      "sentimiento": {
-        "score": 1.0,
-        "clasificacion": "positivo"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "3",
-          "95",
-          "2",
-          "1",
-          "2",
-          "1",
-          "3",
-          "2",
-          "1",
-          "4",
-          "01",
-          "3",
-          "0",
-          "25",
-          "11",
-          "0",
-          "2",
-          "2",
-          "9",
-          "2",
-          "1",
-          "4",
-          "3",
-          "1",
-          "0",
-          "3",
-          "1",
-          "3",
-          "0",
-          "0",
-          "1",
-          "6",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.6599999999999999,
-      "impacto_indicadores": {
-        "produccion": -6.6,
-        "exportaciones": -9.899999999999999,
-        "precios": 3.3,
-        "empleo": -3.3,
-        "importaciones": -7.919999999999999
-      },
-      "fuente": "Investing.com México - Finanzas, Bolsa y Forex",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNXhjRHJNNzRkSHN2eTNWcGdaX1FCYzRLNGtvQkx2Si1fcjB3X2sxS1dYWnhpUWtZdnU4SmlwR01ZVklSUGdQOHg3Y0RzanFSUWgza25VSmNwaERiOWdJbk11c0NjMnJ2X2NiaFJwam9KVEoyTHNTNTl2Y1lvZFhHZkhQMmJiLUdJcWc4RDAxamVmcmJWSHBVN3F1MlBnS0hWYWJ3TlpwTFRTcWRwYXoyZExGVjZITjhsTnVxeEh1YVF3TnlJd0l0WWFsT1ZGZkdQTXhoZzB6MnRobnNO?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 12
-    },
-    {
-      "fecha": "2026-02-12T11:15:00",
-      "titulo": "Director ejecutivo de Thyssenkrupp: Aranceles impulsan la confianza en el acero y negociaciones con Jindal - Investing.com Español",
-      "sentimiento": {
-        "score": 1.0,
-        "clasificacion": "positivo"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "3",
-          "0",
-          "1",
-          "9",
-          "3",
-          "2",
-          "9",
-          "9",
-          "2",
-          "3",
-          "0",
-          "0",
-          "5",
-          "1",
-          "4",
-          "2",
-          "284",
-          "1",
-          "40",
-          "0",
-          "2",
-          "9",
-          "5",
-          "0",
-          "3",
-          "1",
-          "1",
-          "0",
-          "0",
-          "1",
-          "1",
-          "2",
-          "0",
-          "3",
-          "0",
-          "1",
-          "3",
-          "1",
-          "25",
-          "9",
-          "2",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.6599999999999999,
-      "impacto_indicadores": {
-        "produccion": -6.6,
-        "exportaciones": -9.899999999999999,
-        "precios": 3.3,
-        "empleo": -3.3,
-        "importaciones": -7.919999999999999
-      },
-      "fuente": "Investing.com Español",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxONkdtb3FEbmNsUmZWVEdHdFBJazNWQ0R1bTFzek9uOVJBSkR3cVFRTTRJTFA2VERoYV9KYXBuWm9hdWdHc2RpV3E0U0ZfdWswYzMxelBlVjlwUUFZdGszTFNocGY5c1hlcDY4ZnR2Q284cnM1WjBGaG40WldhcmZTYmJ0MjNyVFVzRzhJZzNuaWVDYzkwVHhQeDk2Zk9pbHVaVlNQLW5TcHF0cGxfTGg3WDlaS1dPZ1NUa0lBV0dTV1ZybEhaMUwtcC1rbDM2X0lWOEkwTGxSTXVvbmxtQkktMnZVLWZfa3Z0a1BLUWdaM3l1X25GNU9Ua2hR?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 9
-    },
-    {
-      "fecha": "2026-02-12T03:55:00",
-      "titulo": "Arcelormittal fuerza la subida de sus precios objetivo a lomos del escudo arancelario - TradingView",
+      "fecha": "2026-02-16T17:15:03",
+      "titulo": "Chile: AZA eleva producción de acero verde y reciclaje de chatarra tras inversión histórica - BNamericas",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "aranceles": {
+        "produccion": {
           "matches": 1,
-          "peso": 1.7,
-          "tipo": "negativo"
-        },
-        "precios": {
-          "matches": 2,
           "peso": 1.2,
           "tipo": "neutral"
         }
@@ -530,58 +847,10 @@
         "paises": [],
         "empresas": [],
         "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "3",
-          "96",
-          "1",
-          "043",
-          "4",
-          "1",
-          "1",
-          "0",
-          "3",
-          "2",
-          "3",
-          "0",
-          "5",
-          "09",
-          "5",
-          "6",
-          "6",
-          "6"
+        "productos": [
+          "acero",
+          "chatarra"
         ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.34,
-      "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
-      },
-      "fuente": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96QmZVdjBPNDY1RXBtUUwxVDNKaktlODdpcXhhS043UHJZcFdIZDY4M1JmSHZuczR1ZFBSOUF0Q3R2MGprLVpkU3FJdDVRUGxrRFFFN0FwaDFuUnhpRU5IbnhlR09KWHNI?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-12T00:30:00",
-      "titulo": "Hay una grave persecución sindical y laboral en Coahuila: Mejía Berdeja - Sociedad Noticias",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
       },
       "numeros": {
         "porcentajes": [],
@@ -589,35 +858,41 @@
           "95",
           "0",
           "5",
-          "0",
-          "05",
+          "9",
+          "5",
+          "5",
           "3",
           "1",
+          "5",
+          "1",
+          "1",
+          "2",
+          "0",
+          "1",
+          "3",
+          "1",
+          "54",
           "0",
           "3",
           "9",
+          "0",
+          "5",
           "1",
-          "21",
           "3",
-          "9",
           "1",
-          "5",
-          "5",
+          "94",
           "0",
-          "0",
-          "1",
-          "0",
+          "19",
           "2",
           "3",
-          "5",
-          "9",
-          "9",
-          "3",
-          "4",
           "1",
-          "85",
-          "2",
+          "1",
           "3",
+          "0",
+          "0",
+          "93",
+          "1",
+          "1",
           "5",
           "6",
           "6",
@@ -633,17 +908,85 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "Sociedad Noticias",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRllJNURiZ0ZraXU5Ny0xc05WX3NJLUowT1U0NlQ3MERpeF9JU1gxZ21FTktVMEV3MGlKdmdvYndtdG9zZDdKRndJUi1fckFNRUx5aHJPOFQ5R0hFM0lKZ1RtLWJnZE0xc2tVb3FaYkwxaGMyZGZ5WW9VVm9RMjlta3UyLUh4R1RBdl85dlJFb2JyRmVaVDEydHpCZXBtR3JNQlNsYUlvVkhoUDdfamRLUmVn?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 2
+      "fuente": "BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa0w5UGJUSUkzel9DcG5rcE5FSVpIc3ZtRVN1cXA5ZS1vS1ZXMGJYN2sySkxZWkF0cmZJMHZyMG1aNTdNZ3U1bjJSck54dDFMZXVpUGlJMXUzVzQyZ0JQaVlva3EwcjVTZGRqejUyRkFPaF9KNGxhYjk0cXFKcTU5Sk1HS3JLN1FwaF94RWV0RDItNkJnVktiR19ETXl2YzRaZ3FIUS1hT1Q3b0pZTkZUeml0ZUZJal93YlkzWjBLamgyUzBwM1hTa1FEYw?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 56.3
     },
     {
-      "fecha": "2026-02-12T00:20:12",
-      "titulo": "Exige PT se Liquiden a extrabajadores de Altos Hornos de México Tras la Quiebra de la Empresa - Tecnoempresa",
+      "fecha": "2026-02-16T14:04:00",
+      "titulo": "México es clave en 10 minerales críticos para EU - La Jornada",
       "sentimiento": {
-        "score": -1.0,
-        "clasificacion": "negativo"
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "10",
+          "95",
+          "2",
+          "9",
+          "5",
+          "2",
+          "5",
+          "1",
+          "9",
+          "2",
+          "0",
+          "3",
+          "0",
+          "0",
+          "19",
+          "1",
+          "3",
+          "3",
+          "2",
+          "5",
+          "3",
+          "3",
+          "1",
+          "1",
+          "3",
+          "1",
+          "9",
+          "05",
+          "5",
+          "10",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "La Jornada",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYXpXaGN2em9DVzQ5S2N5Y1dDMlMteGhoUTVPQU9hamlNSTAxaHdub2hfZGQtSXFxMlNuS0laZEk3UUVlYllWYlNWR0hjVEJMU0ViclpKbkpfd19tWDE1MWxNQ3lUS3d2Sk5wQkU3VTRSRzYzVHBuZHdzWXVndERfRlAtdGh3bDV1TjBMc1Vrc3kySTBfZHlYMTd1am9vTGdNRU05QVJn?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 44.5
+    },
+    {
+      "fecha": "2026-02-16T06:48:34",
+      "titulo": "Japón evita la recesión técnica pero el PIB incumple expectativas en el cuarto trimestre - Bolsamania",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
       },
       "categorias": {
         "crisis": {
@@ -654,170 +997,7 @@
       },
       "entidades": {
         "paises": [
-          "méxico"
-        ],
-        "empresas": [
-          "altos hornos de méxico"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "9",
-          "2",
-          "5",
-          "1",
-          "5",
-          "6",
-          "2",
-          "0",
-          "1",
-          "2",
-          "5",
-          "2",
-          "9",
-          "6",
-          "0",
-          "2",
-          "6",
-          "4",
-          "0",
-          "9",
-          "0",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -1,
-      "impacto_indicadores": {
-        "produccion": -3.0,
-        "exportaciones": -4.0,
-        "precios": -2.0,
-        "empleo": -5.0,
-        "importaciones": -3.0
-      },
-      "fuente": "Tecnoempresa",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUHJkdFFiaDBiLVlPOV9CczZlLWFIWFFVbGJOd2UycWNqeU5wdVNtazNGMTJDbVZPdm1qQmt5VlFUYXV6S2ItZ0tSYnZNNE1pOEhKa2pvWXFKaG5tb2ZWaFBjTWZfUlpVZm9mNFZPZGJ6Y0tFRVY2NklSTlRJWkV6UkF4cVBaR0prRXNIQTNfSzVsUW9RbHRGMjNOYmZudEMxUnVqQ0dDTGtQenpxRWlENHFqcjFidWc1ZEE?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 8
-    },
-    {
-      "fecha": "2026-02-11T23:16:00",
-      "titulo": "Inversionistas buscan adquirir AHMSA en Monclova: subasta el 27 de febrero - Periódico La Voz",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [
-          "ahmsa"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "27",
-          "95",
-          "1",
-          "1",
-          "2",
-          "50",
-          "25",
-          "6",
-          "012",
-          "0",
-          "3",
-          "5",
-          "5",
-          "2",
-          "0",
-          "0",
-          "1",
-          "9",
-          "0",
-          "2",
-          "3",
-          "2",
-          "0",
-          "2",
-          "2",
-          "3",
-          "2",
-          "9",
-          "3",
-          "52",
-          "1",
-          "4",
-          "30",
-          "3",
-          "9",
-          "1",
-          "1",
-          "0",
-          "1",
-          "5",
-          "9",
-          "5",
-          "3",
-          "5",
-          "0",
-          "3",
-          "1",
-          "3",
-          "0",
-          "3",
-          "9",
-          "3",
-          "55",
-          "0",
-          "4",
-          "1",
-          "0",
-          "2",
-          "0",
-          "5",
-          "27",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Periódico La Voz",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOUxFNHBERUNtdTdISXpQaE1wd1pQT2dpdk50cnBMN25fSnlvSDh6S012SVpNbEhqTzRDR0VOd3FvVG5OWEVONUJUZnUyaFh5aTE2VWU0REV0XzR1VDVIUjBzeW9qN0N2SEItRmEyS3M2LUt0eUtFT2wySGtSRGZrV2FHTlBicDc3Q2YwcE9nZWh3VERZZzNzOU52RmVFb1l4RHhfWlZ30gGrAUFVX3lxTE9YTFZZcGFEUHZsbXIxaHpPci1KTzJDbUU1NUwxc0VMR1p5aV9rdHFFRU5rcXVmU3B5MnhwVkFlbkFuWERTbUVBeUs0azN3Z1l3Qi0xX3RnTnIwWV9TcTJZWVFDWDFzMkJXNWp3VWRwbjdNNThBdmpGSERIUm55c0xlTFd4LXBkZzhGdGFlRklyRnFKOE1lOUhWczJWRjE0azloX2MtakVhNDM0WQ?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 9
-    },
-    {
-      "fecha": "2026-02-11T21:04:44",
-      "titulo": "Después de la polémica con la Casa Rosada, Techint concretó una fuerte inversión en Brasil - El Canciller",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "brasil"
+          "japón"
         ],
         "empresas": [],
         "instituciones_mx": [],
@@ -826,839 +1006,75 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "4",
           "95",
           "0",
           "0",
-          "1",
-          "8",
-          "1",
           "0",
           "0",
-          "0",
-          "3",
-          "0",
-          "5",
           "2",
-          "3",
-          "0",
-          "4",
-          "1",
           "9",
+          "1",
+          "1",
+          "0",
           "2",
           "1",
-          "91",
-          "1",
-          "2",
-          "4",
-          "1",
-          "6",
-          "0",
-          "0",
-          "3",
-          "0",
-          "1",
-          "1",
-          "3",
-          "1",
-          "3",
-          "1",
-          "0",
-          "0",
-          "4",
-          "091",
           "5",
-          "0",
-          "6",
-          "0",
+          "3",
+          "4",
           "4",
           "9",
-          "8",
-          "95",
-          "0",
-          "01",
-          "2",
-          "9",
-          "1",
-          "5",
-          "2",
-          "3",
-          "1",
-          "2",
-          "0",
-          "0",
-          "4",
-          "05",
-          "3",
-          "9",
-          "0",
-          "2",
-          "0",
-          "1",
-          "5",
-          "6",
-          "2",
-          "2",
-          "0",
-          "9",
-          "56",
-          "1",
-          "5",
-          "2",
-          "0",
-          "12",
-          "04",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "El Canciller",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQjVYZ0ZLZ0JkbWVmXzQ1OF8wREpoZ1loWGhYY0hnejdhZ0tmUVE0RFA3SDBrd0ZzMG5GbTJya2JDcmFTN3BZQlJMQ0k4MnltZkx1dnMwaE9aclBGUkNhYmZOOTRkQlF2QkFqaVB1Zk91Vy1veVhtb2tlNDdzVXB4UHN1UTl6VFNpZXduM0JCMXpJY0JRUXdGa3k0REk1R1ExNURLcUJ3eGlXOHBobk1TS3VjY1Z0UXljQ0k4SHlia091VWxydk5VU0Z6WGVEdkViWTZBLThkSGwyd0JEMzRuVk4wa9IB8gFBVV95cUxPSHJGQ0pYbjdJN01oNThSRTlzT2tTSXZrTl9RSXZlUUFuUmZBdHRsSmRaWE1TZm5hZlBaVWNsVDY2VXBKZ3RkR1J2SDRMaFhuRkM0T0lDaUwtejM4bXkwNXpwZGlyS05pcjZfNmlqTUo3SW9WMXhfTmZPLXRxQ0xFUzBJS2I0SmFoLW1jSzRlMjhSQzZuME5WejJxcXlIRXhWRld6b2VUZ2NkRVZOWkdqMVVBSlZoaVdGY0ZNWVNNcjdJOV9PSjJLdlRMME56TS1TZVcwSXVONU5YTVdfS2Fnbk0tZnhVRC12LU04NHRIUnpvQQ?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 2
-    },
-    {
-      "fecha": "2026-02-11T20:35:00",
-      "titulo": "Avanza venta de AHMSA; compiten seis compradores por la siderúrgica - PostaMx",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [
-          "ahmsa"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "1",
-          "1",
-          "1",
-          "1",
-          "0",
-          "3",
-          "5",
-          "5",
-          "2",
-          "0",
-          "9",
-          "0",
-          "6",
-          "5",
-          "5",
-          "9",
-          "93",
-          "1",
-          "295",
-          "5",
           "3",
           "0",
-          "1",
-          "2",
-          "0",
-          "0",
           "3",
-          "93",
-          "1",
-          "0",
-          "6",
-          "3",
-          "1",
-          "0",
-          "12",
-          "2",
-          "0",
-          "0",
-          "0",
           "81",
-          "0",
-          "1",
-          "0",
-          "1",
-          "1",
-          "0",
-          "5",
-          "3",
-          "1",
-          "5",
-          "2",
-          "4",
-          "3",
-          "2",
-          "2",
-          "3",
           "3",
           "5",
+          "0",
           "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "PostaMx",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHNSM1dUWHNGbkdVTlcwMHdlRVk1bzZWZGZiaVkyOTdpRDNqWHdmb1ljNk1sNjNWVGp0akJLTVRRY3ptZElHcGl5MktlODNCcG5saXhyd2RfZHZ0RzlzNV9MSlR0VlFzSjlNLVh6QTN5Zk5EdG9lNXEzbG93dG1RN295UVFSQVI5TmZaRVdfbWh3WEhRV0hMSGtzbHpyczBlMWVEUzA1THJycXlfX2RZ0gG0AUFVX3lxTE93eXF1V0ZvbWVhRndVaWtqVmtNVkJJbFZhcmhZZUZ6T3NoaGZ1aWhCSzZHX0NGWUFCLTVrWkFEbC12ZnBGb2s0a0x0SU81d0tsUmVITVd1OWNaT0RYZWpiak1pRkYxWG1UTGJpUHZXZ0ZPVWt5U3E1WnZvRmhNcnJNRXVoOFc5b2E4QTBINGc3TzNjX2dvbXU2aFdDajFIb3hIbkdBRjg3VlEzUHJlVzQzeThzZw?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 10
-    },
-    {
-      "fecha": "2026-02-11T18:54:23",
-      "titulo": "Rocca deja atrás la polémica con Milei: invierte US$ 315 millones en un gigante de Brasil y crece en el negocio del acero - Clarin.com",
-      "sentimiento": {
-        "score": 1.0,
-        "clasificacion": "positivo"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "brasil"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "315",
-          "0",
-          "95",
-          "0",
-          "1",
           "3",
-          "1",
-          "5",
-          "9",
-          "01",
-          "3",
-          "3",
-          "9",
-          "0",
-          "1",
-          "6",
-          "0",
-          "3",
-          "1",
           "2",
-          "3",
-          "5",
+          "16",
           "0",
-          "3",
           "1",
-          "1",
-          "1",
-          "0",
           "3",
           "4",
+          "083",
           "4",
-          "05",
-          "2",
-          "5",
-          "315",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 1,
-      "impacto_indicadores": {
-        "produccion": 3.0,
-        "exportaciones": 4.0,
-        "precios": 2.0,
-        "empleo": 2.0,
-        "importaciones": 3.0
-      },
-      "fuente": "Clarin.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ0R1ZHJoQUN3dC1pMEhDZEYyLWdtcnFUMGd5ZkRQRmRMUEhNVkhJMmNDTnJMYWNIbmNaVktnVl9DOHptQ01mQVgzb3lBY3cwRDlJUE9BV0RRXzctd1NTWGR6T0JGcEMxTENfdVlMMnE3QlFBSW1SM2xnU3VEem5nM0ZwbDdwN3J1UXVqUXNKaFJxYS1FQUg1Y0NqTTZHMmVxc3JyYTIweUt4cWxidmhlakZoYVVWTlpTckdJLXczTVdReUp4OEIyay05VXk2UXEt?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-11T18:34:00",
-      "titulo": "Confía Grupo de Defensa Laboral en venta de AHMSA durante subasta - INFO7",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [
-          "ahmsa"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "7",
-          "95",
-          "2",
-          "1",
-          "1",
-          "0",
-          "3",
-          "1",
-          "0",
-          "5",
-          "1",
-          "0",
-          "42",
-          "2",
-          "01",
-          "5",
           "0",
           "9",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6",
-          "7"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "INFO7",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeDdxV2k1Yy1oa0xqRkRZRjdqYzYzdUlfejVKYVlZdWl3NVRCNVczeFdHYWVRWkdsMUJmUWVidEJleEVNMzhHT1dEMWpiUDFZaGlVcnJIMVZmM0wxeTBzUHFaYjJrVjBtVXl5OG1xd0hqWUtnaWZsZVVxVGJIempXeU42UHZZZ2pYYzlOWlFvQldCRnBWX01NWEhMeU5ndGswaWt0TE9qQmFib1E?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-11T16:55:34",
-      "titulo": "Ampliación de convenios entre México y Brasil elevará más de 10% inversiones en ambos en sectores estratégicos - diariodetabasco.mx",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico",
-          "brasil"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [
-          10.0,
-          10.0
-        ],
-        "cantidades": [
-          "10",
-          "8",
+          "0",
           "95",
-          "2",
-          "2",
+          "08",
+          "0",
+          "1",
+          "0",
+          "9",
+          "4",
           "5",
-          "1",
-          "0",
-          "14",
+          "3",
+          "4",
           "3",
           "1",
-          "0",
-          "25",
-          "83",
           "1",
-          "3",
-          "5",
           "2",
-          "00",
-          "3",
-          "0",
+          "6",
           "1",
-          "18",
-          "0",
           "21",
           "3",
-          "92",
-          "3",
-          "2",
-          "1",
-          "9",
-          "0",
-          "2",
-          "0",
-          "1",
-          "9",
-          "3",
-          "9",
-          "3",
-          "01",
-          "0",
-          "5",
-          "10",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "diariodetabasco.mx",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTXpOU2RGZkxHdTNTVkF2VWlzVGVzdEdBdDhzLVNEdmxwanJaTVB5UXd1elNRY0hSdkxubS14RWZCOGNwaVhYdTM3Y1pVR0ZVZXphY25SSV83RU1BZFJvS3NxcmJfUGp5U2NYMm00QXlZT3hlTUlBU0NuVnk1U18wd0Ruc21XSWxGVGxQeElWWHJPc3dWNU92ZVVpVHBSU3FYNFZzbzd2RkZpV1MxUGNTRE9xRDdFT0RrV2t0d1ZDTmRyOV9abFlVWUQ3OE9seERwSlRqWUxJVThTbjNERUVONFN3d01XYVRYVDRBZ0JBMFVTbmM?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-11T15:31:31",
-      "titulo": "Ternium avanza en Brasil y adquiere las acciones de Usiminas - LM Neuquén",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "brasil"
-        ],
-        "empresas": [
-          "ternium"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "0",
-          "2",
-          "5",
-          "0",
-          "9",
-          "1",
-          "5",
-          "2",
-          "1",
-          "5",
-          "2",
-          "6",
-          "21",
-          "1",
-          "3",
-          "5",
-          "0",
-          "11",
-          "95",
-          "1",
-          "9",
-          "2",
-          "4",
-          "4",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "LM Neuquén",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYnhsb0s2NkI5SGdJWlB0YlhKOFZKME9rdVMyb1luUXVNSTU5S2lwTzhkLXA1UTBpME5pYzE2aHZpNWtJZVVOWUl6U21OQnNCVFZKVkZKbGNpS1hMMVJ3OFNqamN5SzdURjRDd0tLbE11SkhpWTJpbU95ay1fbl9nTHdsTDRlcWYyZ2tmbFFNalROeEFYMWVxUUZ4REN4NktI?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-11T15:27:32",
-      "titulo": "Tras el cruce con el Gobierno, Techint se quedó con más del 70% de una de las principales siderúrgicas de Brasil - Infobae",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "brasil"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [
-          70.0,
-          70.0
-        ],
-        "cantidades": [
-          "70",
-          "3",
-          "95",
-          "1",
-          "0",
-          "5",
-          "0",
-          "05",
-          "0",
-          "5",
-          "5",
-          "0",
-          "4",
-          "9",
-          "5",
-          "3",
-          "4",
-          "1",
-          "91",
-          "2",
-          "3",
-          "3",
-          "5",
-          "52",
-          "0",
-          "1",
-          "4",
-          "0",
-          "0",
-          "0",
-          "52",
-          "1",
-          "9",
-          "2",
-          "5",
-          "5",
-          "29",
-          "1",
-          "0",
-          "0",
-          "9",
-          "0",
-          "3",
-          "2",
-          "0",
-          "9",
-          "2",
-          "6",
-          "9",
-          "2",
-          "00",
-          "8",
-          "4",
-          "1",
-          "3",
-          "3",
-          "5",
-          "0",
-          "2",
-          "1",
-          "5",
-          "3",
-          "4",
-          "4",
-          "0",
-          "5",
-          "1",
-          "3",
-          "1",
-          "2",
-          "2",
-          "0",
-          "1",
-          "1",
-          "21",
-          "2",
-          "29",
-          "5",
-          "4",
-          "1",
-          "1",
-          "5",
-          "1",
-          "1",
-          "09",
-          "81",
-          "2",
-          "2",
-          "9",
-          "2",
-          "1",
-          "0",
-          "5",
-          "70",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "muy_alto",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeE1CTFdCc0s5c0trM05EVFYzSGl0aE5sZDlwcG5lZzY0bE4teXRCYkREamQxdl9McHd5eGNIeEZ3VmV4NTJtZjhfblRGaC1ncGFFcFhmWnVtSF91Q2RJZVpqS3I3ajIxUE5OLTdJbm52QTR0N1NBLVNYTHBkWFA4UXZvaDczN0pROHFqS0tMUGs0MjVQQk52THgtWDhGd1lHNGZwcXBMaU9OM2p5TDl5TXJmdDFWWXhOS29wTzNVVFI1U0JZRXloM0hzSVdBMl9DQ0ZOX3JsSTM2ZGdKMlHSAfgBQVVfeXFMUGloMVU0Um9kdVlJa2dQWnphRjZOMUpWVGF6ejgxWk9rNDA2Zm00UV8xbWJ4bWdQc1pEdlV3a3pXNnJDMjNGOGh5djZ0ejRQb2JObm1FMEd5d3hrRHlUWWdsNXNwTko4MEh4ZWZCRTcydExVUVhNZ0pGOFV5V1FkVUNwdXl3eDhpa1ZyYlNvMER2X2NFR0JXXy1sOWpVbGNjczRzaG1qbXFPT21pSnhqV2lMR29kVWR5OTctVkxOdWs4MEpWc1hxZG1jZk5CMFAxdkxtSlBORXl1RTY1X09yRG81dlFtX2k2OV9EY2NwbDdtd1RqS0hnTjQ?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 7
-    },
-    {
-      "fecha": "2026-02-11T12:00:01",
-      "titulo": "Trump amaga con aranceles de 100 % a farmacéuticas mexicanas; quiere su producción en EU - La Crónica de Hoy",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        },
-        "produccion": {
-          "matches": 1,
-          "peso": 1.2,
-          "tipo": "neutral"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "mexicana"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [
-          100.0,
-          100.0
-        ],
-        "cantidades": [
-          "100",
-          "95",
-          "5",
-          "92",
-          "29",
-          "5",
-          "1",
-          "1",
-          "11",
-          "0",
-          "01",
-          "0",
-          "4",
-          "1",
-          "4",
-          "3",
-          "3",
-          "3",
-          "2",
-          "3",
-          "0",
-          "2",
-          "1",
-          "2",
-          "2",
-          "05",
-          "9",
-          "3",
-          "5",
-          "6",
-          "9",
-          "1",
-          "2",
-          "3",
-          "13",
-          "5",
-          "4",
-          "5",
-          "5",
-          "100",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "muy_alto",
-      "score_impacto": -0.51,
-      "impacto_indicadores": {
-        "produccion": -7.6499999999999995,
-        "exportaciones": -11.475000000000001,
-        "precios": 3.8249999999999997,
-        "empleo": -3.8249999999999997,
-        "importaciones": -9.18
-      },
-      "fuente": "La Crónica de Hoy",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeDdqQWY5ckJuWkpYSXlxMkstNHRtRkFwUDZMcXZrVmZoMk92RHhEM29UeG5Zb1ZKUkFVMHVxVy1OYU11S0lMaUYwVzdGcHZEV01iNVlwNUFtbzBxaWVyUDZuOWRQY0xYbVc4bVhoTDRBS1UySXk4c3l3YmRnbUg3clVZZEJoM2Y3a0hfRkl2M1Fva2diR2dVTlhpZ05tMlVrRE9oS3ZwTmdPRmthRk5RUHl6aE9mRC1jVkh2ckdHd3lFeS13aW5keVd4bzg5QQ?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 11
-    },
-    {
-      "fecha": "2026-02-11T10:06:18",
-      "titulo": "Sugieren que personalidades de la vida pública en México sí tengan protección vehicular de alto nivel - Hoja de Ruta Digital",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "1",
           "96",
-          "1",
+          "0",
           "0",
           "1",
-          "50",
-          "2",
-          "2",
-          "4",
           "0",
-          "2",
           "3",
-          "3",
-          "9",
           "0",
-          "4",
-          "2",
-          "3",
-          "9",
-          "2",
-          "3",
-          "5",
-          "1",
-          "1",
-          "0",
-          "05",
-          "2",
-          "29",
-          "1",
-          "0",
-          "0",
-          "2",
-          "5",
-          "2",
           "1",
           "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Hoja de Ruta Digital",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNEVBUkRmR1FiaGpReF96cEVSM1lUTVBrd0dEWWdKRDYyVHJLU1FQTU50X2cyRFVUX2lhSWJndkd4R0xOOWVxMXJwM2VCVzFBQ3RMQXRKdWFPV3dCYk9ibndURFBMUlNMSVEweHJYRmZPRFpSZnJhSkZ0ak4za2RoN3hPeE9xZDI2b3U5ZkFEWnQ1OXFvVE1iTDdnY0pCT05ENFd2STdWU29lYy1EZnpBS0VrX0dtQjBJQ2lGUFJ5YVJ2VWxpU1pNbmNJWQ?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 3
-    },
-    {
-      "fecha": "2026-02-11T00:20:42",
-      "titulo": "La Décima Sexta Zona Naval recibe visita de alumnos de la Escuela Primara “Voluntad de Acero” - Gente del Balsas",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "9",
-          "5",
-          "5",
-          "0",
           "0",
           "09",
-          "5",
           "0",
-          "9",
-          "0",
-          "0",
-          "19",
           "1",
-          "4",
           "1",
-          "2",
-          "9",
-          "1",
-          "5",
-          "1",
-          "6",
-          "2",
-          "4",
-          "3",
-          "0",
-          "0",
-          "9",
           "5",
           "6",
           "6",
@@ -1666,106 +1082,22 @@
         ]
       },
       "magnitud": "medio",
-      "score_impacto": 0.0,
+      "score_impacto": -0.32000000000000006,
       "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
+        "produccion": -0.9600000000000002,
+        "exportaciones": -1.2800000000000002,
+        "precios": -0.6400000000000001,
+        "empleo": -1.6000000000000003,
+        "importaciones": -0.9600000000000002
       },
-      "fuente": "Gente del Balsas",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLWUtZjlMbV9KOUw5VEVJSUpiVnpsMVV5eVFDeGFqT0g0S09ZUmppRXZRMVdtTmk5bTFGSzJ0OV9wb0k0OTBQdlhhc19vWlhGLVlTQlVDXzVhcThGbmJBZGRzREhaV1g4QW1SdHY2bDZibl9iSTNZNllpdW1wRU5Lb1ZQOVF6YWdpN2N4ZlRfa3dQMDVxLVdxYVVFZ0RyVUJkcGxKbnAxdldxN0tqSDNjLW9xUDJhMUdkQXIzZThNZDEyVDFLYkhxNg?oc=5",
-      "relevancia_auto": "irrelevante",
-      "relevancia_score": -2
-    },
-    {
-      "fecha": "2026-02-11T00:00:00",
-      "titulo": "Futuro del T-MEC, en riesgo: Trump evalúa sacar a EU del tratado con México y Canadá",
-      "sentimiento": {
-        "score": -1.0,
-        "clasificacion": "negativo"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico",
-          "estados unidos",
-          "unidos",
-          "canadá"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "8020"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -1,
-      "impacto_indicadores": {
-        "produccion": -3.0,
-        "exportaciones": -4.0,
-        "precios": -2.0,
-        "empleo": -2.0,
-        "importaciones": -3.0
-      },
-      "fuente": "El Financiero",
-      "url": "https://www.elfinanciero.com.mx/economia/2026/02/11/futuro-del-t-mec-en-riesgo-trump-evalua-sacar-a-eu-del-tratado-con-mexico-y-canada/",
+      "fuente": "Bolsamania",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUUR0Y0F0X0N2aktwTmkwMHBJVW9jV1RnVDVKa1pvWVJ0bnNsUWVucmpvZEdZYWtPQ2M1SnAwNTAxMEhVYjBUdGk5T3BzSzdXajNYbFo4bEk4cndwMUFLMG9GWVJsT3Mxc0Q3UWJIYkFrNV81Y3JqbGM5ZzkzUGNrWkVwOHNjWTFNVWZRWUg0dmN6NDcxNlBqX3RIU2dLdDRwSGdmZG16Y0lrYzEwZnFNbFRjZHJ1V3U4V083VXFONVV4TkVaVVpFM0JmZ9IB0AFBVV95cUxQNUFnd08zckdfMVVVblRDZlZ0eXZOSkF1dmpOZFNiZC0tUnBENTFkSmtJZV9tbXFKakFHWVIxYmFhbTg4QUJDTk5DazIyY3BGVTVfdVA4bVhuRjF3YS1ORDdxNWp1VjhCM2F6NE1XZ21VWmUtcTh3WnlZNnRPeDFZTE96RktUNWlaVWt0b0dSVDl1SjdSZjBNN0c3b0RaZjNLZkYyVFNGdXdXeFdMai1fRmk5aDNBa0FoU09oc0FWNDE1cVFjNnhxaUllRkRrc1pu?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 6
+      "relevancia_score": 40.4
     },
     {
-      "fecha": "2026-02-11T00:00:00",
-      "titulo": "Ampliación de convenios entre México y Brasil elevará más de 10% inversiones en ambos en sectores estratégicos",
-      "sentimiento": {
-        "score": 1.0,
-        "clasificacion": "positivo"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico",
-          "brasil"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [
-          10.0
-        ],
-        "cantidades": [
-          "10",
-          "53",
-          "55",
-          "10",
-          "53",
-          "55",
-          "6382"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 1,
-      "impacto_indicadores": {
-        "produccion": 3.0,
-        "exportaciones": 4.0,
-        "precios": 2.0,
-        "empleo": 2.0,
-        "importaciones": 3.0
-      },
-      "fuente": "Milenio",
-      "url": "https://www.milenio.com/negocios/convenios-mexico-brasil-elevaran-inversiones-nuevo-ace",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-10T23:21:44",
-      "titulo": "Mientras se disipa la polémica por los caños, Techint se expande en la industria siderúrgica regional - El Cronista",
+      "fecha": "2026-02-16T05:01:13",
+      "titulo": "Tras salvar el coche de combustión, la industria pelea para desmontar el mercado de emisiones - infoLibre",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
@@ -1780,350 +1112,33 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "0",
-          "95",
-          "2",
-          "6",
-          "0",
-          "1",
-          "4",
-          "1",
-          "25",
-          "1",
-          "1",
-          "2",
-          "4",
-          "3",
-          "4",
-          "8",
-          "2",
-          "2",
-          "3",
-          "0",
-          "6",
-          "0",
-          "1",
-          "1",
-          "5",
-          "1",
-          "3",
-          "3",
-          "2",
-          "5",
-          "2",
-          "3",
-          "0",
-          "2",
-          "0",
-          "0",
-          "0",
-          "3",
-          "43",
-          "3",
-          "0",
-          "0",
-          "2",
-          "2",
-          "5",
-          "03",
-          "3",
-          "1",
-          "3",
-          "3",
-          "0",
-          "2",
-          "3",
-          "2",
-          "9",
-          "2",
-          "2",
-          "5",
-          "3",
-          "3",
-          "28",
-          "2",
-          "5",
-          "1",
-          "3",
-          "3",
-          "256",
-          "3",
-          "0",
-          "5",
-          "5",
-          "1",
-          "5",
-          "0",
-          "3",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "El Cronista",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVmV2dGVvaklKdHAyUkd6dFBlQjVoU0dkUmpXbkVXQ1RJeXEwOFU4RFVoNGlOcUtRaUpFZTA1cGFzQ25hS1UzZFpJUWdZckMyR1Z2ZEFuOTJVaFc4V3JSaUZMMjBoQXc4bm8tY2JMdWxPVGFrRmg2WURhU3NHd0l6Q0VENVlhS1Zrd1pIWUQzMm5kQTNOYU1UN3JGNGJYZ3NLb2EtYktSUjBGTktVSXAzbjFjME5tb2sybVNzUkk3V0pLR2VYNldyQnN0WEI0ZExI0gHrAUFVX3lxTE43MVNvdWxNTDNnV3AybWdoSlo0b0NGQXlsSTlReFZsWjlqVFVhYkRORTVPNWk2NzQxUlJ2eldxdnNUcFNPVm5TancyUU03RllHbkd3MThtV1I3UmprX3NJNko0S2dpTnpMNVowNHphQnR3S2hqYmMzSm9MNXY2N2w5S3lsdGlkNmE3T28zZ2txeENxYndIRlJ5RXlMdGY1LUxpcWI3bVo3WmhoT256alNXS3JfbHNvaWNGc0tJYkx5NlRkUHNsZDJXSHV5ZWRaZ1NRZkkzODcyUnpzTEN5YVUzNGw0bDNjdjRYd3c?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 6
-    },
-    {
-      "fecha": "2026-02-10T23:21:44",
-      "titulo": "Mientras se disipa la polémica por los caños, Techint se expande en la industria siderúrgica regional - El Cronista",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "6",
           "95",
           "3",
-          "1",
-          "1",
-          "9",
-          "5",
-          "5",
-          "5",
-          "1",
-          "0",
-          "1",
-          "2",
-          "3",
-          "0",
-          "25",
-          "4",
-          "1",
-          "19",
-          "56",
-          "6",
-          "0",
-          "0",
-          "0",
-          "2",
-          "5",
           "09",
+          "0",
           "2",
-          "3",
-          "5",
-          "1",
           "21",
-          "1",
+          "0",
+          "2",
+          "4",
+          "81",
+          "4",
           "9",
-          "0",
-          "2",
-          "2",
-          "0",
           "1",
-          "3",
           "6",
           "0",
-          "3",
-          "0",
-          "30",
-          "3",
-          "43",
-          "3",
-          "0",
-          "0",
-          "2",
-          "2",
           "5",
-          "03",
+          "3",
           "3",
           "1",
-          "3",
-          "3",
-          "0",
           "2",
+          "04",
           "3",
-          "2",
-          "9",
-          "2",
-          "2",
-          "5",
-          "3",
-          "3",
-          "28",
-          "2",
-          "5",
-          "1",
-          "3",
-          "3",
-          "256",
-          "3",
-          "0",
-          "5",
-          "5",
-          "1",
-          "5",
-          "0",
-          "3",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "El Cronista",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONzFTb3VsTUwzZ1dwMm1naEpaNG9DRkF5bEk5UXhWbFo5alRVYWJETkU1TzVpNjc0MVJSdnpXcXZzVHBTT1ZuU2p3MlFNN0ZZR25HdzE4bVdSN1Jqa19zSTZKNEtnaU56TDVaMDR6YUJ0d0toamJjM0pvTDV2NjdsOUt5bHRpZDZhN09vM2drcXhDcWJ3SEZSeUV5THRmNS1MaXFiN21aN1poaE9uempTV0tyX2xzb2ljRnNLSWJMeTZUZFBzbGQyV0h1eWVkWmdTUWZJMzg3MlJ6c0xDeWFVMzRsNGwzY3Y0WHd30gHrAUFVX3lxTE43MVNvdWxNTDNnV3AybWdoSlo0b0NGQXlsSTlReFZsWjlqVFVhYkRORTVPNWk2NzQxUlJ2eldxdnNUcFNPVm5TancyUU03RllHbkd3MThtV1I3UmprX3NJNko0S2dpTnpMNVowNHphQnR3S2hqYmMzSm9MNXY2N2w5S3lsdGlkNmE3T28zZ2txeENxYndIRlJ5RXlMdGY1LUxpcWI3bVo3WmhoT256alNXS3JfbHNvaWNGc0tJYkx5NlRkUHNsZDJXSHV5ZWRaZ1NRZkkzODcyUnpzTEN5YVUzNGw0bDNjdjRYd3c?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 6
-    },
-    {
-      "fecha": "2026-02-10T21:21:00",
-      "titulo": "Ternium completa adquisición de acciones de Usiminas por 315,2 millones de dólares - Investing.com Español",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [
-          "ternium"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "315",
-          "2",
-          "0",
-          "95",
-          "1",
-          "5",
-          "2",
-          "2",
-          "3",
-          "1",
-          "4",
-          "5",
-          "2",
-          "3",
-          "4",
-          "0",
-          "0",
-          "0",
-          "9",
-          "10",
-          "0",
-          "4",
-          "3",
-          "1",
-          "3",
-          "4",
-          "3",
-          "4",
-          "0",
-          "1",
-          "5",
-          "315",
-          "2",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Investing.com Español",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd1VjUE5fbndlOGdvU2RyNXlpUGhrZ2czSnItbVVPUHVTZjl3bi1felNFWHEydmNqbFZRTUtXenk4UDdpbE5GS2FtekNJLXdwVFhCMkFUSEcwMmN3aHN4ZWVRb0hrZTNBdWVsd0dWZGxQX0IxMW9USmoxNFdIem10eDVBZkEwV0M4ZlhGT3JVa1VyNzZNZ3F4bWtlUlpMeVhHcDVpMGhmeXZxNHR3VVFtWGk4TVVMa0VpcGFsMHBKMWpDRFlQOGdiLVZtdUdncmpCWE1F?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-10T17:00:00",
-      "titulo": "Kristi Noem Firma Contrato Para la Compra de Acero para el Muro entre EUA y México - N+",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "1",
-          "95",
-          "0",
-          "5",
-          "1",
-          "2",
-          "2",
           "01",
-          "05",
-          "5",
-          "1",
-          "1",
-          "0",
-          "9",
-          "2",
-          "2",
-          "1",
-          "19",
-          "6",
-          "1",
-          "1",
-          "09",
           "3",
-          "1",
-          "1",
-          "9",
-          "28",
-          "3",
-          "3",
-          "5",
           "4",
           "9",
-          "1",
-          "0",
-          "3",
-          "6",
-          "3",
+          "2",
           "5",
           "6",
           "6",
@@ -2139,52 +1154,14 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "N+",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPamxsVURNOGU0aGN5Z1g2QVpTeFZxcFNFY2tJS01MWC05ZWF5bG1tU1hnN0RRSG9Fd2VxM2hqVDBNd1pwdThmeUJkUXVCM19DdEVhSHFiaENnLUdkVXhyYTd6WS1pdy1sM09jUXhoU3BJTVBCUVdTNWIzWTZyb1R1ZWdPLXduNFVmdDhhbURERl9YUkVCR28yamVVZmFrWEpHdGNNeWZYM3RLSmR3SjY5VGJjTWhJWUpVcU4tZW9JS1dkbFMxQkgyMGlCb0F3WUZvdUh6amd3?oc=5",
+      "fuente": "infoLibre",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYUF3LVVZU09lWmlfS0RtSDBNNWV2QUpoQkxkOHRydHhjNGJHa21KUzlxZ0NzMWppeXliZ2p4TG81ZjlaVVV4ZV9FTFpWSjlOZzJ1amVNdHp6RGRxRmIyYWdqbGpPdjkwRXl0dkg5YndOYlJSR3dLSXBVc3ViVmhLY1hISUhaV2pyd04zdDNhRFZqaUhXd3FuOGZtaGFCY01rR3lrVkI4YmROUWZmRHNPeUJObUtxdENORHNTamJxel9TU2s?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 6
+      "relevancia_score": 44.8
     },
     {
-      "fecha": "2026-02-10T00:00:00",
-      "titulo": "Cárteles y barras bravas, los principales retos para autoridades mexicanas en la Copa del Mundo 2026",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico",
-          "mexicana"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "2026",
-          "9502"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Milenio",
-      "url": "https://www.milenio.com/policia/retos-seguridad-copa-del-mundo-2026-mexico-cuales-son",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 10
-    },
-    {
-      "fecha": "2026-02-10T00:00:00",
-      "titulo": "Carney contradice a Trump y afirma que ‘Canadá pagó por el puente’ que conecta con EU",
+      "fecha": "2026-02-16T03:02:40",
+      "titulo": "Sector de la construcción en Querétaro reportó débil actividad en el 2025 - El Economista",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
@@ -2197,10 +1174,7 @@
         }
       },
       "entidades": {
-        "paises": [
-          "méxico",
-          "canadá"
-        ],
+        "paises": [],
         "empresas": [],
         "instituciones_mx": [],
         "productos": []
@@ -2208,7 +1182,64 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "2284"
+          "2025",
+          "95",
+          "4",
+          "2",
+          "4",
+          "1",
+          "1",
+          "9",
+          "1",
+          "1",
+          "3",
+          "0",
+          "0",
+          "0",
+          "3",
+          "6",
+          "4",
+          "1",
+          "0",
+          "3",
+          "1",
+          "0",
+          "0",
+          "9",
+          "0",
+          "6",
+          "1",
+          "0",
+          "29",
+          "0",
+          "1",
+          "81",
+          "0",
+          "0",
+          "5",
+          "5",
+          "2",
+          "3",
+          "3",
+          "5",
+          "0",
+          "1",
+          "3",
+          "1",
+          "2",
+          "2",
+          "0",
+          "5",
+          "9",
+          "3",
+          "3",
+          "0",
+          "2",
+          "5",
+          "2025",
+          "6",
+          "6",
+          "6"
         ]
       },
       "magnitud": "medio",
@@ -2220,62 +1251,17 @@
         "empleo": 1.04,
         "importaciones": 0.78
       },
-      "fuente": "Forbes.com.mx",
-      "url": "https://forbes.com.mx/carney-contradice-a-trump-y-afirma-que-canada-pago-por-el-puente-que-conecta-con-eu/",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 3
-    },
-    {
-      "fecha": "2026-02-10T00:00:00",
-      "titulo": "El Volkswagen Virtus 2026 ya tiene precio en México: el sucesor del Vento ofrece dos motores, tres versiones y este equipamiento",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "precios": {
-          "matches": 1,
-          "peso": 1.2,
-          "tipo": "neutral"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "2026",
-          "2026",
-          "2026",
-          "2151"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Motorpasión México",
-      "url": "https://www.motorpasion.com.mx/industria/volkswagen-virtus-2026-precio-mexico",
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMmxHYXR4TXdIRzBkVVJIbHQyZ2dhWjVMeFE4YVdmd1RHZ1RnUzRuRmhyQVNBSHVROWdrOFNtSG9VeGFSUG1YSy1BVGVHUkJ3QmJsNUQ0Qmx0S0Vhd3N6SXBmcnh4LUNtS1hwR0RTR3ZWVEYybmx1OEFJLXpMSFowQTY0M0xJbnQtdWtlNEJYRG9uN0R6czdjTFNTTUtZYjB1WEZvTXdJWDNaUHozTEZQTUNMZWzSAboBQVVfeXFMTzNFdnd0Y29yWGpEa0x1UkljMWVvOU81dXZBa0JEN0NjblhzbTJycXpKbnNUMHNvQk5CVGh5eXZFVTlLSHo2OFBkdVlOeVUtWTZ3WDN3RUlFMW5EQUE0S1hrLWRZY3BfeW1EZHNCOHdKejFtU2NWR2xjOXo0TEV5cl9vSWxURWtHdnZ3YnRwTkZtbjIxdUk3aFBZU0tHUTNmRExGZmlBR2lIazdYTmtEZnpVODhvWWtScjlR?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 5
+      "relevancia_score": 53.1
     },
     {
-      "fecha": "2026-02-09T23:23:05",
-      "titulo": "Empleo formal en México registra en enero su peor inicio de año desde 2009 - bloomberglinea.com",
+      "fecha": "2026-02-16T01:19:19",
+      "titulo": "Cae México en 'trampa' del estancamiento - Reforma",
       "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
+        "score": -1.0,
+        "clasificacion": "negativo"
       },
       "categorias": {},
       "entidades": {
@@ -2289,61 +1275,220 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "2009",
-          "95",
-          "0",
-          "1",
-          "09",
-          "2",
-          "2",
           "3",
-          "5",
-          "0",
-          "54",
-          "1",
-          "0",
-          "3",
-          "0",
-          "1",
           "9",
-          "1",
-          "4",
-          "5",
           "0",
-          "0",
-          "1",
           "2",
-          "2",
-          "3",
-          "3",
-          "4",
-          "3",
-          "1",
-          "03",
-          "1",
-          "0",
-          "10",
-          "3",
-          "5",
-          "0",
-          "3",
-          "3",
-          "0",
-          "3",
-          "2",
-          "3",
-          "5",
-          "3",
-          "2",
-          "29",
-          "1",
           "9",
-          "3",
+          "2",
+          "0",
           "0",
           "01",
+          "0",
+          "0",
+          "2",
+          "01",
+          "2",
+          "1",
+          "2",
+          "19",
+          "4",
+          "0",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -3.0,
+        "exportaciones": -4.0,
+        "precios": -2.0,
+        "empleo": -2.0,
+        "importaciones": -3.0
+      },
+      "fuente": "Reforma",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xREY0MHMwLVh2UUpDcE9MdDUxSEpuWjNRMTAxS2FnUFVZZ0dJcjNSaTQzc0poM01sM0NiaUFIb0NaY2doLXdpTWJEZ01kYXB2MXJHb1FSY2JBYzhac19zOHpzbmRUSzBTYWgzNVVMMlZhWkFCZFh4dDlVVC0?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 48.8
+    },
+    {
+      "fecha": "2026-02-15T21:27:49",
+      "titulo": "Los buques rusos Sparta IV y RFS Aleksandr Otrakovsky cruzan el estrecho de Gibraltar bajo vigilancia del HMS Cutlass - Europa Sur",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "2",
+          "3",
+          "1",
+          "3",
+          "1",
+          "2",
+          "1",
+          "2",
+          "1",
+          "9",
+          "2",
+          "4",
+          "1",
+          "9",
+          "1",
+          "0",
+          "1",
+          "2",
+          "1",
+          "4",
+          "0",
+          "0",
+          "3",
+          "1",
+          "1",
+          "3",
+          "6",
+          "11",
+          "3",
+          "25",
+          "5",
+          "3",
+          "0",
+          "1",
+          "0",
+          "0",
+          "4",
+          "01",
+          "4",
+          "4",
+          "0",
+          "2",
+          "0",
+          "3",
+          "6",
+          "2",
+          "003",
           "1",
           "5",
-          "2009",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "Europa Sur",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTlBMY2lxa3lJaGtxMzRzc1pCOGdudkFiZVpIWDFIc3dDc1FJQXBpaDF2OURYYU1meFBNVHJ2Si1jTzBMQmRsTl9lUzEzU2Z4cnhHdU1lWWlWdkNNRU9PdkdFa1h0MEdGdkRrZGhnWUJHUHduRzdVUXBXd1lqVzNiUUFkblNGNGtNSEpiWTJ2NkNuOXktN1ptbTY4QUtmeS0taExVZWtIY0plUHJwMGJublpzS3NoYjlxMFN1NzhLVmfSAcYBQVVfeXFMT1BzTnRLWXRuaHNoTlA3STJNTkp6MWNpOFluUE11MFBmZjkzVVZqcWswSEpTcUJIZ3RLR25GZmE5Snd3RFFUQ0dzdWtUVzdnYkczMGtlUXNUcmFkNy1ob0lGZFdCWGNzRkZNQjA0bEp4NURBQ01HejY4VjI4bllZSmtNV0xfcUhEV2Jud0ZfX3luVUZUYVdWWmszUEt6aWQtamp2V003RWtueUdScVdKVmpnN1JISVBySFEtUTdzekFGSFpsbWln?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 41.6
+    },
+    {
+      "fecha": "2026-02-15T20:09:26",
+      "titulo": "Bancos que respaldan el acero ecológico aportan “soluciones falsas”, según un informe - bloomberglinea.com",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "4",
+          "2",
+          "0",
+          "92",
+          "5",
+          "1",
+          "2",
+          "0",
+          "6",
+          "3",
+          "5",
+          "3",
+          "4",
+          "3",
+          "1",
+          "9",
+          "0",
+          "3",
+          "4",
+          "0",
+          "3",
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "3",
+          "3",
+          "5",
+          "9",
+          "0",
+          "4",
+          "3",
+          "05",
+          "2",
+          "5",
+          "1",
+          "3",
+          "5",
+          "3",
+          "3",
+          "3",
+          "6",
+          "0",
+          "5",
+          "5",
+          "3",
+          "2",
+          "0",
+          "3",
+          "1",
+          "0",
+          "5",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "6",
+          "0",
+          "1",
+          "94",
+          "2",
+          "3",
+          "3",
+          "4",
+          "2",
+          "4",
+          "5",
           "6",
           "6",
           "6"
@@ -2359,495 +1504,25 @@
         "importaciones": -0.0
       },
       "fuente": "bloomberglinea.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOFcyUXlOZTRTOXBHX0tMRnJtbHNLQXlZSVcwakZSUGdBQmFkTHFZRGxBUXljc1dxYjBpZldMbEEweGRBbXNDM09kSEtjQXNjT2tiUWtjZ2FuMEZlaklBMWx3aU5MTW0zQWRyVUxJTm54R1hvTXM0aFVEVWt3S0d1cjFlNTVHaU9FTUpUTnJ1aHZ4MjB5anhoVzFGU0VldTBreldHZWdaU0ZkVmdPWmpIdTJLNWpMSXhzczJBSi1ENmlJRjlqZUHSAdoBQVVfeXFMTTlTU2xaWENoZnh2NTVhbTNqb3RHbXJkcmMtWFhhSlZYYnhsWlRfdVZlb3k4c3JkTmpEeW1QVzUwSk03RDl1VXBNcTBhZ0pyME10clpPTDlsRUVkRjBWYlBuRHdaQ3lHbXJWRURjTVU5SjdWb0xackxpZ3pYYjkxaHBFR3N0X3Yya2xLeHY3eGF5R3pURnU2MVJQRjFoQldQWEpOc29RUUZVRC1PTGVYZV9FMVZlejVKbzlGS3ZraTJwNkJSR0dEU01IQlRfVTJOaW1iQVJZUTVITUE?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 4
-    },
-    {
-      "fecha": "2026-02-09T21:50:37",
-      "titulo": "Princess House busca emprendedores en Culiacán y promueve cocina saludable con acero inoxidable - debate.com.mx",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero",
-          "acero inoxidable"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "7",
-          "95",
-          "2",
-          "42",
-          "2",
-          "16",
-          "1",
-          "5",
-          "5",
-          "5",
-          "0",
-          "3",
-          "5",
-          "2",
-          "5",
-          "9",
-          "4",
-          "3",
-          "2",
-          "5",
-          "2",
-          "6",
-          "0",
-          "0",
-          "0",
-          "2",
-          "6",
-          "9",
-          "0",
-          "1",
-          "0",
-          "3",
-          "91",
-          "2",
-          "6",
-          "1",
-          "9",
-          "2",
-          "5",
-          "6",
-          "3",
-          "5",
-          "1",
-          "0",
-          "4",
-          "2",
-          "3",
-          "1",
-          "1",
-          "1",
-          "3",
-          "5",
-          "01",
-          "2",
-          "2",
-          "1",
-          "0",
-          "3",
-          "1",
-          "5",
-          "21",
-          "04",
-          "2",
-          "0",
-          "3",
-          "2",
-          "4",
-          "2",
-          "3",
-          "202",
-          "5",
-          "2",
-          "3",
-          "3",
-          "3",
-          "3",
-          "40",
-          "9",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "debate.com.mx",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSjhxemJYWjhyTndoMlRzTmRjWnlNb2lWOGktbjhuaTRPQmJqTUtwdFZmSjVCZEhtQm42X2VKekZiVG16bXBqNkg1bUVsdXY5TWlCMjlhSDlKLVlQTFZ5ZVBROEsyRVRObWJwZnNxLUxfUzZhSlI5M0FxbGMxb3V5ZldvSGtESHh2SjVIZDRzbnh5dWdRcW9lMTRMSEt4YXBJQ3UzM2tsWGI5TTJRU2ZKODRvMGN6Y0xxNWtHb0RvLWhybXBCMGQ0U2xsSlZpNFFtWEh6TTBuOGtTemlkWG9UYkNKbndDZ0lzQ1JGYXpB0gHzAUFVX3lxTE91cWZDd2ZTWkxNZGV6VFgxOEhkYnBONExjaDJYWXI1ZW9QOFc2Rk5QSzlMSXUySERrbVZ6ckJpNjM3UjlLVVVSUG5MaFRyV1BHY0x4bkJIc2VZYllNNjE3Qm1TU1RiRnI1MlhDOFFaaWM3QkM5RmtOdktjejFsaEtFY01ZMmxGd2R2ZG1vS0M3OWx1bmhfSnQ5amhSREtOb21XQW04T2stV0RVS3FqM2stMmlDSTl4MGNqc2EtXzhzS3NydVlBcHFxbHZyN202dHp5N2hNZzBiN3djYUV3UTI3bDN3UkFiRzllSU40SE9xbmhxdw?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 4
-    },
-    {
-      "fecha": "2026-02-09T14:01:02",
-      "titulo": "El Chevrolet Onix 2026 baja de precio en México: más interesante que Aveo y ahora más barato - Motorpasión México",
-      "sentimiento": {
-        "score": -1.0,
-        "clasificacion": "negativo"
-      },
-      "categorias": {
-        "precios": {
-          "matches": 1,
-          "peso": 1.2,
-          "tipo": "neutral"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "2026",
-          "0",
-          "3",
-          "8",
-          "0",
-          "25",
-          "3",
-          "2",
-          "1",
-          "2",
-          "25",
-          "4",
-          "2",
-          "2",
-          "1",
-          "5",
-          "2",
-          "2",
-          "4",
-          "4",
-          "5",
-          "2",
-          "53",
-          "3",
-          "10",
-          "42",
-          "1",
-          "3",
-          "0",
-          "4",
-          "9",
-          "3",
-          "4",
-          "0",
-          "2",
-          "3",
-          "5",
-          "2",
-          "2",
-          "5",
-          "0",
-          "2",
-          "6",
-          "0",
-          "0",
-          "56",
-          "0",
-          "5",
-          "2026",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -1,
-      "impacto_indicadores": {
-        "produccion": -3.0,
-        "exportaciones": -4.0,
-        "precios": -2.0,
-        "empleo": -2.0,
-        "importaciones": -3.0
-      },
-      "fuente": "Motorpasión México",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zS0lrcFRsSkhCNmpodzZJU25nc3llWGx2d1J2ejNpMXVEQzBJUjZVX25STUg4WGxXNGRSZXVGTHR2WmJKUTREMUl2eEVzdnRFcmJLTUx1MFQ5X2FnOVBQV2JLQzBadGt4WDQ4blJfaUYzaTJicVN5aUpZdnQ2YknSAYQBQVVfeXFMTW53d3kyVG10MjNkVnkxUGJPaU42VzFvdzlpU1I3OEFuR0o4WHQzaVhkSU9HckJ3RFB4X0NZR2ZNR3k5VUFOd2wyQmxFS2txZUpYNTdyMzVtczhoWXdGbGo5UUlwMTFYNUJwR0ktR2J6YnM0bnh0bE56SndZeEJSVGpwc0JF?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcXh4bUE2R0xXQkpTUG92NHptZVVaUU5DaTQyR1ZZRXBGR2swS0F6OThYZXFia3hRdHVYLVY5V3c4VVZWTVl3M1lYeW9rZ0Rid3Q4Y0pLM3dmVVNadW1IaEttMmJLelFsZ1VMWkdrZDBhWXhwWDBhNTB2T1FpN1I3c3d5Rm9JbDl0NFBrNXlZbDM4VFlvTmpOZ3hUalRUZ05IQ2V5UEZsbXZoc1o3UHNHRGVqOGMtVlJzcmhQZm5yaWRIenfSAdcBQVVfeXFMTkttNGxZUXZLOHVwcmhUWWhmN3FUOEEzcWY3WUJnS3N6aUhlQ0QtSG5tVU5nQ3dzQ2QtS0MwTnp3MkxmbWRDQjBIT1RweFFIQThLQ0g5ejFKVklLRlVGenk0a1lVLVFwZjZNVVJEWWhaOXZhZXROd0w1aXJFOVdKOUUyNzUzWlFtS0JXUWZ6c0JwZmxiOVM1SEYxaF94dlRGelVwazE2aWs3OXNFMzFQM3lQMWh4cjllVkwxZkpzbGJRa2NtczgtSGZYOFp4VTNHSTAwTUNVOHM?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 5
+      "relevancia_score": 45.1
     },
     {
-      "fecha": "2026-02-08T21:20:47",
-      "titulo": "Jóvenes escalan chimenea de AHMSA en Monclova y se viralizan en redes - vanguardia.com.mx",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [
-          "ahmsa"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "2",
-          "2",
-          "1",
-          "9",
-          "9",
-          "3",
-          "1",
-          "1",
-          "1",
-          "1",
-          "3",
-          "0",
-          "3",
-          "2",
-          "3",
-          "5",
-          "9",
-          "05",
-          "1",
-          "1",
-          "215",
-          "1",
-          "3",
-          "5",
-          "2",
-          "9",
-          "6",
-          "25",
-          "3",
-          "5",
-          "2",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "vanguardia.com.mx",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeHNyWFhVTVVoNGcySjIzSTZXSGsxM2pfc2VCMC1rbDgweU9odG9IaGp3Y1ROU1lWTGZQbHRyQXVWVWRwX1o1aXduamZ3QzJUOEpGZlVqZEFqU0t3XzBITmU2bmNyX3dMVW5pUWlkaE9hUy05SkU1YS1WX215RWZZMS1BMkt3ZVRQSG5CaUJXckx2QV9lZWJyeXdKbGlxUER6T25zVDBHU3loTEFkdnBKSThpSU5ka2duTllFSXVfSFFYUQ?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 8
-    },
-    {
-      "fecha": "2026-02-08T18:01:27",
-      "titulo": "\"Ilegales e injustificados\", los aranceles de Trump a acero y aluminio: Canadá; hay \"discusiones intensivas\" con EU, dice - MSN",
+      "fecha": "2026-02-15T18:30:00",
+      "titulo": "Variación en el precio de las actividades del sector construcción - El Economista",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "canadá"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "1",
-          "5",
-          "0",
-          "3",
-          "0",
-          "2",
-          "0",
-          "3",
-          "2",
-          "1",
-          "1",
-          "9",
-          "8",
-          "1",
-          "055",
-          "2",
-          "2",
-          "1",
-          "2",
-          "5",
-          "2",
-          "3",
-          "5",
-          "1",
-          "9",
-          "3",
-          "2",
-          "9",
-          "3",
-          "6",
-          "0",
-          "40",
-          "2",
-          "4",
-          "1",
-          "0",
-          "2",
-          "96",
-          "1",
-          "0",
-          "1",
-          "83",
-          "2",
-          "2",
-          "0",
-          "1",
-          "04",
-          "2",
-          "3",
-          "4",
-          "3",
-          "9",
-          "1",
-          "2",
-          "0",
-          "3",
-          "0",
-          "6",
-          "3",
-          "2",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.34,
-      "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
-      },
-      "fuente": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxQREFualdmQ1E5VHIyemE0V3VOdkxXd0xrVXpZcXhhVkpkM2RZVmhDaGJFNTBoZFNuX0FGbEpneHlta3p2S1BHTGN1dWFtVUxGUW9peU8wbVZyY1AwV055SGhxTGdEbTB2TFMwaHEwOTdsd2s1MlZfS2g5UVJoUUpEU2tkY3ZBQmY5ZU1hcWNxYjNQUHByOTJNVV9sSTc3dEVnSlZxZDdYd2lZTkhUMGRLSHdCVFlILVgwWHBCMWlfdF9fRUpPV3lsTFRyNEFqbVgyNXh6X0VsaU40VGZTZ2tQdVc4RjZrcERfVER1eUJJUzNwc0prU2hQcG96X1hyLXdRNEc0ZGpGZFpDbmdYcUswdEUzdFJOcFZ1ZnIwVG83c2pFS2E0bjVhTEw1ZG04UGdmRUg2a3ZJMnZzSU4xa3FOYjFqTk9JVGdBSzBGdkF1dHZDd2hYMjJld0RFQ3ZoNkFvSWhQOTNJREJ0TnlseTVFTld6NmtJQ3lOR2VLSkZFZUlqZTUydEdOZFUydFcxZVYyek1maHpCbw?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 9
-    },
-    {
-      "fecha": "2026-02-08T17:15:11",
-      "titulo": "Aranceles de EE. UU. y puertos mexicanos: impacto, tensiones y respuestas del sector logístico - Transporte.mx",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "mexicano"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "3",
-          "00",
-          "1",
-          "0",
-          "2",
-          "4",
-          "3",
-          "3",
-          "80",
-          "3",
-          "0",
-          "1",
-          "1",
-          "3",
-          "4",
-          "210",
-          "00",
-          "0",
-          "1",
-          "1",
-          "6",
-          "4",
-          "0",
-          "3",
-          "21",
-          "19",
-          "1",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.34,
-      "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
-      },
-      "fuente": "Transporte.mx",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjN3dzFjLW00S1BlRzlGUEZ0R2NKdkZlNVhnLXg4elg3QVU3NF80R3BhWEFuWWI0ZXdEaWFNaTl1WmUxX1hFYlpuUXZWV3F4Q210dVAwdk00NzRneWZmeWRkejRUNDhya0VaV1lYZkpRcEZ1cEZVeFh6RnV4SDJEQTdaNjBWS0RfXzNrbFF3NVFINFFDd21SZ19GMnlqLU1YaENzS1YtTGhlRjZDbzMxRnBJcw?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 9
-    },
-    {
-      "fecha": "2026-02-08T11:19:14",
-      "titulo": "Aranceles a acero y aluminio afectarán precios de la construcción: CMIC Edomex - MSN",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        },
         "infraestructura": {
           "matches": 1,
           "peso": 1.3,
           "tipo": "positivo"
         },
         "precios": {
-          "matches": 2,
+          "matches": 1,
           "peso": 1.2,
           "tipo": "neutral"
         }
@@ -2856,1005 +1531,65 @@
         "paises": [],
         "empresas": [],
         "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "7",
-          "95",
-          "3",
-          "5",
-          "1",
-          "2",
-          "0",
-          "1",
-          "0",
-          "2",
-          "5",
-          "6",
-          "0",
-          "0",
-          "9",
-          "2",
-          "0",
-          "0",
-          "0",
-          "3",
-          "3",
-          "1",
-          "1",
-          "3",
-          "3",
-          "0",
-          "3",
-          "2",
-          "4",
-          "04",
-          "2",
-          "09",
-          "9",
-          "3",
-          "1",
-          "3",
-          "04",
-          "4",
-          "42",
-          "3",
-          "1",
-          "2",
-          "0",
-          "13",
-          "2",
-          "0",
-          "2",
-          "0",
-          "6",
-          "9",
-          "81",
-          "1",
-          "5",
-          "3",
-          "3",
-          "1",
-          "0",
-          "2",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.08000000000000002,
-      "impacto_indicadores": {
-        "produccion": -0.8000000000000002,
-        "exportaciones": -1.2000000000000002,
-        "precios": 0.4000000000000001,
-        "empleo": -0.4000000000000001,
-        "importaciones": -0.9600000000000002
-      },
-      "fuente": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOR3h5N1RYZWNBb2pfQlR0dXczajZ1MXVyZmZ0U2VLbHk5OHd6bnkydUF0cWp0VHdjNEhZSUZyUm9xeUlYTXJRLWhheVNuSGxRa2RldEVWdUpWOEpHS0ZFWFd0R0VROHdyZDZTNEcybkh3NHFxbUVHY3QyTnBHcXZEZUJYZ1BxSWxmRWJQY1l3cFlza3lNendtZlNhUkF0OHFaWjdwekFvcnYyb3JZbDhpbTh2UEpGZDNwSGpDYzNBcGw4ZG04dlJEMUJCV2hJb09XZXllYXRFNnhsRm9mNDJGc3ZuNkdIQ1RLbmYtN3cwR04zWmh4em42aEt3dU1jaHFHbml2UHlFQUZQV0ZLWi13cDdqV2EzNGJxcDEyZTdoc0xWZVYwMll2b0dfMld6MlFxOVJESk9Xam81ejNNNWdsQXF1YW5mUGZSRkh3X3ZrSXhLTHJ1RnQxbzB0Y2xJdFlQZEZydHJDRWdGSEFpSnc?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 11
-    },
-    {
-      "fecha": "2026-02-07T06:09:00",
-      "titulo": "Aranceles, despidos y silencio en la industria automotriz - El Heraldo de México",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
         "productos": []
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
           "95",
-          "2",
           "3",
           "3",
-          "2",
           "3",
-          "5",
-          "95",
-          "9",
-          "0",
-          "1",
-          "8",
-          "0",
-          "5",
-          "84",
-          "0",
-          "5",
-          "5",
-          "8",
-          "3",
-          "3",
-          "05",
-          "2",
-          "0",
-          "2",
-          "0",
-          "2",
-          "1",
-          "4",
-          "2",
-          "5",
-          "2",
-          "92",
-          "2",
-          "9",
-          "2",
-          "0",
-          "5",
-          "4",
-          "4",
-          "3",
-          "5",
-          "2",
-          "5",
-          "092",
-          "3",
-          "2",
-          "1",
-          "4",
-          "1",
-          "1",
-          "1",
-          "9",
-          "2",
-          "00",
-          "2",
           "29",
-          "41",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.34,
-      "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
-      },
-      "fuente": "El Heraldo de México",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa2l3SVJKUVZzVmNkcWVCOWJLQjBsMjRwWExMSlJyUkZDWTFiZ3lqelpxeUwtOVpKYmxNa2pYc3p5TE95ZG9oQ0ZCT1AxblNlck8yeWNvN0ZiYUk5bU84T0lVNW5RQVU5WmZqUDRmam8tb3BuV3QzejFkd05xcnJvVWxLYlhpN2wwUjBhQmdUUEFaUkt0bUs2VTZzekRqN0xfZmo2MnZPMzdPckNkU1R4ekEzRWrSAboBQVVfeXFMT2c5SUd2cE92ZnhQQnc2OF9GeWlLNmJKMUVKRFRnODRyNEdweTF2SzdGLVVGc0V5SWxkRWxOYjZXVjF4ZmdINU4zR3dqQU5ya2R5S092bjdhYXlWb3NOV2dwZHN1QnhlbFhRNHA4c1FkUkNkOE1fcnVPZzFNbC1lSVVXUGlNYl9Pc2hVRC00LWRndnVqVTlPN2NmVmZCVmNUS29PNERHWG41UGVOZkl1VEFvbUFrSVRMNEdn?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 9
-    },
-    {
-      "fecha": "2026-02-07T04:33:00",
-      "titulo": "Acero, aluminio, minerales críticos y el financiamiento: los temas pendientes del acuerdo comercial con EEUU - Infobae",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "eeuu"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "5",
-          "95",
-          "5",
-          "2",
-          "3",
-          "1",
-          "4",
-          "1",
           "0",
-          "4",
-          "3",
-          "3",
-          "1",
-          "0",
-          "4",
-          "1",
-          "5",
-          "2",
-          "1",
-          "0",
-          "92",
           "3",
           "6",
-          "2",
-          "6",
+          "3",
           "9",
           "3",
+          "2",
+          "12",
           "3",
-          "0",
-          "0",
-          "0",
-          "2",
-          "9",
-          "6",
-          "0",
-          "8",
-          "3",
-          "2",
-          "1",
-          "0",
-          "1",
-          "9",
-          "5",
-          "3",
-          "21",
-          "5",
-          "4",
-          "50",
-          "9",
-          "0",
-          "0",
-          "4",
-          "3",
-          "1",
-          "0",
-          "0",
-          "1",
-          "9",
-          "2",
-          "1",
-          "0",
-          "2",
-          "3",
-          "0",
-          "9",
-          "2",
-          "1",
-          "5",
-          "1",
-          "2",
-          "3",
-          "2",
-          "1",
-          "4",
-          "4",
-          "5",
-          "01",
           "2",
           "4",
-          "3",
-          "0",
+          "51",
           "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNWRtallwbGJmeTFLcXdUeHlXZzVNdzZ5dVFzSVRIU2lvTGtxX3dKVkVQX1Z4U1RDT0QxQm4zX3RJdTRiVzNUdzJ3Y1dOQms0bmdGMnF4aDVmSlZWT1ZweExCYTNrWE5pQ2wzejBDZi1wQnpHbkkzZzRDTjVSXzRtelJSekk0VkZCeU92X3BCdlV6TFRIMVZEeERuN2F6OUFrZVNQMndZMk9rNjRramtFSktQa3RHaEJkZ3VPeE0zTVZWUlhiUmR0Y0VMNXM2UjJjYm9MaUdTblpoeUhEanJaczF6b0_SAf8BQVVfeXFMTkNVXzJxVDVEakNYX3FSR2pHd1RmY0R1OU9XOVc5SGgwX3dqTExmNFpDQlNmRmJpMHYxWHNWc21LMG5mbFJ4dG50Wk9OR0pfeVRxdnJVOGNTbmpYN0sxUEpPRFU4Y3JaaUgxMVdKODVGa1Q0a0tOcllZOEVaYXFTUzlFNlpIX1VPdF9rMVpBYUg2TVBCSXotWGQ1Z0ozZzNUVnB2VEc3R0NoYlJzLW9xbnBfNWVuNXYxNnUwcnZTM2tJdFU1NjdKNWxRck5LNVVPUnBES1MtSDR2ZnF3Ylg2cU1rdkM4Qm4wSk5TR01fd2M4ekNybEh3ZjhURmJtcjg0?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 4
-    },
-    {
-      "fecha": "2026-02-06T17:41:00",
-      "titulo": "Acuerdo comercial: Pablo Quirno aseguró que EEUU se comprometió a revisar los aranceles al acero y al aluminio - Ambito",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "aranceles": {
-          "matches": 2,
-          "peso": 1.7,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "eeuu"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "4",
-          "95",
-          "0",
-          "2",
-          "0",
-          "0",
-          "3",
-          "1",
-          "5",
-          "0",
-          "3",
-          "0",
-          "3",
-          "2",
-          "1",
-          "2",
-          "2",
-          "5",
-          "1",
-          "0",
-          "5",
-          "0",
-          "0",
-          "9",
-          "4",
           "4",
           "5",
-          "92",
-          "5",
-          "93",
+          "2",
           "0",
-          "4",
+          "5",
           "13",
           "1",
+          "2",
+          "1",
+          "1",
+          "5",
+          "2",
           "1",
           "9",
           "9",
-          "0",
-          "3",
-          "09",
-          "3",
-          "2",
           "9",
-          "0",
-          "3",
-          "94",
-          "0",
-          "5",
-          "5",
-          "3",
-          "0",
-          "2",
-          "5",
-          "3",
-          "1",
           "4",
-          "0",
-          "3",
-          "0",
-          "2",
-          "25",
-          "3",
-          "5",
-          "0",
           "1",
-          "3",
-          "41",
-          "1",
-          "3",
-          "0",
-          "1",
+          "2",
           "0",
           "0",
-          "2",
-          "2",
-          "82",
-          "25",
-          "2",
-          "1",
-          "4",
-          "4",
+          "0",
+          "0",
           "3",
-          "3",
+          "0",
           "03",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.34,
-      "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
-      },
-      "fuente": "Ambito",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa0RLSjJObTlkcXJaQXozRjBHWUttWnQzM2ljRmJYclJtQzdPeTdBVzZqQWR0S0treWhIQURDM3ZJdEVzU1h5b0hhaUY3b0NCU3JSbVg2Y1lfeFFhU2RzOUt2aW5yX1ZyM0dYYjBJUFBZQmhoWjBrbTduUU5STUw0UzFyNFhHMFZwU0MzOU9feHFjNDhQTHJ4Tmk4ME5nUk92OU5OTE93S0ludXA4clNRdFMyMzdEazRfbU13d1hwMW1UaF9OUW9CRnBuYWh0VGd3WjNmb09sR3VoTWZQb2xjTW9B0gHnAUFVX3lxTE94aVhaTkJUQ0U5RDlCRHk5QVc3UWM0OWs2VjM5X3ZiNVVWT1JOekhITUpDWlc4YWRPS0dyS3FmTVFGZEQxdUJMMnA0RUwyUFAxRFE2T25WT3J5c0JwM1V3aVhtWE41QlQwZVNwWG1rUEJKY3Z0RXFsenUxTzdaXzVYMGZIV1BSSzhwaDZjMjVMRGRaS0lHbXp0anpUd2RIYzl2aGtwem82YlNFaUdQZXVCTzRTOEItMnhwY25CbmlYN2NFa1BaeEhoaHU4Rlh4eXAtOVRGY3VuUXhTVUw3aS03LTcyTnQxZw?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 9
-    },
-    {
-      "fecha": "2026-02-06T17:30:00",
-      "titulo": "Carne, autopartes, acero, aluminio y otros puntos clave: cuáles son las definiciones que vendrán sobre el acuerdo comercial - Infobae",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "9",
-          "95",
-          "4",
-          "4",
-          "21",
-          "3",
-          "1",
-          "1",
-          "3",
-          "3",
-          "44",
-          "3",
-          "3",
-          "3",
-          "00",
-          "0",
-          "2",
-          "3",
-          "5",
-          "2",
-          "01",
-          "2",
-          "2",
-          "2",
-          "2",
-          "2",
-          "3",
-          "3",
-          "9",
-          "2",
-          "0",
-          "2",
-          "1",
-          "2",
-          "1",
-          "0",
-          "3",
-          "9",
-          "2",
-          "4",
-          "0",
-          "3",
-          "5",
-          "0",
-          "2",
-          "1",
-          "5",
-          "2",
-          "1",
-          "3",
-          "1",
-          "0",
-          "5",
-          "5",
-          "1",
-          "5",
-          "1",
-          "3",
-          "1",
-          "5",
           "4",
           "9",
-          "1",
-          "1",
-          "3",
-          "3",
-          "2",
-          "1",
-          "2",
-          "9",
-          "43",
-          "1",
-          "1",
-          "2",
-          "3",
-          "5",
-          "2",
           "0",
           "3",
-          "6",
-          "0",
-          "6",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZXkweUpZSGZ4YzZ4VmJuaGtuMnFQWWpPSzZFc21pSjNJWXdldkpLRUxPQmdUOVF3MzJDXzVwck1TZGZCbE1CNVFtcDdUOHc3S3MzUGhkQTJFWTlsMjNBSEdJcnFfUFJKMm44MmRqT3RScnFUR3pmY3BPOC00Q0tzYXptc2p3bFkxQWhvdTM5LWN2ck01ekpkR2tUZ2QxSWlnSHVuekNxZDM2czA2Q2VhaTRUc3hnVXJXM3dVVF9UZjM2aGJDVjNFSXVTaUJkZEdEWkJPSHFYOGhqSnRHSlQzN0kyUUFDQ2h1cUdsZmJSUlp2bE1pemhZ0gGSAkFVX3lxTE9FT2k4S0dVdDJKNWxGSkZIb3VBYU5fMWY0b2VhSWM1QjF5T2RmSlJkM1hUSWhoYnVLWWhXeVN3TXpkeEZqY1BPWjNjSkFiRFR0SlpQQkFrVDd5VEhQUzk5bEYzMC1POHZ5ajhoaE1BZ3BiSlFlYWpMeGtWckcwNlh1eVJIbVNOLVYydEhORFZzUnFpcmN5eVE4cG9RTHFwSjlSS1djaE1qNVN3dFh3UEZiSlpudFlJTXMzV2lINUlIWmZiWXo1WlNUY2VJSllyMGxyRzgyUV9BeUdlcW43RUZQTUFvZWl1ZTdpNzV1YVA2aHNGN3FBWVg5TUk2UzRTcURZYmlxX0Y3UTRZUVZ6U0l6cnc?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 3
-    },
-    {
-      "fecha": "2026-02-06T17:26:58",
-      "titulo": "Diálogo y cooperación, fortaleza de relación entre México y Estados Unidos - El Diario de Sonora",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico",
-          "estados unidos",
-          "unidos"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "2",
-          "1",
-          "2",
-          "1",
-          "1",
-          "0",
-          "183",
-          "5",
-          "9",
-          "91",
-          "25",
-          "3",
-          "0",
-          "1",
-          "3",
-          "0",
-          "3",
-          "2",
-          "1",
-          "216",
-          "0",
-          "1",
-          "5",
-          "1",
-          "5",
-          "9",
-          "3",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "El Diario de Sonora",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTBILXVLc2NmOXNENms1NEowS2lfeVNRc1JYd1dUX0hLcVhSV183dnJzWWh5SW9MeF91Z25kMno3LW0wQ1ltVllZTWNJblFNbjFfQ3hrX0wtMHBaaXBzSkFrR3diTGdYX2pCeGV1ZzVYNEFkLXVoY216WFNwU0R1NDlSSk5WRnQzenlXb1owVlluUnlRZzhOVE5KQVlYZnFPWl9FUVdYZFcwR3NxTjNjOE1hWEZFWUU?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 3
-    },
-    {
-      "fecha": "2026-02-06T01:00:44",
-      "titulo": "Argentina firma acuerdo de comercio e inversión con EE.UU. - dw.com",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "3",
-          "1",
-          "4",
-          "29",
-          "2",
-          "1",
-          "0",
-          "1",
-          "1",
-          "0",
-          "2",
-          "3",
-          "2",
-          "1",
           "8",
-          "4",
-          "0",
-          "0",
-          "0",
-          "3",
-          "13",
-          "1",
-          "0",
-          "6",
-          "01",
-          "6",
-          "9",
-          "3",
-          "5",
-          "5",
-          "5",
-          "1",
-          "6",
-          "3",
-          "9",
-          "0",
-          "1",
-          "1",
-          "5",
-          "1",
-          "5",
-          "0",
-          "1",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "dw.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3NNdWcwQk1RMjFGMnkzUmVXbld4N29wX2N1d0ZBakdzNHBsWDV1NnVhY1ZOVHpEV0J2SzNQQURjdmRQaDhabkRXcTRxSjltcjQ3amJHQzZGSFBLVFRwRVoyLXFRQkpja2hZQS1XLV8wbmxoRlJ4UWxQRmMyTVpOcXNWOEhwYnpCdWc0NXFqUnJOOXhPS0owSkpB0gGaAUFVX3lxTE13NFZoWVpEYWdseWJOcUgtY1BoTkpqR0RIclNhaHpnUVp6dkdxdUZBcDFIM01CLTEydnhJVzd6MVpWUGNieGxOUXgyRm9tRGVWdnNuM3h5TnQ5YTlfWDJBRU5NR1NKQmlSWXJIQWZ6Q3hhQU9ZeWg0dWd1WEx1TG5mb1VzLTBGeDFwdmlzMVlBaVk5d0tlQS1YTGc?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 2
-    },
-    {
-      "fecha": "2026-02-06T00:26:00",
-      "titulo": "Reliquia del protomártir San Felipe de Jesús estrena lugar especial en la Catedral de la Ciudad de México - ACI Prensa",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "95",
-          "0",
-          "4",
-          "2",
-          "1",
-          "1",
-          "1",
-          "3",
-          "2",
-          "4",
-          "1",
-          "5",
-          "3",
-          "53",
-          "2",
-          "1",
-          "3",
-          "5",
-          "1",
-          "3",
-          "3",
-          "5",
-          "1",
-          "1",
-          "4",
-          "1",
-          "0",
-          "0",
-          "3",
-          "9",
-          "1",
-          "0",
-          "5",
-          "9",
-          "1",
-          "3",
-          "2",
-          "1",
-          "0",
-          "0",
-          "5",
-          "1",
-          "1",
-          "0",
-          "3",
-          "5",
-          "8",
-          "4",
-          "8",
-          "8",
-          "1",
-          "1",
-          "0",
-          "6",
-          "3",
-          "3",
-          "0",
-          "1",
-          "3",
-          "5",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "ACI Prensa",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEUxUlVBbHMwclBWa0VOSlF4S2J1RVR1TGpxMEExeE1ZM3JxTnRaSkpaeUVlUzBVODdqYzVLeUtKZzhNcTNUMUZTaDJPN2ZtWXZFYUh4aWpXaDc1UnUyLXg5V3BvSGNUTW53QnFOLXQzWGpyeHJjYngxLVFBTHVyTFA2dGJ1OFhPN3Y5RGMtM1F3MXhfVXBtaXE3Zm5QalA1ZzNqZzNZTXVXVnNGczBxTURhbXdOT1A4bjdZNG1nTVZMZ0lG0gHKAUFVX3lxTE9KQy1UVFJNMVpwMFhrMGpXLXllRjladDlWT0hiZXRqRDdoZHIxNkRwSlRlNkcySEg5OXFpcjliTl9ZNHRWd1h3c2ZNQ1NOOHMwc0Jkb0FxMGZFMzNnOVFjWTlxQmF5T1RfbkxtX1VSdVpEV0RpLUtLb3BEZFdFOVBYaDZQODFHLVlrbVlkUWl5YW8tMjk4ZV8wTE8wdkFHTFVIYmFTb1o1UTZ0VHhKXzF6Rnlnd3JRUUl3MUU0MmVyQzZmdkpWUS1sQ3c?oc=5",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-02-06T00:00:00",
-      "titulo": "El día después del acuerdo comercial con Estados Unidos: dólar estable y rebote la Bolsa porteña",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "crisis": {
-          "matches": 1,
-          "peso": 1.6,
-          "tipo": "negativo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "estados unidos",
-          "unidos"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "1460",
-          "2853"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.32000000000000006,
-      "impacto_indicadores": {
-        "produccion": -0.9600000000000002,
-        "exportaciones": -1.2800000000000002,
-        "precios": -0.6400000000000001,
-        "empleo": -1.6000000000000003,
-        "importaciones": -0.9600000000000002
-      },
-      "fuente": "La Nacion",
-      "url": "https://www.lanacion.com.ar/economia/el-dia-despues-del-acuerdo-comercial-con-estados-unidos-dolar-estable-y-rebote-la-bolsa-portena-nid06022026/",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 2
-    },
-    {
-      "fecha": "2026-02-05T19:01:53",
-      "titulo": "El dinero que usas todos los días cambiará en 2026: así serán las nuevas monedas de 10 pesos en México - Xataka México",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "méxico",
-          "usa"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "2026",
-          "10",
-          "95",
-          "4",
-          "5",
-          "0",
-          "1",
-          "0",
-          "1",
-          "5",
-          "3",
-          "0",
-          "9",
-          "01",
-          "6",
-          "0",
-          "2",
-          "1",
-          "6",
-          "5",
-          "1",
-          "3",
-          "2",
-          "0",
-          "95",
-          "5",
-          "29",
-          "5",
-          "1",
-          "0",
-          "0",
-          "1",
-          "19",
-          "6",
-          "0",
-          "3",
-          "3",
           "5",
           "0",
           "1",
           "3",
           "3",
-          "2",
-          "3",
-          "3",
-          "0",
-          "6",
-          "5",
-          "2026",
-          "10",
-          "6",
-          "6",
-          "6"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Xataka México",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQekdzejQ4OGZXTFhiYWtWVUFZeTk5eXJaNjhBUTZHX0hxSHZYM1hKVXFRX0MxUEJ1dXYzQWgzSndpVFYxTFpRNDBLbHdLWnVXeVY5X3l0Tk9ZTC01bjl6UFNaZDBIOHZrODR0dlpzd2lWUUNzWE1IdFhPOHFHSnhCOGtiVUtrLWF6RUhWRUEyemU5MzZuQVNzSGtBbi1wb3VUVXlKbWxXMTYyZDhLSmVqc2h0WDUwQdIBuwFBVV95cUxNRE5Gc29RQlBCZkExenE5MTREYWRjWlEzWndsYXNJb1dhRVE0WEdzbzByeWpubExzZGlmOUxVZUxrb0x1cDRZaklLX19meVhrVWh6RW0zUzFYeHpUYWNhWWx3XzJ3RzA5OXVlRWZKM0JUVTdtM1ZzYktCc3ByaXAyYmVnd3ZYckhiSlVkSURybWowVzloTmxIU2dzM3hpc3dLY0ZyQmZfVWV6MVJKOUcyajdiUXVwNVFYTVdz?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 4
-    },
-    {
-      "fecha": "2026-02-05T18:36:00",
-      "titulo": "Choque entre tráiler y auto particular deja dos muertos en la carretera México-Texcoco - La Jornada",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {
-        "infraestructura": {
-          "matches": 1,
-          "peso": 1.3,
-          "tipo": "positivo"
-        }
-      },
-      "entidades": {
-        "paises": [
-          "méxico"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
-          "1",
-          "95",
-          "2",
-          "3",
-          "3",
-          "1",
-          "2",
-          "5",
-          "25",
-          "0",
-          "3",
-          "2",
-          "3",
-          "3",
-          "25",
-          "1",
-          "1",
-          "3",
-          "2",
-          "6",
-          "96",
-          "3",
-          "1",
-          "242",
-          "1",
-          "1",
-          "21",
-          "3",
-          "0",
           "5",
           "6",
           "6",
@@ -3870,25 +1605,21 @@
         "empleo": 1.04,
         "importaciones": 0.78
       },
-      "fuente": "La Jornada",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOVl2VjVIU3NIVWVCblRVdGFwclBXZExXeEJrcWYyc3EtbHpSR1NKQUNDYUFpNzdUSkV2Um5nVHFFNFVUR25WdDFHZno0YXYtVjJpeVB3LUdsVmNjLXhQTnB2UGUxZDZhSUhxMFNrS3ZVbFFtQVpScFhVb3ByT25aQnNhcjZTd1BRa1ppUVNtM3NaV2ZJQjZ6eEhubk96eHYtQ3ZSTDFoSU1ZV242QzJPZ1pRZy1rSFVhQWJtV21vUFRDVWduLUJwbWoxQ3FESHRFXzk0UUJB?oc=5",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 3
+      "fuente": "El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWTVzc3MxQjBVTXE3a3BzZ29EMFZIdDZqajdrc0tWd3Z6UkZhT3REWG9QZEhqVWF3LUNkM2ZVYS12dWhJTnBQa3UyMHZieWJUX2RRRDcyYzM4bzJtOWdBbW51WU5SWm4weHRvZzMzdG5GR2JTTFFmTkNxa0xFaTFSWTFTRTVNRk5SUlJIUW13ZVdvODZRZE1kN2RQOEdudkJIZzRXVmJRQy1XbUtSUm1wWkRGUWnSAboBQVVfeXFMTzI5VTgtTzJ2VncwdThSM1huMVlMQmZvbWRGSXNfejBnaXdIUl9ualNMMkxETmxHbTlxVjBJMl9ZTzJuRU9FQzZiZkkwQnBzMGphNHc4bFgzVE1VOWxvU2tWX0pkUWRjNmpXY0pSVVJQcXFfX0o0YmJiZXFqX3FyYnhmOHh0XzhVcE03OGJDQmNaNExCVkI4Sm9XYVVQZVdnaFBfRDd0NEJ3NV8xcHd5R0hSTy1CbnZGb3p3?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 55.5
     },
     {
-      "fecha": "2026-02-05T17:07:00",
-      "titulo": "México ante el injerencismo de Estados Unidos en Cuba - Cambio de Michoacán",
+      "fecha": "2026-02-15T18:23:49",
+      "titulo": "Proponen al Congreso inspección y regulación del transporte público - El Heraldo de Puebla",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {},
       "entidades": {
-        "paises": [
-          "méxico",
-          "estados unidos",
-          "unidos"
-        ],
+        "paises": [],
         "empresas": [],
         "instituciones_mx": [],
         "productos": []
@@ -3898,58 +1629,31 @@
         "cantidades": [
           "95",
           "1",
-          "3",
-          "0",
-          "0",
           "1",
-          "1",
-          "3",
-          "3",
-          "9",
+          "83",
+          "0",
           "2",
-          "3",
-          "9",
+          "2",
+          "4",
           "19",
-          "9",
-          "3",
-          "0",
-          "1",
-          "0",
-          "3",
-          "19",
-          "0",
-          "5",
-          "1",
-          "1",
-          "2",
-          "2",
-          "3",
-          "2",
-          "0",
-          "6",
-          "1",
-          "5",
-          "0",
-          "84",
-          "5",
-          "0",
-          "5",
-          "2",
-          "94",
-          "1",
-          "3",
-          "3",
-          "3",
-          "3",
-          "0",
           "3",
           "2",
           "4",
-          "1",
           "5",
+          "1",
+          "2",
+          "05",
           "9",
+          "2",
+          "2",
+          "01",
           "3",
-          "8",
+          "5",
+          "01",
+          "1",
+          "21",
+          "9",
+          "2",
           "5",
           "6",
           "6",
@@ -3965,34 +1669,125 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "Cambio de Michoacán",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS1AyRzFaejdCbXlISHQyR3NwbURiTXQzNmowWjY0ekFJb0RTaUZONWhrUW1MTWpZSU1FM3FPWFlVdzNZY3ZFZW9BUDdIYmVlVGY2X3kwUG9FZ19rLWFSTW9lRjlxZ3BiSzgzT0xZVGtZam1LNlZ0eWU3S19LSlZxTzRja0x5Z1VMcWo1QlJhUHgxZ2JVN2tMOGhXb3MxV2fSAacBQVVfeXFMT0hwTklVSXhVZFZRaEp6TXM1VHdGdll5a0xwWm84cEVDYmg5b0xEYWhOUkd5WWcxcVZFLXliS2VMUF94YW1nSXlSZ3hicHNpV3JiN3JSd3BzLXM0NjJJS3ptZHFhM2xZRzNRcTFucllqTVJWNThOTDRjdHRIdHhPNEkzQWM4cmlmNHNLbnpvZ1d5LWZUaURPeVNiRW9PRDU3ZUhRUmxydm8?oc=5",
+      "fuente": "El Heraldo de Puebla",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLVg1WS1EaU83akdtaEU0bUdBbUlMVFlnd2hJc2c4cmNKc19tcnF3UXFMa2I4MUk5bnlvdndNTmNsZkVBUk1nUzJBRGVmZDZuTDN2a05FOXFJLXJrVG9nT2FaenJPaklJSWZod2YtSEoyRWhNYU01eUxyYTV3aU5BUlFmaEdEU01UMHZQVXlMaXJGcDg1ZkhTR21EdV9BQWJua2gtZFkxTURTTUk?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 6
+      "relevancia_score": 41.1
     },
     {
-      "fecha": "2026-02-04T00:00:00",
-      "titulo": "Paolo Rocca sienta su postura sobre la licitación para el gasoducto de Vaca Muerta",
+      "fecha": "2026-02-15T17:33:00",
+      "titulo": "Presidenta Claudia Sheinbaum presenta Plan de Inversión en Infraestructura para el Desarrollo con Bienestar - Gob MX",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "importacion": {
-          "matches": 2,
-          "peso": 1.5,
-          "tipo": "negativo"
-        },
-        "exportacion": {
+        "infraestructura": {
           "matches": 1,
           "peso": 1.3,
           "tipo": "positivo"
         }
       },
       "entidades": {
-        "paises": [
-          "india"
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [
+          "sheinbaum",
+          "claudia sheinbaum"
         ],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "1",
+          "2",
+          "2",
+          "3",
+          "1",
+          "0",
+          "9",
+          "9",
+          "0",
+          "0",
+          "1",
+          "2",
+          "2",
+          "4",
+          "2",
+          "3",
+          "2",
+          "6",
+          "0",
+          "9",
+          "3",
+          "0",
+          "2",
+          "0",
+          "3",
+          "2",
+          "1",
+          "9",
+          "9",
+          "3",
+          "4",
+          "4",
+          "2",
+          "6",
+          "3",
+          "9",
+          "3",
+          "4",
+          "1",
+          "0",
+          "0",
+          "2",
+          "1",
+          "3",
+          "4",
+          "1",
+          "2",
+          "1",
+          "1",
+          "0",
+          "3",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "Gob MX",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNR1plamhZb2VOaHNsa2dWV3I1LS0wVkNzSnBZdV9WbG9zazRlazgxUVdrd0NzY0ozMkwtZEMxc1ptQnV2MVJjM2hPUDZ4VHJNT2syczc3dmNlS2F6QWg0YV9TWHF3bDg0a2J0RzNxQkhoaThGbzh3Yjl2cVNMN1RWYU9mWl9kLUtnTVRidXF3WUdtcnFwWGpQNG4tbjl4dWNCR2J6N3prZXlLRmNTeHVKMkdETHBaUU9UVnJBY3V4ZEFjMnotdi1WdVlncFdNM0VKOUtCMzI0cGY2S1Q3WktGcnRkNXI4d1FET2ZvUEhDbGRQX1JIT1MxSzhmbldZOS0tRTR3QkhB?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 49.7
+    },
+    {
+      "fecha": "2026-02-15T02:17:59",
+      "titulo": "Entrega Gómez Álvarez infraestructura diversa en el Edomex - Marcaje Legislativo",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [],
         "empresas": [],
         "instituciones_mx": [],
         "productos": []
@@ -4000,31 +1795,136 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "5936"
+          "95",
+          "29",
+          "6",
+          "6",
+          "1",
+          "2",
+          "25",
+          "3",
+          "0",
+          "1",
+          "1",
+          "1",
+          "3",
+          "1",
+          "6",
+          "1",
+          "3",
+          "1",
+          "2",
+          "9",
+          "6",
+          "5",
+          "2",
+          "0",
+          "45",
+          "3",
+          "4",
+          "0",
+          "0",
+          "1",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
         ]
       },
       "magnitud": "medio",
-      "score_impacto": -0.040000000000000036,
+      "score_impacto": 0.26,
       "impacto_indicadores": {
-        "produccion": -0.1200000000000001,
-        "exportaciones": -0.40000000000000036,
-        "precios": -0.08000000000000007,
-        "empleo": -0.08000000000000007,
-        "importaciones": -0.1200000000000001
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
       },
-      "fuente": "La Nacion",
-      "url": "https://www.lanacion.com.ar/politica/paolo-rocca-sienta-su-posicion-sobre-la-licitacion-de-tubos-para-el-gasoducto-de-vaca-muerta-nid04022026/",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 2
+      "fuente": "Marcaje Legislativo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcXNPNkMzMGxXR29aOFctTWtVTnR6ZXNmRHl6TW1vMlZvVWNCZ2JSWVRrektuTHFDS25lb3RWN0dxQjEwZ1lsekxyQS1iRVdseEdKb1RIR3IzRVdYb1B6S1laeGhJRUxQd3Zqd1ZOUVNiQVR2WldrRF9ROVR6Rm5kd2t0WE45b3R4MUV0ZjRBZnB0d1hwM1kw?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 37.2
     },
     {
-      "fecha": "2026-02-03T00:00:00",
-      "titulo": "Cuatro décadas de BASE",
+      "fecha": "2026-02-14T02:28:39",
+      "titulo": "CMIC Yucatán refrenda unidad y visión de futuro del sector construcción - tintapublicanoticias.com",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
-      "categorias": {},
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "0",
+          "3",
+          "0",
+          "5",
+          "3",
+          "1",
+          "1",
+          "3",
+          "4",
+          "4",
+          "2",
+          "0",
+          "1",
+          "2",
+          "9",
+          "1",
+          "0",
+          "2",
+          "2",
+          "1",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "tintapublicanoticias.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmtwYW0wXzdZZFZTa3YyazAtdHN0bHYtMjFtYzE5aGJTRnFVNHU3VkZSdi1TRzgxRTVDWEU1VENVUkhrejhORDRKbktiSDNub3lBSmM4ZkY4WGRaTXpJRHRpb2RQX0hKbHlDRjlIX1VnYVNpQ2ZfbE9PTnowQzJJWElnYW1seWs0S2RWdWNQY2FWYndNSnNoVDdTcHdfNjhua1lIb1Nxdlc?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 59.3
+    },
+    {
+      "fecha": "2026-02-14T00:48:53",
+      "titulo": "México alista reforma audiovisual con cuotas para cine nacional y regulación del uso de IA - BajaNews",
+      "sentimiento": {
+        "score": -1.0,
+        "clasificacion": "negativo"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 1,
+          "peso": 1.7,
+          "tipo": "negativo"
+        }
+      },
       "entidades": {
         "paises": [
           "méxico"
@@ -4036,10 +1936,169 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
+          "95",
+          "0",
+          "0",
+          "3",
+          "1",
+          "0",
+          "5",
+          "9",
+          "1",
+          "1",
+          "1",
+          "3",
+          "0",
+          "1",
+          "1",
+          "0",
+          "1",
+          "91",
+          "5",
           "2",
-          "40",
-          "1986",
-          "4420"
+          "0",
+          "84",
+          "2",
+          "1",
+          "1",
+          "4",
+          "2",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -10.0,
+        "exportaciones": -15.0,
+        "precios": 5.0,
+        "empleo": -5.0,
+        "importaciones": -12.0
+      },
+      "fuente": "BajaNews",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSVRDY0hoeGZIRkdCTUh0QTVGVmt3MjRZMjFIMVcyQjVXZlVvRDNjY1YzYXgtRGF0MjdubEFRMm5QWHdsejkxek9ybC1rLWQ1T1ZTQjB3VnFSV0FlTm1PM1FHVHZqTnI0S1ZabTJGZGFnRDZGRV91VW5jNFVsUkZreDJsaHhJcGIwajBFMkpHM2JsRWFRWkRkc0pwRzNQSnNIRF84VXprSWtxLWg2eEtoeUFJNTRZMy1PY1B4VlU2ZHktSHM?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 44.7
+    },
+    {
+      "fecha": "2026-02-14T00:30:41",
+      "titulo": "Construcción: del ajuste de 2025 a la inflexión de 2026 - Centro Urbano",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "2025",
+          "2026",
+          "0",
+          "3",
+          "9",
+          "1",
+          "2",
+          "4",
+          "4",
+          "4",
+          "1",
+          "005",
+          "1",
+          "0",
+          "2",
+          "9",
+          "2",
+          "0",
+          "0",
+          "3",
+          "0",
+          "3",
+          "0",
+          "6",
+          "1",
+          "1",
+          "5",
+          "2025",
+          "2026",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "Centro Urbano",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zcU1QNkxVSjlwb2ZfbUhBSUhrWUE4NWZ4THhObG4yUGFvMGFiTGp1aUlXQ005OXhZekswSjZIci1uWjlBR0swc2VweW9ia2Q0eUw0R3pyblFidHdwcGxveXpBUEJhb0lUVjZ3dEtmVzJuY0h6S1NXM1Rncw?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 43.5
+    },
+    {
+      "fecha": "2026-02-13T23:10:15",
+      "titulo": "Vale fija plazo de tres semanas para recuperar Viga y Fábrica y reabrir con aval ambiental - Minería en Línea",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "2",
+          "19",
+          "3",
+          "0",
+          "1",
+          "0",
+          "25",
+          "2",
+          "5",
+          "12",
+          "1",
+          "1",
+          "04",
+          "9",
+          "05",
+          "0",
+          "0",
+          "3",
+          "1",
+          "0",
+          "2",
+          "3",
+          "0",
+          "5",
+          "6",
+          "6",
+          "6"
         ]
       },
       "magnitud": "medio",
@@ -4051,19 +2110,605 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "El Financiero",
-      "url": "https://www.elfinanciero.com.mx/opinion/de-jefes/2026/02/03/cuatro-decadas-de-base/",
+      "fuente": "Minería en Línea",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUHlBd2NCX19GaGhxa3lsLXJBRFljbUhVX0pacjV1SXBqblJCN0pTbkZIZHAyeFlKS25jbmdYaGNHOGtRUmhSMHI2aGM5Wm12VVp1YWRiaE1LcTdSdzFYUUFnMXZER04yVG9UdEtrMkZma05TeXlVOVNIUkJ0d0FwUXhpS3ExUDBhaHUwSDhFNW1Vb0lBMXJpTUdLdWNRajhzODZPRzZPbjNiZEw2RHZIMEtKVkljNWRVS3dLcTlhODRBa0Uy?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 5
+      "relevancia_score": 43.5
     },
     {
-      "fecha": "2026-02-02T00:00:00",
-      "titulo": "Mercados: caen bonos y acciones en el inicio de febrero, y rebota ligeramente el dólar",
+      "fecha": "2026-02-13T15:54:00",
+      "titulo": "Los precios de los metales se desploman mientras Trump reduce los aranceles al acero y al aluminio - Cryptopolitan",
       "sentimiento": {
         "score": -1.0,
         "clasificacion": "negativo"
       },
       "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        },
+        "precios": {
+          "matches": 2,
+          "peso": 1.2,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "3",
+          "1",
+          "85",
+          "1",
+          "5",
+          "5",
+          "3",
+          "0",
+          "3",
+          "6",
+          "1",
+          "41",
+          "4",
+          "5",
+          "19",
+          "0",
+          "1",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -10.0,
+        "exportaciones": -15.0,
+        "precios": 5.0,
+        "empleo": -5.0,
+        "importaciones": -12.0
+      },
+      "fuente": "Cryptopolitan",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzQVBYc1QzNW85djVnMEJvdk1zODZmOTEtWFBqdWp5eU5XdkNZUDhNZ3pTajZzNlV0bENUcjZlUFN3cEJsWGh6bzVqOThyNXZFbWM1MnNfRmJqNG41REE4cU5xUmZEd19oOTgtY0Y1STZIbk1G?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 51.5
+    },
+    {
+      "fecha": "2026-02-13T15:50:27",
+      "titulo": "México presiona en T-MEC por aranceles “costosos” al acero y autos - Industry & Energy Magazine",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        },
+        "precios": {
+          "matches": 1,
+          "peso": 1.2,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "2",
+          "1",
+          "2",
+          "8",
+          "5",
+          "3",
+          "0",
+          "2",
+          "5",
+          "1",
+          "1",
+          "2",
+          "81",
+          "11",
+          "0",
+          "0",
+          "2",
+          "1",
+          "0",
+          "4",
+          "1",
+          "2",
+          "5",
+          "25",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -0.34,
+      "impacto_indicadores": {
+        "produccion": -3.4000000000000004,
+        "exportaciones": -5.1000000000000005,
+        "precios": 1.7000000000000002,
+        "empleo": -1.7000000000000002,
+        "importaciones": -4.08
+      },
+      "fuente": "Industry & Energy Magazine",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUXFPQ2NuUVIxcEVtVU1ta2VZME8xcjI5UHNtMHRIMVMxS3Rtc0tBOEVhR2pEOHFYcFB5SHN1NHp1eTdHM2FwYzYtbUduMV81NkJsWWRGdjNjbm11cmg0TElOMkdYbjhOaDBlbTRPaHZzQUM0MlpCTFJqMDRkR2lkTVY1b0c4d1JxR2ZrMWJpNjIwcU5lSkFZYmNyYmhkQ25p?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 52.3
+    },
+    {
+      "fecha": "2026-02-13T11:27:30",
+      "titulo": "EEUU sacude al acero: Acerinox y ArcelorMittal se hunden - XTB.com",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [
+          "eeuu"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "0",
+          "95",
+          "2",
+          "18",
+          "4",
+          "1",
+          "2",
+          "0",
+          "1",
+          "3",
+          "2",
+          "6",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "2",
+          "6",
+          "1",
+          "3",
+          "5",
+          "0",
+          "3",
+          "1",
+          "1",
+          "0",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "XTB.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOajJiWFZfZFpxVUtDYUFKamxjbWw2blBMbDRSb18yNGdtTmVGZUh4Ni1DS2RPZUdYbFp0azRNeHJnWGQtRk1OclRwcDRIWXRjREwxLTRmdjVTY3ZKWHEzclRGUnpmaEZiZVUwV2p6OU1VZnBWOUNGRy1QX1Q1dlFvZXdSeEFJcjhjNGtoRWZNSW1wSjM2bXN6SWROUzFJM1did3U5RXFyNnZVb0lFM3NZbWxVTWt1SGJmZHJIcXpRQTFBNXVmZm1sSUREa0FseWk1QUE?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 46.8
+    },
+    {
+      "fecha": "2026-02-13T08:36:54",
+      "titulo": "La economía de Rumanía entra en recesión técnica debido a la caída de la demanda por el déficit y el aumento de impuestos - MarketScreener España",
+      "sentimiento": {
+        "score": -1.0,
+        "clasificacion": "negativo"
+      },
+      "categorias": {
+        "demanda": {
+          "matches": 1,
+          "peso": 1.4,
+          "tipo": "neutral"
+        },
+        "crisis": {
+          "matches": 2,
+          "peso": 1.6,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [
+          "economía"
+        ],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "7",
+          "95",
+          "3",
+          "0",
+          "5",
+          "9",
+          "2",
+          "2",
+          "6",
+          "20",
+          "5",
+          "5",
+          "1",
+          "6",
+          "9",
+          "3",
+          "5",
+          "85",
+          "0",
+          "0",
+          "3",
+          "5",
+          "1",
+          "3",
+          "3",
+          "09",
+          "1",
+          "1",
+          "52",
+          "05",
+          "3",
+          "4",
+          "1",
+          "0",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -6.0,
+        "exportaciones": -4.0,
+        "precios": -4.0,
+        "empleo": -5.0,
+        "importaciones": -3.0
+      },
+      "fuente": "MarketScreener España",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTWRNb3lnT0N5bU9tUzc2NURGSWpSZFNaeWhVTFZldlZzbHhBdmJqV2pxSkV6V20tUUFPSHF5cGhpYm5RUy1vNVJfaVl6bF9UZHRVaEVZLUl3eGZjbnRQcXYyMTdlckc5dkZEVjZncWNhLU85Y0lQUDEya0oySGNnNkpoNGxuX3ZZckxYNnpOOUsxaVdSQksxalo5akItaTJxV1FVUVZSSHBmSGU3RWtPeDRaYVpmd3Fzc09pX1VDSzF1SU52dmFSd05QSzNtd3Jndm4wNG1iUjFRMUlrdDd0eXFNcGJVeGVJQzNMeg?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 42.6
+    },
+    {
+      "fecha": "2026-02-12T23:36:30",
+      "titulo": "Infraestructura de recarga impulsa movilidad eléctrica - Energy21",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "21",
+          "95",
+          "3",
+          "0",
+          "2",
+          "90",
+          "4",
+          "5",
+          "1",
+          "191",
+          "2",
+          "1",
+          "3",
+          "3",
+          "5",
+          "8",
+          "1",
+          "3",
+          "2",
+          "4",
+          "6",
+          "01",
+          "5",
+          "6",
+          "6",
+          "6",
+          "21"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 1,
+      "impacto_indicadores": {
+        "produccion": 3.0,
+        "exportaciones": 4.0,
+        "precios": 2.0,
+        "empleo": 4.0,
+        "importaciones": 3.0
+      },
+      "fuente": "Energy21",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT3FYNEZHMVNiOUZFMFdBYkFxM0RFSENFMmRCbjJxSnZ2ajZzREtCSU90ZnJ4TUZHOVhKbURBMEJ5TDJVTmlyVUU1cXhGVzlOS191N2E1VkFicFZpVnFLejRTOTl3c3RuUjE5aU8zT1Y3LUZjZHdiLWlmVjVCb2J4bUx6OS01QQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 45.9
+    },
+    {
+      "fecha": "2026-02-12T18:44:22",
+      "titulo": "Busca México aranceles homogéneos en industria automotriz - Reforma",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "0",
+          "1",
+          "42",
+          "4",
+          "2",
+          "4",
+          "3",
+          "11",
+          "2",
+          "1",
+          "1",
+          "4",
+          "1",
+          "3",
+          "1",
+          "2",
+          "3",
+          "4",
+          "3",
+          "4",
+          "5",
+          "5",
+          "14",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -0.34,
+      "impacto_indicadores": {
+        "produccion": -3.4000000000000004,
+        "exportaciones": -5.1000000000000005,
+        "precios": 1.7000000000000002,
+        "empleo": -1.7000000000000002,
+        "importaciones": -4.08
+      },
+      "fuente": "Reforma",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMGcwbHFvSERsc0FiR1NNNGpwam42bXo4d2lhVmhDNjc4Z3hxaUZkby11R2ZVREMxQXE1RXVIRVFnUktjaUtwdW1GVDhPYko4N1pVQklETFdMWXN3QldEUHpyMWlpVC1wR2xBbVE3bjFIbWQ4S3RCTGlsVk4zbFRhTWI5VGlZYnQ5dC14NE1GemZrRHZyNUE?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 73.5
+    },
+    {
+      "fecha": "2026-02-12T17:53:14",
+      "titulo": "México va contra aranceles al acero, aluminio y a la industria automotriz en revisión del T-MEC: Ebrard - El Sol de México",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "5",
+          "95",
+          "2",
+          "04",
+          "4",
+          "3",
+          "0",
+          "12",
+          "4",
+          "3",
+          "3",
+          "2",
+          "6",
+          "02",
+          "0",
+          "15",
+          "2",
+          "25",
+          "0",
+          "5",
+          "1",
+          "3",
+          "2",
+          "4",
+          "5",
+          "0",
+          "10",
+          "2",
+          "1",
+          "1",
+          "0",
+          "2",
+          "3",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -0.34,
+      "impacto_indicadores": {
+        "produccion": -3.4000000000000004,
+        "exportaciones": -5.1000000000000005,
+        "precios": 1.7000000000000002,
+        "empleo": -1.7000000000000002,
+        "importaciones": -4.08
+      },
+      "fuente": "El Sol de México",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSWtjRVdiVEZTanhLTllZOEZEVno2WjBoYmIyOXBMVkZOVW04ME4xUUZ3TExpanVIX0RNOHBjYU12dXYtZmlneVlwYjBKZkljUWE4dUpfMUNXb3lteDdGMEdfX3FaQzl2aVl6LUtxRm02Wno0TUVrVU15SWthTFYxSkw2cXZGQjhhT25oOTNucUk0dW5yR1VCY3o2TURyUHl4YVhqUGFRZVE5X0dsaTRodjRQSE10bzhRWHRFaWJ2dklmQXo1NE1NN0luMnh2U3dqTVhCdnBVMFBxOVVoWDFsTkkwZFVtRms?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 63.0
+    },
+    {
+      "fecha": "2026-02-12T09:30:27",
+      "titulo": "Este descomunal horno eléctrico convierte coches, motores y chatarra en acero verde sin quemar una sola gota de gasolina ni carbón - Diariomotor",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero",
+          "chatarra"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "3",
+          "2",
+          "0",
+          "1",
+          "3",
+          "4",
+          "52",
+          "3",
+          "3",
+          "0",
+          "4",
+          "0",
+          "2",
+          "00",
+          "0",
+          "3",
+          "2",
+          "2",
+          "2",
+          "9",
+          "5",
+          "2",
+          "9",
+          "2",
+          "2",
+          "5",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "Diariomotor",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY3IyMHJPSTdjRGVmR2N0N1B3LUx4SlNTNG52elFpcGp3OTZlbzJkV3IwZFhSTmhTWDl0XzBINzN4UllESjRJR0xCbFJlZnp2eHpIcEpiTnBpUDNySkxrTy00S0ROMWRqZEFnRGdSbXRqdVE3QmNaY2dUeDFBLWlMU2RJa2NCNXZuTV9ZWnR5YkFDeFdUUVhDS2hxOG9KZmZ2b2Rkdk5R?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 50.4
+    },
+    {
+      "fecha": "2026-02-12T08:00:00",
+      "titulo": "Desplome en construcción pública: inversión retrocede más de 30% - Industry & Energy Magazine",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        },
         "crisis": {
           "matches": 1,
           "peso": 1.6,
@@ -4078,53 +2723,260 @@
       },
       "numeros": {
         "porcentajes": [
-          4.0
+          30.0,
+          30.0
         ],
         "cantidades": [
-          "1470",
+          "30",
+          "95",
+          "2",
+          "5",
+          "1",
+          "0",
+          "0",
+          "1",
+          "5",
           "4",
-          "2706"
+          "3",
+          "0",
+          "1",
+          "3",
+          "0",
+          "1",
+          "5",
+          "5",
+          "30",
+          "6",
+          "6",
+          "6"
         ]
       },
-      "magnitud": "bajo",
-      "score_impacto": -0.9239999999999999,
+      "magnitud": "muy_alto",
+      "score_impacto": -0.09000000000000008,
       "impacto_indicadores": {
-        "produccion": -1.6631999999999998,
-        "exportaciones": -2.2175999999999996,
-        "precios": -1.1087999999999998,
-        "empleo": -2.7719999999999994,
-        "importaciones": -1.6631999999999998
+        "produccion": -0.40500000000000036,
+        "exportaciones": -0.5400000000000005,
+        "precios": -0.27000000000000024,
+        "empleo": -0.6750000000000006,
+        "importaciones": -0.40500000000000036
       },
-      "fuente": "La Nacion",
-      "url": "https://www.lanacion.com.ar/economia/dolar/mercados-caen-bonos-y-acciones-en-el-inicio-de-febrero-y-rebota-ligeramente-el-dolar-nid02022026/",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 4
+      "fuente": "Industry & Energy Magazine",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUExLT2RPUkVsTnRrMmdrWGtDeWlBaHRGUk5BTlRTZjRfdHlMNmVTMDlzeDdHTE1uRDRhcmc0UFFhLUNQa0VkR1JmTmdqVVIweFpPdG5zSmVFamxPbDNRbHR4bFgtVHJLcmJFZmMxYWNMb3BpR0lBbUJOYTdkYTZZQnczNWdOZk1WazhoVFFMVzIwT3RvQ0kwam1MaVI5QQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 48.1
     },
     {
-      "fecha": "2026-01-28T00:00:00",
-      "titulo": "Acereros y gobierno empujan blindaje de la región T-MEC rumbo a la revisión del tratado",
+      "fecha": "2026-02-12T05:41:46",
+      "titulo": "Kyle Larson imparable en dominante victoria en Bristol en NASCAR Cup - MSN",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "1",
+          "95",
+          "0",
+          "5",
+          "0",
+          "2",
+          "3",
+          "4",
+          "6",
+          "0",
+          "0",
+          "1",
+          "5",
+          "4",
+          "0",
+          "1",
+          "2",
+          "11",
+          "0",
+          "2",
+          "21",
+          "3",
+          "3",
+          "2",
+          "1",
+          "2",
+          "9",
+          "015",
+          "4",
+          "4",
+          "1",
+          "5",
+          "95",
+          "085",
+          "4",
+          "2",
+          "5",
+          "3",
+          "1",
+          "5",
+          "1",
+          "1",
+          "0",
+          "2",
+          "2",
+          "0",
+          "9",
+          "2",
+          "0",
+          "1",
+          "1",
+          "2",
+          "4",
+          "3",
+          "3",
+          "3",
+          "1",
+          "044",
+          "2",
+          "83",
+          "12",
+          "2",
+          "1",
+          "2",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPUEdFT0Y5b0FnM2ppT3Z4TVZ6QzdGaGh0N0llUDFMd1lWdTRjcFNiRWZYcjM5LXI4azZ0Y1M2dG11V0FDcVRFUnpLSWc2Z21QZ3ZuUzNoMlNBT3p2MVBBNllPT1Z2WU9vVGFsc015RDlVMWtKMDU4ZTE4TGRUWUdNcjBtVnhsVGRYSDRQaDk1dWVvcGl5RFlhNjBWeW95d085ajF4N2hibFl5Q3JGQmZ1dk5LTjFHQUk1VnVBYVNMbTdIRWg1WXpvSmFhamRlMnhwUkZRQlhXUEI0U2dramlCWFFLblJUQ2RYVmVybldMNUo0Zk9Da2FBU0pxejBrOEdXYVBlRndKaXlzSS1QU1RGVmZ2MEZEUGxXRDk4QXI3Y3pZMThmT3pBTXNnbi1lb044ZjV2OHdCeTlrcW83Yk12TmJwSmM2anJIUHVJeU1CVlFzMmh2?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 47.0
+    },
+    {
+      "fecha": "2026-02-11T23:57:17",
+      "titulo": "Ante crisis del maíz en México, Márquez Márquez pide frenar importaciones por caída de precios - El Sol de México",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "aranceles": {
+        "precios": {
           "matches": 2,
-          "peso": 1.7,
+          "peso": 1.2,
+          "tipo": "neutral"
+        },
+        "importacion": {
+          "matches": 1,
+          "peso": 1.5,
+          "tipo": "negativo"
+        },
+        "crisis": {
+          "matches": 2,
+          "peso": 1.6,
           "tipo": "negativo"
         }
       },
       "entidades": {
         "paises": [
-          "mexicano",
-          "estados unidos",
-          "unidos"
+          "méxico"
         ],
         "empresas": [],
-        "instituciones_mx": [
-          "sheinbaum",
-          "claudia sheinbaum"
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "0",
+          "95",
+          "1",
+          "3",
+          "9",
+          "13",
+          "09",
+          "5",
+          "1",
+          "3",
+          "1",
+          "0",
+          "1",
+          "3",
+          "1",
+          "2",
+          "3",
+          "1",
+          "0",
+          "0",
+          "3",
+          "3",
+          "1",
+          "0",
+          "4",
+          "6",
+          "9",
+          "1",
+          "8",
+          "1",
+          "2",
+          "2",
+          "21",
+          "1",
+          "21",
+          "15",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -0.6200000000000001,
+      "impacto_indicadores": {
+        "produccion": -1.8600000000000003,
+        "exportaciones": -2.4800000000000004,
+        "precios": -1.2400000000000002,
+        "empleo": -3.1000000000000005,
+        "importaciones": -1.8600000000000003
+      },
+      "fuente": "El Sol de México",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVzRxTzdOc1BWV3hfRkRRSVFUTEZFZTRxWVkyWm9TSGNjRC13c09FWGp5LS1QNUlqSGVIM3FHYTRPemcwb1VhaEk0dDIxTU1MN3RGNDdhU1BpS2VfRkFlRWQwcWZ3N1NKekRiVWJ0eUR0U3RmMnNQRzl3TW1JeXlvM0F4ZjJ6REZpVl9ERXpOMmhmaHdWZGQxd1RONTdlbzdNcjRoNk8zT1ZLNlhZcFRfdmRMaURUN2VST2pxVkhKTVJNZ21oTUZzTjQ1S21SeG15NjVn?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 40.6
+    },
+    {
+      "fecha": "2026-02-11T23:46:42",
+      "titulo": "El mercado interno ofrece espacio para el crecimiento en la industria del acero. - Vietnam.vn",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "importacion": {
+          "matches": 1,
+          "peso": 1.5,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "vietnam"
         ],
+        "empresas": [],
+        "instituciones_mx": [],
         "productos": [
           "acero"
         ]
@@ -4132,40 +2984,628 @@
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "2025",
-          "2025",
-          "2612"
+          "95",
+          "4",
+          "3",
+          "0",
+          "1",
+          "0",
+          "96",
+          "2",
+          "0",
+          "1",
+          "2",
+          "3",
+          "1",
+          "5",
+          "4",
+          "5",
+          "6",
+          "29",
+          "2",
+          "0",
+          "2",
+          "2",
+          "4",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
         ]
       },
       "magnitud": "medio",
-      "score_impacto": -0.34,
+      "score_impacto": -0.30000000000000004,
       "impacto_indicadores": {
-        "produccion": -3.4000000000000004,
-        "exportaciones": -5.1000000000000005,
-        "precios": 1.7000000000000002,
-        "empleo": -1.7000000000000002,
-        "importaciones": -4.08
+        "produccion": -0.9000000000000001,
+        "exportaciones": -1.2000000000000002,
+        "precios": -0.6000000000000001,
+        "empleo": -0.6000000000000001,
+        "importaciones": -0.9000000000000001
       },
-      "fuente": "Milenio",
-      "url": "https://www.milenio.com/negocios/acereros-gobierno-empujan-blindaje-revision-t-mec",
+      "fuente": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeUw4MTA3S0JQN1ptTHp0ME96cmRld2hZd0hveFoxejZxb1A2dFNhNWdIS3ZXWnlFNWhtNC1KVFFVNUx5VDIwZzhsbVpXWVA4cWVJZWk5bTNTcXR6dHZqQ29UU2lFdG0wNEpTT2pwMjUtNXVSTDRua2k4STJybk1yWjRKRVdKdHAyVFpfcQ?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 15
+      "relevancia_score": 47.0
     },
     {
-      "fecha": "2026-01-26T00:00:00",
-      "titulo": "Techint evalúa presentar un recurso antidumping contra la llegada de tubos de la India",
+      "fecha": "2026-02-11T13:40:45",
+      "titulo": "¿Un desplome bursátil desencadenaría una recesión global? - Investing.com México - Finanzas, Bolsa y Forex",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "aranceles": {
+        "crisis": {
           "matches": 2,
-          "peso": 1.7,
+          "peso": 1.6,
           "tipo": "negativo"
-        },
-        "produccion": {
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "04",
+          "6",
+          "5",
+          "1",
+          "1",
+          "4",
+          "3",
+          "3",
+          "2",
+          "0",
+          "3",
+          "6",
+          "1",
+          "1",
+          "2",
+          "2",
+          "2",
+          "1",
+          "1",
+          "2",
+          "4",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -0.32000000000000006,
+      "impacto_indicadores": {
+        "produccion": -0.9600000000000002,
+        "exportaciones": -1.2800000000000002,
+        "precios": -0.6400000000000001,
+        "empleo": -1.6000000000000003,
+        "importaciones": -0.9600000000000002
+      },
+      "fuente": "Investing.com México - Finanzas, Bolsa y Forex",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNTlaTi04cHhmZWtrZmh6cU5Zc1ZvM1NTMVI4YkRBMHJtZ3VTNkVid3g2MERWdUlxckFYN0xLZ3ZTYTBXRWliNGx6X1ZyM1JNdndzNVJ2RzBWaWYwUzlRNnhXLXRYb2tCQUpkRzlMNnRzNzJfclRQZ2lRVlFtV1dwaTRtNkJoeUpDUWdJNjRQSnhFU1NLMlEyVFhJc2NLaFFQakRIdjhGdkZ4cGE2d3kwVTlRTUdSNlY4TndVUGVoYmtIUQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 59.9
+    },
+    {
+      "fecha": "2026-02-11T12:44:42",
+      "titulo": "Megapuerto de Chancay: fallo judicial blinda inversión china y reduce poder del regulador estatal - MasContainer",
+      "sentimiento": {
+        "score": -1.0,
+        "clasificacion": "negativo"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [
+          "china"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "3",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "1",
+          "2",
+          "0",
+          "3",
+          "6",
+          "1",
+          "21",
+          "1",
+          "3",
+          "3",
+          "0",
+          "3",
+          "5",
+          "2",
+          "9",
+          "4",
+          "5",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -1,
+      "impacto_indicadores": {
+        "produccion": -3.0,
+        "exportaciones": -4.0,
+        "precios": -2.0,
+        "empleo": -2.0,
+        "importaciones": -3.0
+      },
+      "fuente": "MasContainer",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNXFxaWJpTUdsM3VDanY2YTBJeGNHNlRRM2hlRXp2M2p2R2FGZElUWUVRQkNjQW1OOGhvVXdUd2JtR0U3RFR6WTY1OVNfNHZidEFzU21QQmNaUTFFenV1ZnBVd3djSzJtdEFhZ3RtZ0FyelRKVWFEMUZkY3hubEhiZWx5NFpScFdoTUJ2SHBCQVllQmlJbW9SZnJQdEVQMFVZanE4SzRleU5Yc1YySnFQdndHUVZzaFlFUHlwVUxfMA?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 60.3
+    },
+    {
+      "fecha": "2026-02-11T10:54:17",
+      "titulo": "Cleveland-Cliffs Stock Falls 16% From Recent Highs: Here’s What Analysts Are Watching Next - TIKR.com",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [
+          16.0,
+          16.0
+        ],
+        "cantidades": [
+          "16",
+          "95",
+          "2",
+          "2",
+          "3",
+          "0",
+          "05",
+          "1",
+          "2",
+          "1",
+          "01",
+          "8",
+          "1",
+          "5",
+          "1",
+          "3",
+          "1",
+          "1",
+          "5",
+          "2",
+          "0",
+          "1",
+          "3",
+          "5",
+          "41",
+          "0",
+          "6",
+          "80",
+          "5",
+          "16",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "bajo",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "TIKR.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTmVtUnhscmt2ZGNxU2dPaEo3M0FnSkFiNkJkbkdMN05jbGpOSUNoR1NEajBNdHNXT2ZxV1hVbXRjOFQtY01mdkNHOWtkbUYwZm8tZ1FYLTdqNlJsUENfMHY5UGRBZ1ZGN3kwVk1VRFFab1dtem5PbWoxSTNDZTVMNDN2c0xwYkpXZXdhRWJYejY1UUUzd3FzNzhFWGZ5OGhmSjROODVFTm41R0J6djFFYUtXUW80Xzg?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 47.5
+    },
+    {
+      "fecha": "2026-02-11T10:33:10",
+      "titulo": "Subidas de precio en ArcelorMittal por la mejora regulatoria y la previsión de un ciclo del acero favorable - Bolsamania",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {
+        "precios": {
           "matches": 1,
+          "peso": 1.2,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "3",
+          "95",
+          "3",
+          "1",
+          "0",
+          "2",
+          "4",
+          "84",
+          "1",
+          "043",
+          "0",
+          "0",
+          "2",
+          "5",
+          "202",
+          "2",
+          "9",
+          "4",
+          "1",
+          "0",
+          "1",
+          "53",
+          "5",
+          "5",
+          "1",
+          "1",
+          "01",
+          "0",
+          "1",
+          "1",
+          "2",
+          "2",
+          "1",
+          "5",
+          "19",
+          "6",
+          "0",
+          "1",
+          "3",
+          "4",
+          "5",
+          "3",
+          "1",
+          "9",
+          "05",
+          "3",
+          "9",
+          "4",
+          "1",
+          "2",
+          "2",
+          "09",
+          "4",
+          "4",
+          "3",
+          "0",
+          "1",
+          "0",
+          "1",
+          "04",
+          "4",
+          "1",
+          "3",
+          "2",
+          "4",
+          "6",
+          "43",
+          "214",
+          "2",
+          "6",
+          "2",
+          "4",
+          "1",
+          "3",
+          "6",
+          "82",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 1,
+      "impacto_indicadores": {
+        "produccion": 3.0,
+        "exportaciones": 4.0,
+        "precios": 2.0,
+        "empleo": 2.0,
+        "importaciones": 3.0
+      },
+      "fuente": "Bolsamania",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTWFRMmQ3TVRGVXFSeTQ1dmhUa0NvR2RsZDdhTVJoQlZRbld4dzBXSmJOZU84YXNxbENTdTEwTDVxWjdvSXNCVFotR1VSV043MzRCNGVUU0lJc0tuR2dBVDNyRXJwbEU5X202bGVUSEZncDk2NVpWeV9GTmI4WEZ1X0d1Sm53ZU5HRlI5TEtWaFY1YUFPV1FCVFljQURpOTVJaDdNT01lV0g1Q1l2NGs2UmhHeHFWa1FiTVc5R19uRzJXbmh6RkxPdHZ0a1IwSXF3bkxobmdBdUh4QUhZcVHSAeMBQVVfeXFMTWt5b3dxbWVINkMxMVpoVlBBSk1JVF9iSnJwN05uRFQ3UlNuNElfaEtpdU9ZRlU4UEptX1hKbnFYLUJtUEh2eklKMnE2UmlEaFVRcGdhb09mcERadEhjaml4azExUWdpdFFkQU4wMFZ3czR0R1RpakhKUHdOOWlMUUtzRUNkcTc0WmoyeW1xSVRMeDFMbjBQTlhtbi04RWV4bWJNb1B3S2x4eUl6aU43Q214d2tCSFlpMnB6VENxcGNZcDhKa2U4Slo1b3VGdVNWWjl6YmQyTmxCTTFIQU82VXJRRzA?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 60.5
+    },
+    {
+      "fecha": "2026-02-11T09:40:09",
+      "titulo": "Macron impulsa el horno eléctrico ArcelorMittal Dunkerque como modelo de acero limpio - ECOticias.com",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {},
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "0",
+          "1",
+          "3",
+          "19",
+          "1",
+          "3",
+          "40",
+          "1",
+          "1",
+          "6",
+          "09",
+          "4",
+          "080",
+          "6",
+          "43",
+          "3",
+          "1",
+          "9",
+          "2",
+          "4",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 1,
+      "impacto_indicadores": {
+        "produccion": 3.0,
+        "exportaciones": 4.0,
+        "precios": 2.0,
+        "empleo": 2.0,
+        "importaciones": 3.0
+      },
+      "fuente": "ECOticias.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTEMzOXpVS0ZadDNOZHFlRFF1ckoyazhRSHVRQ3ZWNzRwS19lUmJLZkFQYnVncHZfZlhTQ1VGaDdJMmQ3WjFzLUYxZm40VTE1ZHVVN1duVFdCMVpROElseHJ6V09tTjZ4Q080MzlGZmNwUFN6NlNGMW43Q3ZRYktwSjN1Sm9JTTBZVGtnTlpvQmctX2c4UzRVUVgtUmpJZw?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 53.6
+    },
+    {
+      "fecha": "2026-02-11T08:52:12",
+      "titulo": "Precios del acero verde en 2026: primas de hasta 170 euros por tonelada en Europa - El Boletín",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "precios": {
+          "matches": 2,
+          "peso": 1.2,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": [
+          "acero"
+        ]
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "2026",
+          "170",
+          "95",
+          "1",
+          "2",
+          "2",
+          "2",
+          "0",
+          "2",
+          "2",
+          "1",
+          "29",
+          "3",
+          "5",
+          "1",
+          "9",
+          "0",
+          "4",
+          "2",
+          "4",
+          "2",
+          "4",
+          "3",
+          "3",
+          "5",
+          "4",
+          "4",
+          "3",
+          "1",
+          "1",
+          "00",
+          "2",
+          "1",
+          "0",
+          "4",
+          "2",
+          "1",
+          "2",
+          "3",
+          "2",
+          "0",
+          "82",
+          "4",
+          "0",
+          "2",
+          "9",
+          "0",
+          "2",
+          "2",
+          "4",
+          "2",
+          "0",
+          "2",
+          "3",
+          "1",
+          "3",
+          "5",
+          "3",
+          "1",
+          "3",
+          "5",
+          "1",
+          "5",
+          "2026",
+          "170",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.0,
+      "impacto_indicadores": {
+        "produccion": -0.0,
+        "exportaciones": -0.0,
+        "precios": -0.0,
+        "empleo": -0.0,
+        "importaciones": -0.0
+      },
+      "fuente": "El Boletín",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTVZGRFQ1U2lrT2RYdzNINEFxLVIxV2M0bTJ2OFo2Y1EwRzJsR29BM3lhVlZVNm5DdldTQTZkZ1FNbnBZZUFqSnRhVlMwVUJmSERCUU9NazhqRXNrUzZfbURxc0k4SnFUekNpZDhQYTFEU2NNUDU4OWUzN2NUSGx4S3F3bWRTRWtIODRYVXN5MmZQUzctUzlHOXZUZFlMbjg4ZTl4TzdHQmxxbU3SAbABQVVfeXFMTjBYQWJtRjJsNnJNYS1RaGRNY1UxMndXTi00Y2Y1QzZ0emtJWGtUNmp4a2pnd1RXdmdlZ2NMeGJRNjU3S2QyM0oxNm82WlRaQXNsLUt4b0x2SklwWG9aVTVkWDBURTZ0TWxZQVJ2RzNpNmYyT2x4UEZCSnFiT2lETkY0UnY2RDJTemg3a1JCQmJJTlNua3MzcFBBOGpVeGR5eENBU3I1c3dOZU5keHJTY1A?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 56.9
+    },
+    {
+      "fecha": "2026-02-11T08:05:37",
+      "titulo": "Minería de México acumula caída de 7% con la 4T y entra en proceso de redefinición - EL CEO",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "crisis": {
+          "matches": 1,
+          "peso": 1.6,
+          "tipo": "negativo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [
+          7.0,
+          7.0
+        ],
+        "cantidades": [
+          "7",
+          "4",
+          "3",
+          "1",
+          "1",
+          "9",
+          "2",
+          "3",
+          "9",
+          "10",
+          "2",
+          "1",
+          "0",
+          "9",
+          "1",
+          "0",
+          "3",
+          "4",
+          "1",
+          "5",
+          "9",
+          "2",
+          "9",
+          "1",
+          "5",
+          "7",
+          "4",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": -0.32000000000000006,
+      "impacto_indicadores": {
+        "produccion": -0.9600000000000002,
+        "exportaciones": -1.2800000000000002,
+        "precios": -0.6400000000000001,
+        "empleo": -1.6000000000000003,
+        "importaciones": -0.9600000000000002
+      },
+      "fuente": "EL CEO",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MVGU1ZG9BYTF2T3lMVm9JME10SlY2ekMyUThWS1RMa0hjUk9BMy1uQ0s3SHdVekVhMHp4RzRaX1d5LUhMUUVNSXJtajBiYk9GYXRXRVFmUWJYWWxMcWZDWHo2eG9JcW1L?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 52.2
+    },
+    {
+      "fecha": "2026-02-11T06:37:32",
+      "titulo": "Precios del acero hoy, 11 de febrero: El mercado interno se mantiene estable, los precios mundiales disminuyen ligeramente. - Vietnam.vn",
+      "sentimiento": {
+        "score": -1.0,
+        "clasificacion": "negativo"
+      },
+      "categorias": {
+        "precios": {
+          "matches": 2,
           "peso": 1.2,
           "tipo": "neutral"
         },
@@ -4177,137 +3617,124 @@
       },
       "entidades": {
         "paises": [
-          "china",
-          "india"
+          "vietnam"
         ],
         "empresas": [],
         "instituciones_mx": [],
-        "productos": []
+        "productos": [
+          "acero"
+        ]
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "7109"
-        ]
-      },
-      "magnitud": "medio",
-      "score_impacto": -0.6400000000000001,
-      "impacto_indicadores": {
-        "produccion": -6.400000000000001,
-        "exportaciones": -9.600000000000001,
-        "precios": 3.2000000000000006,
-        "empleo": -3.2000000000000006,
-        "importaciones": -7.6800000000000015
-      },
-      "fuente": "La Nacion",
-      "url": "https://www.lanacion.com.ar/economia/techint-evalua-presentar-un-recurso-antidumping-contra-la-llegada-de-tubos-de-la-india-nid26012026/",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 5
-    },
-    {
-      "fecha": "2026-01-23T00:00:00",
-      "titulo": "Tecnológica uruguaya Arkano sella alianza con brasileña Math Group y acelera expansión en el país norteño",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "brasil"
-        ],
-        "empresas": [],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [
-          20.0
-        ],
-        "cantidades": [
-          "2026",
-          "20",
-          "3397"
-        ]
-      },
-      "magnitud": "alto",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Diario EL PAIS Uruguay",
-      "url": "https://www.elpais.com.uy/el-empresario/tecnologica-uruguaya-arkano-sella-alianza-con-brasilena-math-group-y-acelera-expansion-en-el-pais-norteno",
-      "relevancia_auto": "incierto",
-      "relevancia_score": 2
-    },
-    {
-      "fecha": "2026-01-15T00:00:00",
-      "titulo": "ONU exige saber el paradero de activistas mexicanos desaparecidos hace 3 años",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [
-          "mexicano"
-        ],
-        "empresas": [
-          "ternium"
-        ],
-        "instituciones_mx": [],
-        "productos": []
-      },
-      "numeros": {
-        "porcentajes": [],
-        "cantidades": [
+          "11",
+          "95",
+          "2",
           "3",
-          "15",
-          "2023",
-          "2313"
+          "3",
+          "3",
+          "5",
+          "4",
+          "0",
+          "3",
+          "3",
+          "3",
+          "6",
+          "8",
+          "2",
+          "5",
+          "9",
+          "2",
+          "6",
+          "25",
+          "9",
+          "5",
+          "2",
+          "4",
+          "3",
+          "1",
+          "0",
+          "4",
+          "13",
+          "5",
+          "3",
+          "3",
+          "4",
+          "5",
+          "11",
+          "6",
+          "6",
+          "6"
         ]
       },
       "magnitud": "medio",
-      "score_impacto": 0.0,
+      "score_impacto": -1,
       "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
+        "produccion": -3.0,
+        "exportaciones": -4.0,
+        "precios": -2.0,
+        "empleo": -2.0,
+        "importaciones": -3.0
       },
-      "fuente": "Aristeguinoticias.com",
-      "url": "https://aristeguinoticias.com/150126/mexico/onu-exige-saber-el-paradero-de-activistas-mexicanos-desaparecidos-hace-3-anos/",
+      "fuente": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2p3a3JQZllFSTlQT3lOanp5MFp4SlBOR0hZRkVTZVVhZlQ3T3RpR3NUYXB6eG8wT2xiak5TNU9wcldCNnYxUXBMaVlMUEZOX2x6R25WRk9zOGpmSFpaSzBaYVFMUW5vV2M4TGVqaXI3SlBzdzViTERFNzVqLS1TcGZNZ0FiWjV4TU13QU5qS3ZIM3BlcXNZZnN4RkNvZw?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 11
+      "relevancia_score": 40.9
     },
     {
-      "fecha": "2026-01-15T00:00:00",
-      "titulo": "Ternium adquirió Tubos Argentinos por US$24 millones y suma capacidad",
+      "fecha": "2026-02-11T05:14:35",
+      "titulo": "Boletín informativo extraordinario - Impuestos Corporativos - Deloitte",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {},
       "entidades": {
-        "paises": [
-          "brasil"
-        ],
-        "empresas": [
-          "ternium"
-        ],
+        "paises": [],
+        "empresas": [],
         "instituciones_mx": [],
         "productos": []
       },
       "numeros": {
         "porcentajes": [],
         "cantidades": [
-          "24",
-          "3020"
+          "95",
+          "15",
+          "4",
+          "1",
+          "1",
+          "5",
+          "19",
+          "2",
+          "2",
+          "6",
+          "4",
+          "1",
+          "5",
+          "2",
+          "3",
+          "0",
+          "3",
+          "6",
+          "1",
+          "3",
+          "3",
+          "6",
+          "0",
+          "3",
+          "2",
+          "3",
+          "0",
+          "3",
+          "010",
+          "0",
+          "2",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
         ]
       },
       "magnitud": "medio",
@@ -4319,102 +3746,238 @@
         "empleo": -0.0,
         "importaciones": -0.0
       },
-      "fuente": "La Nacion",
-      "url": "https://www.lanacion.com.ar/economia/negocios/ternium-adquirio-tubos-argentinos-por-us24-millones-y-suma-capacidad-nid15012026/",
+      "fuente": "Deloitte",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWk15VjJ4SnNUczEtRWp1ekM1ejNfRzZqblBKVzhYSmNGUE5rSFpiVHFsVVlXYVpCV19rN2ZKRnp2alB6VmFxdHZLMWFXWmh4d1pJUm5rY2VHWGhBdWU3cmVjVWFJTENwOWtWSUl0THQxa3dzOTAxUkd6X1Y3TWcyUFNSLXFOM3R6Zkc0T3BZNGNFanM2Q3MtdXVPU0ZUWnJyTTZmTmd3Q010RXZyQWtBd0pJeXBDVElLT2t1MzFMUQ?oc=5",
       "relevancia_auto": "relevante",
-      "relevancia_score": 12
+      "relevancia_score": 38.0
     },
     {
-      "fecha": "2026-01-14T00:00:00",
-      "titulo": "CAP vende filial Tubos Argentinos a mayor grupo acerero de ese país",
+      "fecha": "2026-02-10T22:56:00",
+      "titulo": "Sergio Argüelles pide más inversión en infraestructura logística en México - Pulso Diario San Luis",
       "sentimiento": {
         "score": 0,
         "clasificacion": "neutral"
       },
       "categorias": {
-        "precios": {
+        "infraestructura": {
+          "matches": 1,
+          "peso": 1.3,
+          "tipo": "positivo"
+        }
+      },
+      "entidades": {
+        "paises": [
+          "méxico"
+        ],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "5",
+          "180",
+          "5",
+          "3",
+          "1",
+          "2",
+          "1",
+          "0",
+          "5",
+          "0",
+          "0",
+          "5",
+          "09",
+          "1",
+          "8",
+          "0",
+          "3",
+          "11",
+          "2",
+          "2",
+          "1",
+          "0",
+          "16",
+          "3",
+          "2",
+          "5",
+          "2",
+          "4",
+          "3",
+          "3",
+          "5",
+          "3",
+          "0",
+          "1",
+          "1",
+          "2",
+          "0",
+          "2",
+          "096",
+          "290",
+          "2",
+          "2",
+          "4",
+          "3",
+          "083",
+          "1",
+          "1",
+          "3",
+          "050",
+          "1",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 0.26,
+      "impacto_indicadores": {
+        "produccion": 0.78,
+        "exportaciones": 1.04,
+        "precios": 0.52,
+        "empleo": 1.04,
+        "importaciones": 0.78
+      },
+      "fuente": "Pulso Diario San Luis",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNld5eFFPX180dWRwNFYycmhLeTNTMG5vS3JUQjZqZlpsYVlXc1RRRWh2NTdoWE1ZSzl0RVhGNVJNRnlHUW5pQlVHdElvVWRtejdNS0lYVFRZNGllU0VCam5TeHdYZWdlZEFNX09TUDdISS1YaUNNMEJkNW8zSGtlRnlHTHlFUFhlaTVISGxmOFd0WnY3QjlpWkpRNm11M2VUTWfSAacBQVVfeXFMTjBiTlp2eFVESkM1RnRCUDlkWVF0dC16TGU3ZGJXQjFTTTliMUh2NmJ5aFN2cHZFTDNzang4V3FCZ3BkNWY5RnRkT3Z0YWZiWDliVEx1QnFSbVhiN1J2QktiSTFSc0VtcXdKcmNQQ2RnX096aEhJQUljSWFoM290c2lJa2Z4djR3T083cG1VRHk1Ykd3RnUwU050eGFQNS1ZUExpdXBiQlU?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 59.5
+    },
+    {
+      "fecha": "2026-02-10T18:37:57",
+      "titulo": "Boom de zonas francas de República Dominicana impulsa demanda de energía - BNamericas",
+      "sentimiento": {
+        "score": 1.0,
+        "clasificacion": "positivo"
+      },
+      "categorias": {
+        "demanda": {
+          "matches": 1,
+          "peso": 1.4,
+          "tipo": "neutral"
+        }
+      },
+      "entidades": {
+        "paises": [],
+        "empresas": [],
+        "instituciones_mx": [],
+        "productos": []
+      },
+      "numeros": {
+        "porcentajes": [],
+        "cantidades": [
+          "95",
+          "5",
+          "1",
+          "9",
+          "2",
+          "9",
+          "1",
+          "3",
+          "3",
+          "1",
+          "92",
+          "3",
+          "4",
+          "2",
+          "1",
+          "9",
+          "5",
+          "1",
+          "2",
+          "2",
+          "5",
+          "05",
+          "4",
+          "2",
+          "1",
+          "5",
+          "1",
+          "0",
+          "42",
+          "0",
+          "1",
+          "1",
+          "2",
+          "5",
+          "3",
+          "5",
+          "6",
+          "6",
+          "6"
+        ]
+      },
+      "magnitud": "medio",
+      "score_impacto": 1,
+      "impacto_indicadores": {
+        "produccion": 6.0,
+        "exportaciones": 4.0,
+        "precios": 4.0,
+        "empleo": 2.0,
+        "importaciones": 3.0
+      },
+      "fuente": "BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMW5JS1ZydU9mTGk2YU9pSFpGdDR1LTdCSjJPR3NrXzk3Tko1TWJaNWNjYzRMcG92SDU3WHA4MjRmMXVjX2JhRlpCZnJLT1NxeWZocGhnWHFQMzVsZzNvQm9zTFhEUm5Ic1pFT2k2VlE5dnZRa05CdTZ4ckFPYmp2bG1WSFI5ZmNZZWNjRHpvc1lyOTdMN0IxYm42cWc0UjUtSnZGZUR1a1h2RUZHXzJyOEQ5UTJzWWg3UUxPMUJPSQ?oc=5",
+      "relevancia_auto": "relevante",
+      "relevancia_score": 42.1
+    },
+    {
+      "fecha": "2026-02-09T08:01:44",
+      "titulo": "La automotriz china BYD presenta una demanda contra los aranceles de Trump",
+      "sentimiento": {
+        "score": 0,
+        "clasificacion": "neutral"
+      },
+      "categorias": {
+        "aranceles": {
+          "matches": 2,
+          "peso": 1.7,
+          "tipo": "negativo"
+        },
+        "demanda": {
+          "matches": 1,
+          "peso": 1.4,
+          "tipo": "neutral"
+        },
+        "produccion": {
           "matches": 1,
           "peso": 1.2,
           "tipo": "neutral"
         }
       },
       "entidades": {
-        "paises": [],
-        "empresas": [
-          "ternium"
+        "paises": [
+          "méxico",
+          "estados unidos",
+          "unidos",
+          "china",
+          "brasil"
         ],
+        "empresas": [],
         "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
+        "productos": []
       },
       "numeros": {
-        "porcentajes": [
-          100.0
-        ],
-        "cantidades": [
-          "24",
-          "4",
-          "100",
-          "969"
-        ]
+        "porcentajes": [],
+        "cantidades": []
       },
-      "magnitud": "muy_alto",
-      "score_impacto": 0.0,
+      "magnitud": "medio",
+      "score_impacto": -0.34,
       "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
+        "produccion": -3.4000000000000004,
+        "exportaciones": -5.1000000000000005,
+        "precios": 1.7000000000000002,
+        "empleo": -1.7000000000000002,
+        "importaciones": -4.08
       },
-      "fuente": "Latercera.com",
-      "url": "https://www.latercera.com/pulso/noticia/cap-vende-filial-tubos-argentinos-a-mayor-grupo-acerero-de-ese-pais/",
+      "fuente": "Aristegui Noticias",
+      "url": "https://aristeguinoticias.com/0902/dinero-y-economia/la-automotriz-china-byd-presenta-una-demanda-contra-los-aranceles-de-trump/",
       "relevancia_auto": "relevante",
-      "relevancia_score": 14
-    },
-    {
-      "fecha": "2026-01-14T00:00:00",
-      "titulo": "Grupo CAP vende acerera en Argentina en US$ 24,4 millones y sale del mercado trasandino",
-      "sentimiento": {
-        "score": 0,
-        "clasificacion": "neutral"
-      },
-      "categorias": {},
-      "entidades": {
-        "paises": [],
-        "empresas": [
-          "ternium"
-        ],
-        "instituciones_mx": [],
-        "productos": [
-          "acero"
-        ]
-      },
-      "numeros": {
-        "porcentajes": [
-          100.0
-        ],
-        "cantidades": [
-          "24",
-          "4",
-          "100",
-          "736"
-        ]
-      },
-      "magnitud": "muy_alto",
-      "score_impacto": 0.0,
-      "impacto_indicadores": {
-        "produccion": -0.0,
-        "exportaciones": -0.0,
-        "precios": -0.0,
-        "empleo": -0.0,
-        "importaciones": -0.0
-      },
-      "fuente": "Www.df.cl",
-      "url": "https://www.df.cl/empresas/industria/grupo-cap-vende-acerera-en-argentina-y-sale-de-ese-mercado-para-enfocarse",
-      "relevancia_auto": "relevante",
-      "relevancia_score": 12
+      "relevancia_score": 67.3
     }
   ]
 }

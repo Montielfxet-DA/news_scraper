@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import re
 from datetime import datetime, timedelta
+from time import sleep
 import json
 import warnings
 import os
@@ -36,22 +37,23 @@ class RealNewsCollector:
     def __init__(self, newsapi_key=None):
         self.newsapi_key = newsapi_key
         self.keywords_busqueda = [
-            'acero México', 'industria siderúrgica México', 'Ternium',
-            'aranceles acero', 'exportación acero México', 'precio acero',
-            'construcción México acero', 'CANACERO', 'lámina acero México',
-            'varilla construcción México', 'siderurgia México', 'importación acero',
-            'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec', 'Gerdau México',
             'sector construcción México', 'infraestructura México', 'metalúrgica México',
             'regulación acero', 'recesión', 'regulación', 'demanda acero', 'importación',
             'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin',
         ]
 
-    def fetch_newsapi(self, keyword, dias_atras=7):
+        #    'acero México', 'industria siderúrgica México', 'Ternium',
+        #    'aranceles acero', 'exportación acero México', 'precio acero',
+        #    'construcción México acero', 'CANACERO', 'lámina acero México',
+        #    'varilla construcción México', 'siderurgia México', 'importación acero',
+        #    'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec', 'Gerdau México',
+
+    def fetch_newsapi(self, keyword, dias_atras=30):
         """
         Obtiene noticias de NewsAPI
         Documentación: https://newsapi.org/docs/endpoints/everything
         """
-        if not self.newsapi_key or self.newsapi_key == "TU_API_KEY_AQUI":
+        if not self.newsapi_key or self.newsapi_key == "e9a1a7c23b694a419fca45af9bfe3994":
             print("  ⚠️ NewsAPI key no configurada. Saltando NewsAPI...")
             return []
 
@@ -139,52 +141,88 @@ class RealNewsCollector:
             print(f"  ❌ Error en Google News: {e}")
             return []
 
-    def fetch_rss_feed(self, url):
+    def fetch_rss_feed(self, url, retry_attempts=2):
         """
         Obtiene noticias de un feed RSS
-        VERSIÓN MEJORADA - Con manejo de errores y filtrado
+        VERSIÓN MEJORADA v2.0 - Headers robustos, reintentos, mejor manejo de errores
         """
         try:
             import feedparser
             import requests
+            from time import sleep
 
-            # Headers para evitar bloqueos
+            # Headers mejorados para evitar bloqueos 403
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+                'Accept-Language': 'es-MX,es;q=0.9,en;q=0.8',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Connection': 'keep-alive',
+                'Cache-Control': 'no-cache',
             }
 
-            # Obtener feed con requests (más control)
-            try:
-                response = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+            # Agregar Referer específico para El Economista
+            if 'eleconomista.com.mx' in url:
+                headers['Referer'] = 'https://www.eleconomista.com.mx/'
 
-                if response.status_code != 200:
-                    print(f"  ❌ HTTP {response.status_code}")
+            # Intentar múltiples veces
+            for intento in range(retry_attempts):
+                try:
+                    response = requests.get(url, headers=headers, timeout=15,
+                                            allow_redirects=True, verify=True)
+
+                    if response.status_code == 200:
+                        feed = feedparser.parse(response.content)
+
+                        if feed.entries:
+                            break  # Éxito, salir del loop
+                        else:
+                            print(f"  ⚠️  Feed vacío")
+                            return []
+
+                    elif response.status_code == 403:
+                        print(f"  ❌ HTTP 403 (Forbidden) - Bloqueado")
+                        if intento < retry_attempts - 1:
+                            print(f"     Reintentando en 2s...")
+                            sleep(2)
+                            continue
+                        return []
+
+                    elif response.status_code == 404:
+                        print(f"  ❌ HTTP 404 (Not Found)")
+                        return []
+
+                    else:
+                        print(f"  ❌ HTTP {response.status_code}")
+                        return []
+
+                except requests.Timeout:
+                    print(f"  ⏱️  Timeout (intento {intento + 1}/{retry_attempts})")
+                    if intento < retry_attempts - 1:
+                        sleep(2)
+                        continue
                     return []
 
-                feed = feedparser.parse(response.content)
+                except requests.exceptions.ConnectionError:
+                    print(f"  🔌 Error de conexión (intento {intento + 1}/{retry_attempts})")
+                    if intento < retry_attempts - 1:
+                        sleep(2)
+                        continue
+                    return []
 
-            except requests.Timeout:
-                print(f"  ❌ Timeout")
-                return []
-            except Exception as e:
-                print(f"  ❌ Error: {str(e)[:50]}")
-                return []
+                except Exception as e:
+                    print(f"  ❌ Error: {str(e)[:50]}")
+                    return []
 
-            if not feed.entries:
-                print(f"  ⚠️  Feed vacío")
-                return []
-
+            # RESTO DEL CÓDIGO DE LA FUNCIÓN (NO CAMBIAR - ya está bien)
             # Palabras clave para filtrar (solo noticias de acero)
             keywords_acero = [
-                'acero México', 'industria siderúrgica México', 'Ternium',
-                'aranceles acero', 'exportación acero México', 'precio acero',
-                'construcción México acero', 'CANACERO', 'lámina acero México',
-                'varilla construcción México', 'siderurgia México', 'importación acero',
-                'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec', 'Gerdau México',
-                'sector construcción México', 'infraestructura México', 'metalúrgica México',
-                'regulación acero', 'recesión', 'regulación', 'demanda acero', 'importación',
-                'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin'
+                'acero', 'siderúrgica', 'Ternium', 'arancel', 'exportación',
+                'construcción', 'CANACERO', 'lámina', 'varilla', 'siderurgia',
+                'importación', 'dumping', 'T-MEC', 'DeAcero', 'Simec', 'Gerdau',
+                'infraestructura', 'metalúrgica', 'regulación', 'demanda',
+                'chatarra', 'minas', 'HMS', 'Bushelin', 'acería', 'alto horno',
+                'laminación', 'fundición', 'mineral de hierro'
             ]
 
             noticias = []
@@ -195,8 +233,8 @@ class RealNewsCollector:
                     contenido = entry.get('summary', entry.get('description', ''))
                     texto = f"{titulo} {contenido}".lower()
 
-                    # FILTRAR: solo si menciona acero
-                    if not any(kw in texto for kw in keywords_acero):
+                    # FILTRAR: solo si menciona acero o relacionados
+                    if not any(kw.lower() in texto for kw in keywords_acero):
                         continue
 
                     # Extraer fecha
@@ -266,7 +304,7 @@ class RealNewsCollector:
             print(f"  ❌ Error scraping {url}: {e}")
             return None
 
-    def collect_all(self, dias_atras=7, max_por_keyword=5):
+    def collect_all(self, dias_atras=30, max_por_keyword=5):
         """Recolecta noticias de todas las fuentes disponibles"""
 
         todas_noticias = []
@@ -275,9 +313,9 @@ class RealNewsCollector:
         print("=" * 80)
 
         # 1. NewsAPI (si está configurado)
-        if USE_NEWSAPI and self.newsapi_key and self.newsapi_key != "TU_API_KEY_AQUI":
+        if USE_NEWSAPI and self.newsapi_key and self.newsapi_key != "e9a1a7c23b694a419fca45af9bfe3994":
             print("\n📰 Fuente: NewsAPI")
-            for keyword in self.keywords_busqueda[:3]:  # Limitar para no exceder cuota
+            for keyword in self.keywords_busqueda[:5]:  # Limitar para no exceder cuota
                 print(f"  • Buscando: '{keyword}'")
                 noticias = self.fetch_newsapi(keyword, dias_atras)
                 todas_noticias.extend(noticias)
@@ -285,22 +323,34 @@ class RealNewsCollector:
 
         # 2. Google News (gratuito)
         print("\n📰 Fuente: Google News")
-        for keyword in self.keywords_busqueda[:4]:  # Primeras 4 keywords
+        for keyword in self.keywords_busqueda[:30]:  # Primeras 4 keywords
             print(f"  • Buscando: '{keyword}'")
             noticias = self.fetch_google_news(keyword, max_results=max_por_keyword)
             todas_noticias.extend(noticias)
             print(f"    ✓ {len(noticias)} noticias encontradas")
 
-        # 3. RSS Feeds de medios mexicanos
+        # 3. RSS Feeds de medios mexicanos - ACTUALIZADOS
         print("\n📰 Fuente: Feeds RSS")
         rss_feeds = [
+            # El Economista (mantener - mejorar headers)
             'https://www.eleconomista.com.mx/rss/empresas.xml',
             'https://www.eleconomista.com.mx/rss/economia.xml',
+
+            # El Universal (URL actualizada)
+            'https://www.eluniversal.com.mx/rss.xml',
+
+            # El Financiero (mantener)
             'https://www.elfinanciero.com.mx/rss/economia/',
-            'https://www.milenio.com/rss/negocios',
-            'https://expansion.mx/rss/empresas',
-            'https://expansion.mx/rss/economia',
-            'https://www.eluniversal.com.mx/rss/cartera.xml',
+
+            # Milenio (URL actualizada)
+            'https://www.milenio.com/feed',
+
+            # NUEVAS FUENTES AGREGADAS
+            'https://www.jornada.com.mx/rss/economia.xml',
+            'https://heraldodemexico.com.mx/rss/feed.html?r=6',  # Economía
+            'https://editorial.aristeguinoticias.com/category/dinero-y-economia/feed/',
+            'https://www.sinembargo.mx/feed',
+            'https://www.excelsior.com.mx/rss.xml',
         ]
 
         for feed_url in rss_feeds:
@@ -549,7 +599,8 @@ def main():
     print("\nPASO 1.5: Filtrado de Relevancia")
     print("-" * 80)
 
-    filtro = NewsRelevanceFilter(min_score=2)
+    from train_ml_classifier import MLRelevanceFilter
+    filtro = MLRelevanceFilter()
     noticias_relevantes, noticias_rechazadas = filtro.filtrar_noticias(noticias, verbose=False)
 
     # Guardar noticias rechazadas para revisión

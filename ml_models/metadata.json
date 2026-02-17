@@ -1,0 +1,10 @@
+{
+  "noticias_entrenamiento": 205,
+  "relevantes": 62,
+  "no_relevantes": 143,
+  "modelos": {
+    "clasificador": "clasificador_binario.pkl",
+    "regresor": "predictor_score.pkl"
+  },
+  "version": "1.0"
+}

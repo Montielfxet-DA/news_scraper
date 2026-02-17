@@ -1,245 +1,1163 @@
 [
   {
+    "titulo": "Maru Campos encabeza la Mesa Estatal de Construcción de Paz",
+    "fuente": "El Financiero",
+    "score": 38.3,
+    "razones": [
+      "🤖 ML score: 38.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "¿Una recesión de trabajos de cuello blanco? Las señales están por todas partes. - es.qz.com",
+    "fuente": "es.qz.com",
+    "score": 34.8,
+    "razones": [
+      "🤖 ML score: 34.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "México y Canadá lanzan plan de infraestructura y minerales ante incertidumbre en el T-MEC - Univision",
+    "fuente": "Univision",
+    "score": 35.8,
+    "razones": [
+      "🤖 ML score: 35.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Trasladan autos chatarra a otras colonias para evadir sanciones y frenar operativo - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 24.2,
+    "razones": [
+      "🤖 ML score: 24.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "‘No es un retroceso, es una oportunidad’: Especialista analiza el freno a la regulación de pagos en México - El Cronista",
+    "fuente": "El Cronista",
+    "score": 29.9,
+    "razones": [
+      "🤖 ML score: 29.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "El T-MEC va a permanecer, pero se trabaja en reforzar la relación México-Canadá: CSP",
+    "fuente": "SinEmbargo MXSinEmbargo MX",
+    "score": 41.2,
+    "razones": [
+      "🤖 ML score: 41.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "‘México es un socio confiable’, afirma De la Fuente ante funcionarios y empresarios canadienses",
+    "fuente": "Aristegui Noticias",
+    "score": 35.9,
+    "razones": [
+      "🤖 ML score: 35.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "El consumo mundial de chatarra disminuyó en la mayoría de las regiones entre enero y septiembre - Acermetal",
+    "fuente": "Acermetal",
+    "score": 28.0,
+    "razones": [
+      "🤖 ML score: 28.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Alerta sector agrícola importación masiva de maíz, leche en polvo, y carne de EE.UU; campo mexicano en “límites inimaginables” - La Crónica de Hoy",
+    "fuente": "La Crónica de Hoy",
+    "score": 30.2,
+    "razones": [
+      "🤖 ML score: 30.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Japón esquiva la recesión por un suspiro, pero el crecimiento no convence a los mercados - Yahoo Finanzas",
+    "fuente": "Yahoo Finanzas",
+    "score": 41.3,
+    "razones": [
+      "🤖 ML score: 41.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "No es Palacio de Hierro: este el verdadero gran negocio de la familia Baillères y Grupo Bal - expansion.mx",
+    "fuente": "expansion.mx",
+    "score": 21.6,
+    "razones": [
+      "🤖 ML score: 21.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Cinco minas de carbón polacas emiten metano en 2025 a pesar de la prohibición de la UE - El Periódico de la Energía",
+    "fuente": "El Periódico de la Energía",
+    "score": 29.1,
+    "razones": [
+      "🤖 ML score: 29.1/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Gobernación va por la regulación de horarios en antros y bares - Mediatik",
+    "fuente": "Mediatik",
+    "score": 30.2,
+    "razones": [
+      "🤖 ML score: 30.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "UMB Steel encarga a SMS group el primer laminador CMT 700 de Europa - Interempresas.net",
+    "fuente": "Interempresas.net",
+    "score": 34.1,
+    "razones": [
+      "🤖 ML score: 34.1/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "México y Canadá alistan ‘plan de acción’ para inversión y comercio, al margen del T-MEC",
+    "fuente": "Aristegui Noticias",
+    "score": 41.8,
+    "razones": [
+      "🤖 ML score: 41.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "COMCE Noreste alerta sobre riesgos en comercio exterior por déficit de infraestructura y talento - T21",
+    "fuente": "T21",
+    "score": 33.9,
+    "razones": [
+      "🤖 ML score: 33.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Alerta alimentaria: Importación de maíz blanco en México se dispara 350% y presiona al campo nacional - debate.com.mx",
+    "fuente": "debate.com.mx",
+    "score": 21.5,
+    "razones": [
+      "🤖 ML score: 21.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "El Magistrado y el amparo de Coca Contra la salud - POPLab",
+    "fuente": "POPLab",
+    "score": 26.8,
+    "razones": [
+      "🤖 ML score: 26.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "¿Cuál es el futuro de la regulación de la Inteligencia Artificial? - telefonica.com",
+    "fuente": "telefonica.com",
+    "score": 24.6,
+    "razones": [
+      "🤖 ML score: 24.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Bitcoin caerá a USD $10.000 y seguirá una recesión, advierte analista de Bloomberg - DiarioBitcoin",
+    "fuente": "DiarioBitcoin",
+    "score": 39.0,
+    "razones": [
+      "🤖 ML score: 39.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Secretaría de Economía emite nueva NOM para productos de acero en la construcción - Forbes México",
+    "fuente": "Forbes México",
+    "score": 44.4,
+    "razones": [
+      "🤖 ML score: 44.4/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Aceros AZA eleva producción a 511 mil toneladas y supera las 640 mil de chatarra reciclada en 2025 - Diario Financiero",
+    "fuente": "Diario Financiero",
+    "score": 41.2,
+    "razones": [
+      "🤖 ML score: 41.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Conoce la universidad en Perú que formará a sus médicos con programa en Harvard Medical School - Infobae",
+    "fuente": "Infobae",
+    "score": 29.2,
+    "razones": [
+      "🤖 ML score: 29.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Bitcoin podría caer a $10,000 ante el aumento del riesgo de recesión en EE.UU., según Mike McGlone - CoinDesk",
+    "fuente": "CoinDesk",
+    "score": 30.1,
+    "razones": [
+      "🤖 ML score: 30.1/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Tras inversión histórica: Aceros AZA cerró 2025 con 511 mil toneladas de acero producidas y superó las 640 mil de chatarra reciclada - diarioestrategia.cl",
+    "fuente": "diarioestrategia.cl",
+    "score": 45.4,
+    "razones": [
+      "🤖 ML score: 45.4/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Semarnat identifica 189 empresas contaminantes en Nuevo León; predominan siderúrgicas y metalúrgicas - Telediario México",
+    "fuente": "Telediario México",
+    "score": 30.9,
+    "razones": [
+      "🤖 ML score: 30.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Carros chatarra y lanchas viejas son un riesgo en fraccionamiento Las Playas - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 19.5,
+    "razones": [
+      "🤖 ML score: 19.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Bildu pedirá a Sánchez en el Congreso retomar medidas de apoyo ante los aranceles de Trump - Infobae",
+    "fuente": "Infobae",
+    "score": 38.0,
+    "razones": [
+      "🤖 ML score: 38.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Rubros eléctrico y metalúrgic­o lideran polución en la entidad - PressReader",
+    "fuente": "PressReader",
+    "score": 29.6,
+    "razones": [
+      "🤖 ML score: 29.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Una ONG demanda por 1.400 millones de euros a la filial neerlandesa de la siderúrgica india Tata Steel - MSN",
+    "fuente": "MSN",
+    "score": 47.5,
+    "razones": [
+      "🤖 ML score: 47.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Un arquitecto soñó con dos serpientes entrelazadas y proyectó un retiro espiritual que no llegó a terminar: tras su muerte, su nieta lo hizo realidad - Arquitectura y Diseño",
+    "fuente": "Arquitectura y Diseño",
+    "score": 31.3,
+    "razones": [
+      "🤖 ML score: 31.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "En enero se disparó 24% la importación de maíz - La Jornada",
+    "fuente": "La Jornada",
+    "score": 20.2,
+    "razones": [
+      "🤖 ML score: 20.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Economía de México emite norma para productos de acero en la construcción - Infobae",
+    "fuente": "Infobae",
+    "score": 35.8,
+    "razones": [
+      "🤖 ML score: 35.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Alertan por 800 mil camiones chatarra que circulan en México - Quintana Roo Hoy",
+    "fuente": "Quintana Roo Hoy",
+    "score": 30.1,
+    "razones": [
+      "🤖 ML score: 30.1/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "México suspende importación de productos avícolas de Brasil por gripe aviar - MSN",
+    "fuente": "MSN",
+    "score": 36.5,
+    "razones": [
+      "🤖 ML score: 36.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Arranca 2026 con alza en la importación de granos - Medios Obson",
+    "fuente": "Medios Obson",
+    "score": 28.3,
+    "razones": [
+      "🤖 ML score: 28.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Mapa salarial: ¿qué sectores generan los mejores ingresos en cada provincia argentina? - Infobae",
+    "fuente": "Infobae",
+    "score": 23.8,
+    "razones": [
+      "🤖 ML score: 23.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Un filósofo, la baronesa y tres cadáveres: el misterio sin resolver de la isla más remota de Galápagos - Xataka",
+    "fuente": "Xataka",
+    "score": 34.5,
+    "razones": [
+      "🤖 ML score: 34.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Reino Unido enviará un grupo de portaaviones al Atlántico Norte y Ártico en 2026 para disuadir a Rusia - UNITED24 Media",
+    "fuente": "UNITED24 Media",
+    "score": 33.9,
+    "razones": [
+      "🤖 ML score: 33.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "BlueScope apunta a la expansión en EE.UU. y aumenta los retornos para los accionistas - Bitget",
+    "fuente": "Bitget",
+    "score": 37.0,
+    "razones": [
+      "🤖 ML score: 37.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Chatarra satura a Victoria - laverdad.com.mx",
+    "fuente": "laverdad.com.mx",
+    "score": 32.2,
+    "razones": [
+      "🤖 ML score: 32.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Flavita Banana: meta chatarra - EL PAÍS",
+    "fuente": "EL PAÍS",
+    "score": 32.6,
+    "razones": [
+      "🤖 ML score: 32.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "La historia que inspiró ‘Los niños de plomo’ - Capital México",
+    "fuente": "Capital México",
+    "score": 28.7,
+    "razones": [
+      "🤖 ML score: 28.7/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Marchan en Hermosillo por mineros desaparecidos en Concordia Sinaloa - Pulso Diario San Luis",
+    "fuente": "Pulso Diario San Luis",
+    "score": 40.8,
+    "razones": [
+      "🤖 ML score: 40.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Economía emite norma oficial para productos de acero en la construcción; busca garantizar seguridad - El Universal",
+    "fuente": "El Universal",
+    "score": 38.9,
+    "razones": [
+      "🤖 ML score: 38.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Economía emite NOM que fortalece calidad del acero en obras - Tabasco HOY",
+    "fuente": "Tabasco HOY",
+    "score": 33.3,
+    "razones": [
+      "🤖 ML score: 33.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "DIP MANUEL TALAYERO IMPULSA FOROS PARA EL FORTALECIMIENTO Y REGULACIÓN DE REFUGIOS DE ANIMALES EN LA CAPITAL DEL PAÍS - partidoverde.org.mx",
+    "fuente": "partidoverde.org.mx",
+    "score": 35.8,
+    "razones": [
+      "🤖 ML score: 35.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Economía emite norma para productos de acero en la construcción - Ahora Tabasco -",
+    "fuente": "Ahora Tabasco -",
+    "score": 39.3,
+    "razones": [
+      "🤖 ML score: 39.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Economía emite norma para productos de acero en la construcción - Municipios Puebla",
+    "fuente": "Municipios Puebla",
+    "score": 40.3,
+    "razones": [
+      "🤖 ML score: 40.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "El Reino Unido vendió a la Armada de Bangladés uno de sus buques de reconocimiento clase Echo dados de baja en 2023 - Zona Militar",
+    "fuente": "Zona Militar",
+    "score": 25.9,
+    "razones": [
+      "🤖 ML score: 25.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Starmer envía un grupo de ataque británico al Ártico y cita la creciente amenaza de Rusia mientras Trump impulsa el acuerdo sobre Groenlandia. - Yahoo",
+    "fuente": "Yahoo",
+    "score": 34.2,
+    "razones": [
+      "🤖 ML score: 34.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Destinarán 80% de la venta de chatarra municipal para fortalecer infraestructura deportiva - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 23.9,
+    "razones": [
+      "🤖 ML score: 23.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Starmer: el Reino Unido desplegará un grupo de portaaviones en el Ártico este año - Euractiv.es",
+    "fuente": "Euractiv.es",
+    "score": 24.3,
+    "razones": [
+      "🤖 ML score: 24.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Por qué Steel Dynamics (STLD) baja un 5,3% tras las optimistas revisiones de beneficios de 2026 en medio de los débiles resultados del cuarto trimestre - simplywall.st",
+    "fuente": "simplywall.st",
+    "score": 33.3,
+    "razones": [
+      "🤖 ML score: 33.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "La UE se receta energía barata - Infobae",
+    "fuente": "Infobae",
+    "score": 20.3,
+    "razones": [
+      "🤖 ML score: 20.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "3 tés de hierbas naturales que son buenas para la salud - Diario Primicia",
+    "fuente": "Diario Primicia",
+    "score": 36.9,
+    "razones": [
+      "🤖 ML score: 36.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Secretaría de Economía emite NOM-251-SE-2025 para productos de acero en la construcción - Talla Politica",
+    "fuente": "Talla Politica",
+    "score": 43.4,
+    "razones": [
+      "🤖 ML score: 43.4/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "El mercado resalta el liderazgo de ArcelorMittal ante una política comercial más favorable - Cinco Días",
+    "fuente": "Cinco Días",
+    "score": 39.0,
+    "razones": [
+      "🤖 ML score: 39.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Economía de México emite norma para productos de acero en la construcción - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 28.3,
+    "razones": [
+      "🤖 ML score: 28.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Legisladores de la CDMX analizan regulación de albergues para animales - El Universal",
+    "fuente": "El Universal",
+    "score": 32.3,
+    "razones": [
+      "🤖 ML score: 32.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "El juez del caso Sidenor percibe \"claros indicios de criminalidad\" - ORAIN",
+    "fuente": "ORAIN",
+    "score": 32.9,
+    "razones": [
+      "🤖 ML score: 32.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Sitimm, de los sindicatos más transparentes y fuertes de México y América: Alejandro Rangel - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 22.1,
+    "razones": [
+      "🤖 ML score: 22.1/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Va Morena en el Senado por estricta regulación al transporte de Gas LP y materiales peligrosos - enfoquenoticias.com.mx",
+    "fuente": "enfoquenoticias.com.mx",
+    "score": 25.9,
+    "razones": [
+      "🤖 ML score: 25.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "¿Están listas las constructoras mexicanas para los retos de 2026? - realestatemarket.com.mx",
+    "fuente": "realestatemarket.com.mx",
+    "score": 35.6,
+    "razones": [
+      "🤖 ML score: 35.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Trump analiza reducir aranceles al acero y aluminio ante baja en popularidad - El Informador",
+    "fuente": "El Informador",
+    "score": 42.4,
+    "razones": [
+      "🤖 ML score: 42.4/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Servicios profesionales en Baja California entran en recesión - El Congresista",
+    "fuente": "El Congresista",
+    "score": 31.6,
+    "razones": [
+      "🤖 ML score: 31.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Minera brasileña Vale apuesta por volumen ante precios presionados - BNamericas",
+    "fuente": "BNamericas",
+    "score": 38.9,
+    "razones": [
+      "🤖 ML score: 38.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "En San Pablito les cambian patrulla nueva por vehículo que califican de \"chatarra\" - La Jornada de Oriente",
+    "fuente": "La Jornada de Oriente",
+    "score": 21.5,
+    "razones": [
+      "🤖 ML score: 21.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Servicios profesiones de BC ya están en recesión económica - Agencia Fronteriza de Noticias AFN",
+    "fuente": "Agencia Fronteriza de Noticias AFN",
+    "score": 27.2,
+    "razones": [
+      "🤖 ML score: 27.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Trump revoca la base de la regulación climática de EU y elimina los estándares de emisiones de vehículos - Forbes México",
+    "fuente": "Forbes México",
+    "score": 35.6,
+    "razones": [
+      "🤖 ML score: 35.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Estudiantes de primer curso de Ingeniería Civil ganan el Concurso de Puentes - Universidad Politécnica de Cartagena",
+    "fuente": "Universidad Politécnica de Cartagena",
+    "score": 26.8,
+    "razones": [
+      "🤖 ML score: 26.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Charles Darwin, científico: “Los insectos, como yo, son incomprendidos por la mayoría” - TN",
+    "fuente": "TN",
+    "score": 40.3,
+    "razones": [
+      "🤖 ML score: 40.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Startup estadounidense desarrolla horno eléctrico de una sola etapa que reduce 30% la energía y abarata 25% el acero - EcoInventos",
+    "fuente": "EcoInventos",
+    "score": 35.8,
+    "razones": [
+      "🤖 ML score: 35.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Trump elimina regulación de gases contaminantes - El Informador",
+    "fuente": "El Informador",
+    "score": 24.0,
+    "razones": [
+      "🤖 ML score: 24.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Construcción es el tercer generador de empleos en México: IMSS - Multimedia En Concreto",
+    "fuente": "Multimedia En Concreto",
+    "score": 29.6,
+    "razones": [
+      "🤖 ML score: 29.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "¿Cómo se comportan las acciones, los bonos y el efectivo cuando la Fed empieza a bajar los tipos? - RankiaPro",
+    "fuente": "RankiaPro",
+    "score": 28.5,
+    "razones": [
+      "🤖 ML score: 28.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "300 millones de obreros y campesinos paralizan India - Diario Socialista",
+    "fuente": "Diario Socialista",
+    "score": 39.5,
+    "razones": [
+      "🤖 ML score: 39.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "NASCAR rompe Récord Guinness en Nueva York: Así es la valla publicitaria más ruidosa del mundo - debate.com.mx",
+    "fuente": "debate.com.mx",
+    "score": 30.4,
+    "razones": [
+      "🤖 ML score: 30.4/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Darwin: el joven que no quería ser científico y transformó la historia - Quadratín Michoacán",
+    "fuente": "Quadratín Michoacán",
+    "score": 21.3,
+    "razones": [
+      "🤖 ML score: 21.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Pichetto propuso que el peronismo debe ponerle aranceles al acero indio y a las empresas chinas Shein y Temu - Diario Registrado",
+    "fuente": "Diario Registrado",
+    "score": 31.9,
+    "razones": [
+      "🤖 ML score: 31.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Techint refuerza su apuesta regional: desembolsa US$ 315 millones en Brasil y gana peso en el acero - Opinando San Nicolás",
+    "fuente": "Opinando San Nicolás",
+    "score": 32.9,
+    "razones": [
+      "🤖 ML score: 32.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Bomberos combaten incendio en depósito de chatarra en Davie - Telemundo Miami (51)",
+    "fuente": "Telemundo Miami (51)",
+    "score": 27.9,
+    "razones": [
+      "🤖 ML score: 27.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "6 de cada 10 empresarios pretenden realizar nuevas inversiones en México este 2025: KPMG; prevén estancamiento y recesión - Uniradio Informa Baja California",
+    "fuente": "Uniradio Informa Baja California",
+    "score": 40.3,
+    "razones": [
+      "🤖 ML score: 40.3/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "¡Reducida a chatarra! Así quedaron las pesadas unidades tras BRUTAL CHOQUE que PARTIÓ un tráiler en Irapuato - Azteca Bajío",
+    "fuente": "Azteca Bajío",
+    "score": 25.8,
+    "razones": [
+      "🤖 ML score: 25.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "México mantendrá importación récord de maíz en 2026: USDA - Imagen Agropecuaria",
+    "fuente": "Imagen Agropecuaria",
+    "score": 32.7,
+    "razones": [
+      "🤖 ML score: 32.7/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Día de Darwin: el científico que planteó la teoría de la evolución por selección natural y lo cambió todo - NewsDigitales",
+    "fuente": "NewsDigitales",
+    "score": 23.7,
+    "razones": [
+      "🤖 ML score: 23.7/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Empresas en Nuevo León anticipan recesión en 2026: ¿Dónde invertirán? - Líder Empresarial",
+    "fuente": "Líder Empresarial",
+    "score": 26.8,
+    "razones": [
+      "🤖 ML score: 26.8/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Mantienen eliminación de comida chatarra en escuelas de Querétaro - Quadratin Querétaro",
+    "fuente": "Quadratin Querétaro",
+    "score": 32.5,
+    "razones": [
+      "🤖 ML score: 32.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Nuevo León lidera la generación de empleo en manufactura, construcción y servicios en 2026 - El Heraldo de México",
+    "fuente": "El Heraldo de México",
+    "score": 34.2,
+    "razones": [
+      "🤖 ML score: 34.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Más de 10,000 ha dañadas por incendios en tres municipios - Pulso Diario San Luis",
+    "fuente": "Pulso Diario San Luis",
+    "score": 37.0,
+    "razones": [
+      "🤖 ML score: 37.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
     "titulo": "Tras el cruce con Milei, Rocca aumentó sus inversiones en Brasil - BorderPeriodismo",
     "fuente": "BorderPeriodismo",
-    "score": 0,
+    "score": 32.3,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 32.3/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Nueva regulación fiscal pone en riesgo al crowdfunding y reducirá la competencia",
-    "fuente": "Expansión - Economía",
-    "score": 0,
+    "titulo": "Crece 11% construcción en NL ante auge en obra pública - El Horizonte",
+    "fuente": "El Horizonte",
+    "score": 34.4,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 34.4/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "INAH CONCLUYE TRABAJOS DE MANTENIMIENTO GENERAL EN LA CUBIERTA DEL GRAN BASAMENTO DE CACAXTLA - Gob MX",
-    "fuente": "Gob MX",
-    "score": 0,
+    "titulo": "En pleno rebote inflacionario, lanzan un nuevo esquema de importación de gas que vuelve a encarecer las tarifas - Yahoo",
+    "fuente": "Yahoo",
+    "score": 20.6,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 20.6/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Puentes que no unen, la infraestructura que genera aun más fricción entre Canadá y EEUU - mipuntodevista.com.mx",
-    "fuente": "mipuntodevista.com.mx",
-    "score": 0,
+    "titulo": "Proyecto AddMamBa de la RWTH: Ménsulas de fachada de acero reciclado con PBF-LB/M contra puentes térmicos - 3Druck.com",
+    "fuente": "3Druck.com",
+    "score": 36.7,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 36.7/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Convenio entre el Cabildo Catedral de Sevilla y Ayesa para el estudio técnico y científico del Giraldillo",
-    "fuente": "Europapress.es",
-    "score": 0,
+    "titulo": "Estudio sugiere que hay una recesión de citas románticas y estas son las posibles razones - Telemundo",
+    "fuente": "Telemundo",
+    "score": 31.1,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 31.1/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "La tormenta del poliéster pega de lleno a Alpek, sus pérdidas crecen y preocupa su apalancamiento - El Cronista",
+    "titulo": "Más federaciones se suman a Tereso Medina - La Prensa de Coahuila",
+    "fuente": "La Prensa de Coahuila",
+    "score": 24.2,
+    "razones": [
+      "🤖 ML score: 24.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Importación de vehículos pesados usados, golpe al empleo y al mercado interno: ANPACT y AMDA - Revista TyT",
+    "fuente": "Revista TyT",
+    "score": 30.0,
+    "razones": [
+      "🤖 ML score: 30.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "¿Qué se necesita para desbloquear la próxima fase de crecimiento del hidrógeno? - Interempresas.net",
+    "fuente": "Interempresas.net",
+    "score": 36.9,
+    "razones": [
+      "🤖 ML score: 36.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Industria mexicana crece 1.5% al cierre de 2025 impulsada por construcción y energía - ABCNoticias.mx",
+    "fuente": "ABCNoticias.mx",
+    "score": 42.4,
+    "razones": [
+      "🤖 ML score: 42.4/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Importación de vehículos usados no deben ser “Chatarra” decreto está vigente hasta noviembre 2026 - El Mercurio de Tamaulipas -",
+    "fuente": "El Mercurio de Tamaulipas -",
+    "score": 32.0,
+    "razones": [
+      "🤖 ML score: 32.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "En Contexto - Tiroteo masivo en Canadá: ¿cómo es la regulación de armas del país? - France 24",
+    "fuente": "France 24",
+    "score": 27.6,
+    "razones": [
+      "🤖 ML score: 27.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Fabricantes de camiones pesados pierden 20% de plantilla laboral - El Universal",
+    "fuente": "El Universal",
+    "score": 28.9,
+    "razones": [
+      "🤖 ML score: 28.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Rocca deja atrás la polémica con Milei: invierte US$ 315 millones en un gigante de Brasil y crece en el negocio del acero - Clarin.com",
+    "fuente": "Clarin.com",
+    "score": 27.9,
+    "razones": [
+      "🤖 ML score: 27.9/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Incendio en vivienda donde acumulaban chatarra deja un hombre sin vida, en Monterrey - vanguardia.com.mx",
+    "fuente": "vanguardia.com.mx",
+    "score": 30.7,
+    "razones": [
+      "🤖 ML score: 30.7/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Causó brote de sarampión importación de casos de zonas no vacunadas: Salud - Parabólica.Mx",
+    "fuente": "Parabólica.Mx",
+    "score": 22.0,
+    "razones": [
+      "🤖 ML score: 22.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "ArcelorMittal continúa su rally en bolsa y ya es la acción estrella del Ibex 35 - El Cronista",
     "fuente": "El Cronista",
-    "score": 0,
+    "score": 38.0,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 38.0/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Eurocámara suspenderá pacto comercial con EU si Trump amenaza de nuevo - Plano Informativo",
-    "fuente": "Plano Informativo",
-    "score": 0,
+    "titulo": "De la chatarra al desarrollo: cómo el reciclaje transformó una ciudad china - UnoTV",
+    "fuente": "UnoTV",
+    "score": 37.7,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 37.7/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "La inesperada disputa entre Trump y Carney por un puente que unirá Estados Unidos y Canadá",
-    "fuente": "La Nacion",
-    "score": 0,
+    "titulo": "Actividad industrial mejoró en diciembre, impulsada por la construcción - La Jornada",
+    "fuente": "La Jornada",
+    "score": 32.0,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 32.0/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Top Ten Cine y Series 2025",
-    "fuente": "Zonanegativa.com",
-    "score": -9,
+    "titulo": "Mineros de Clóset: El show de la hipocresía vendimial - Noticias de Mendoza - Memo",
+    "fuente": "Noticias de Mendoza - Memo",
+    "score": 18.9,
     "razones": [
-      "✗ Exclusión: 'película' (-5)",
-      "✗ Exclusión: 'serie' (-4)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (-9 < 2)"
+      "🤖 ML score: 18.9/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "El Cabildo Catedral firma con Ayesa un estudio integral del Giraldillo y su réplica en bronce",
-    "fuente": "Www.abc.es",
-    "score": 0,
+    "titulo": "Tras el cruce con el Gobierno, Techint se quedó con más del 70% de una de las principales siderúrgicas de Brasil - Infobae",
+    "fuente": "Infobae",
+    "score": 26.7,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 26.7/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Trump amenaza con boicotear un nuevo puente entre Detroit y Ontario: \"No permitiré que se abra hasta que EEUU reciba el respeto que merecemos\"",
-    "fuente": "Eldiario.es",
-    "score": 0,
+    "titulo": "Plantean ley para operación y regulación de Centros Públicos de Investigación - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 20.9,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 20.9/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Trump amenaza con frenar la apertura de puente entre Canadá y Michigan: ‘Nos tratan de manera injusta’",
-    "fuente": "El Financiero",
-    "score": 0,
+    "titulo": "Finanzas digitales en 2026: velocidad, innovación y nervios de acero - El Periodista",
+    "fuente": "El Periodista",
+    "score": 21.4,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 21.4/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "14 de febrero: Ideas de regalos para mujer en Liverpool - El Informador",
-    "fuente": "El Informador",
-    "score": 0,
+    "titulo": "El níquel sube por la menor cuota de producción de la principal mina de Indonesia - GBM",
+    "fuente": "GBM",
+    "score": 31.1,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 31.1/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "¡TUBOS CHINOS! - LE PONEN OJO - NOTIVER",
-    "fuente": "NOTIVER",
-    "score": 0,
+    "titulo": "Fin de misión: Londres retira la patrullera «HMS Forth» de las Malvinas - Faro de Vigo",
+    "fuente": "Faro de Vigo",
+    "score": 28.5,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 28.5/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Acuerdo con EE.UU: cuáles son los plazos, la letra chica y los grandes “ausentes” - El Cronista",
-    "fuente": "El Cronista",
-    "score": 1,
+    "titulo": "Importaciones de soja de la UE en 2025/26 caen 13% al 8 de febrero - GBM",
+    "fuente": "GBM",
+    "score": 24.4,
     "razones": [
-      "✓ Contiene datos: toneladas (+1)",
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (1 < 2)"
+      "🤖 ML score: 24.4/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Vuelve a San Nicolás Fototeca va a tu Club, una propuesta de verano para construir memoria colectiva - La Opinion Online",
-    "fuente": "La Opinion Online",
-    "score": 0,
+    "titulo": "Plan de Infraestructura abre la puerta a privados, pero sin proyectos ni reglas claras - Industry & Energy Magazine",
+    "fuente": "Industry & Energy Magazine",
+    "score": 38.5,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 38.5/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Vuelve “Fototeca va a tu club”: una acción de verano para la construcción de memoria - El Informante",
-    "fuente": "El Informante",
-    "score": 0,
+    "titulo": "Exigen ciudadanos calles libres de chatarra en Reynosa - reynosa.gob.mx",
+    "fuente": "reynosa.gob.mx",
+    "score": 25.8,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 25.8/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Más de 100 empleos en vilo tras el cierre de una firma de Techint - El Ciudadano",
-    "fuente": "El Ciudadano",
-    "score": 0,
+    "titulo": "Semarnat, Profepa y SDS fortalecen regulación ambiental de granjas porcícolas en Yucatán - Hoja de Ruta Digital",
+    "fuente": "Hoja de Ruta Digital",
+    "score": 22.0,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 22.0/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Techint ajusta en Ramallo y crece la tensión por despidos - Punto Biz",
-    "fuente": "Punto Biz",
-    "score": 0,
+    "titulo": "Ramos Arizpe iniciará retiro de unidades “chatarra” de camiones - INFO7",
+    "fuente": "INFO7",
+    "score": 31.8,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 31.8/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Regresa “Fototeca va a tu club”, una iniciativa para mantener viva la memoria de las instituciones deportivas - Diario El Norte - San Nicolás",
-    "fuente": "Diario El Norte - San Nicolás",
-    "score": 0,
+    "titulo": "Fundación Sempra Infraestructura, bajo el Plan Invernal de la Cruz Roja Mexicana, apoya a más de 2,600 familias en cinco estados ante las bajas temperaturas - Corresponsables",
+    "fuente": "Corresponsables",
+    "score": 34.3,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 34.3/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Crisis en el cordón industrial: Techint cierra una tercerizada y hay 110 despidos que ponen en jaque a la UOM - Política y Medios",
-    "fuente": "Política y Medios",
-    "score": 0,
+    "titulo": "Los precios del mineral de hierro se mantuvieron estables en 110,19 dólares por tonelada después de una racha de seis sesiones consecutivas de caídas. - Vietnam.vn",
+    "fuente": "Vietnam.vn",
+    "score": 35.4,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 35.4/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "Robotización: la familia de emprendedores que llegó hasta Alemania por un deslumbrante desarrollo",
-    "fuente": "La Nacion",
-    "score": 0,
+    "titulo": "India refuerza la regulación de la IA en las redes sociales - UDG TV",
+    "fuente": "UDG TV",
+    "score": 21.2,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 21.2/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "El resultado de una licitación sacude el tablero empresario argentino",
-    "fuente": "La Nacion",
-    "score": 0,
+    "titulo": "Amplía Gobierno de México infraestructura en bachilleratos y universidades: Mario Delgado - Excélsior",
+    "fuente": "Excélsior",
+    "score": 34.2,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 34.2/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   },
   {
-    "titulo": "ONU exige respuestas en el caso de desaparecidos; se ha brindado la atención: SG",
-    "fuente": "Jornada.com.mx",
-    "score": 0,
+    "titulo": "Programa Vive Saludable, Vive Feliz: Caen las ventas en tienditas escolares de Hermosillo tras la eliminación de comida chatarra - El Imparcial",
+    "fuente": "El Imparcial",
+    "score": 29.2,
     "razones": [
-      "✗ RECHAZADO: No menciona sector del acero",
-      "✗ RECHAZADO: No menciona contexto mexicano",
-      "✗ RECHAZADO: Score insuficiente (0 < 2)"
+      "🤖 ML score: 29.2/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Talcahuano Terminal Portuario celebra atención a 120 camiones sin afectar a la ciudad - Hora12",
+    "fuente": "Hora12",
+    "score": 35.5,
+    "razones": [
+      "🤖 ML score: 35.5/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "SLRC entra en recesión por impacto de la economía de Baja California - El Sol de México",
+    "fuente": "El Sol de México",
+    "score": 28.0,
+    "razones": [
+      "🤖 ML score: 28.0/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Asturias celebra que ArcelorMittal retome sus proyectos de descarbonización en Europa - La Voz de Asturias",
+    "fuente": "La Voz de Asturias",
+    "score": 39.7,
+    "razones": [
+      "🤖 ML score: 39.7/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "Importaciones masivas amenazan la acuacultura en México - Meganoticias.MX",
+    "fuente": "Meganoticias.MX",
+    "score": 33.6,
+    "razones": [
+      "🤖 ML score: 33.6/100",
+      "🤖 ML probabilidad: 0.0%"
+    ]
+  },
+  {
+    "titulo": "BBVA respalda plan de inversiones de Sheinbaum, pero pide “certidumbre” en las reglas",
+    "fuente": "Aristegui Noticias",
+    "score": 37.6,
+    "razones": [
+      "🤖 ML score: 37.6/100",
+      "🤖 ML probabilidad: 0.0%"
     ]
   }
 ]
