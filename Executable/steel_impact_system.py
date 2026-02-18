@@ -39,14 +39,14 @@ class RealNewsCollector:
         self.keywords_busqueda = [
             'sector construcción México', 'infraestructura México', 'metalúrgica México',
             'regulación acero', 'recesión', 'regulación', 'demanda acero', 'importación',
-            'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin',
+            'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin', 'INEGI'
         ]
 
         #    'acero México', 'industria siderúrgica México', 'Ternium',
         #    'aranceles acero', 'exportación acero México', 'precio acero',
         #    'construcción México acero', 'CANACERO', 'lámina acero México',
         #    'varilla construcción México', 'siderurgia México', 'importación acero',
-        #    'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec', 'Gerdau México',
+        #    'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec',
 
     def fetch_newsapi(self, keyword, dias_atras=30):
         """
