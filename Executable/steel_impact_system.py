@@ -40,14 +40,12 @@ class RealNewsCollector:
             'sector construcción México', 'infraestructura México', 'metalúrgica México',
             'regulación acero', 'recesión', 'regulación', 'demanda acero', 'importación',
             'chatarra', 'chatarra de acero', 'minas de acero', 'HMS', 'Bushelin', 'INEGI'
+            'acero México', 'industria siderúrgica México',
+            'aranceles acero', 'exportación acero México', 'precio acero',
+            'construcción México acero', 'lámina acero México',
+            'varilla construcción México', 'siderurgia México', 'importación acero',
+            'dumping acero', 'T-MEC acero'
         ]
-
-        #    'acero México', 'industria siderúrgica México', 'Ternium',
-        #    'aranceles acero', 'exportación acero México', 'precio acero',
-        #    'construcción México acero', 'CANACERO', 'lámina acero México',
-        #    'varilla construcción México', 'siderurgia México', 'importación acero',
-        #    'dumping acero', 'T-MEC acero', 'DeAcero', 'Simec',
-
     def fetch_newsapi(self, keyword, dias_atras=30):
         """
         Obtiene noticias de NewsAPI
@@ -214,7 +212,7 @@ class RealNewsCollector:
                     print(f"  ❌ Error: {str(e)[:50]}")
                     return []
 
-            # RESTO DEL CÓDIGO DE LA FUNCIÓN (NO CAMBIAR - ya está bien)
+            # RESTO DEL CÓDIGO DE LA FUNCIÓN (posiblemente bien?)
             # Palabras clave para filtrar (solo noticias de acero)
             keywords_acero = [
                 'acero', 'siderúrgica', 'Ternium', 'arancel', 'exportación',
@@ -315,7 +313,7 @@ class RealNewsCollector:
         # 1. NewsAPI (si está configurado)
         if USE_NEWSAPI and self.newsapi_key and self.newsapi_key != "e9a1a7c23b694a419fca45af9bfe3994":
             print("\n📰 Fuente: NewsAPI")
-            for keyword in self.keywords_busqueda[:5]:  # Limitar para no exceder cuota
+            for keyword in self.keywords_busqueda[:10]:  # Limitar para no exceder cuota
                 print(f"  • Buscando: '{keyword}'")
                 noticias = self.fetch_newsapi(keyword, dias_atras)
                 todas_noticias.extend(noticias)
@@ -323,7 +321,7 @@ class RealNewsCollector:
 
         # 2. Google News (gratuito)
         print("\n📰 Fuente: Google News")
-        for keyword in self.keywords_busqueda[:30]:  # Primeras 4 keywords
+        for keyword in self.keywords_busqueda[:30]:  # Primeras 30 keywords
             print(f"  • Buscando: '{keyword}'")
             noticias = self.fetch_google_news(keyword, max_results=max_por_keyword)
             todas_noticias.extend(noticias)

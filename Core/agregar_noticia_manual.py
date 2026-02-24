@@ -108,9 +108,16 @@ def agregar_desde_csv(csv_path):
         return []
     
     noticias = []
-    
-    with open(csv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
+
+    # Detectar encoding automáticamente
+    import chardet
+
+    with open(csv_path, 'rb') as f_raw:
+        detected = chardet.detect(f_raw.read())
+        encoding = detected.get('encoding', 'utf-8') or 'utf-8'
+
+    with open(csv_path, 'r', encoding='latin-1') as f:
+        reader = csv.DictReader(f, delimiter='\t')
         
         for row in reader:
             # Validar campos obligatorios
