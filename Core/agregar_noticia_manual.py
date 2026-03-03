@@ -117,7 +117,7 @@ def agregar_desde_csv(csv_path):
         encoding = detected.get('encoding', 'utf-8') or 'utf-8'
 
     with open(csv_path, 'r', encoding='latin-1') as f:
-        reader = csv.DictReader(f, delimiter='\t')
+        reader = csv.DictReader(f)
         
         for row in reader:
             # Validar campos obligatorios

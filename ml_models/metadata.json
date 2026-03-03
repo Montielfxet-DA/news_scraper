@@ -1,7 +1,7 @@
 {
-  "noticias_entrenamiento": 283,
-  "relevantes": 106,
-  "no_relevantes": 177,
+  "noticias_entrenamiento": 584,
+  "relevantes": 286,
+  "no_relevantes": 298,
   "modelos": {
     "clasificador": "clasificador_binario.pkl",
     "regresor": "predictor_score.pkl"

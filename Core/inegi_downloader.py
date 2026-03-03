@@ -49,81 +49,52 @@ INEGI_API_SERIES = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores
 # https://www.inegi.org.mx/sistemas/api/indicadores/v1/
 
 SERIES_INEGI = {
-    
+
     # ────────────────────────────────────────────────────────────────────────
-    # SERIES PRINCIPALES (obtenidas del constructor)
+    # PRODUCCIÓN
     # ────────────────────────────────────────────────────────────────────────
-    'serie_1': {
-        'id': '720051',
-        'nombre': 'Indicador 720051',
-        'unidad': 'Por determinar',
+    'produccion_volumen_fisico': {
+        'id': '796224',
+        'nombre': 'Índice de volumen físico de la producción (Manufactura)',
+        'unidad': 'Índice',
         'frecuencia': 'mensual'
     },
-    
-    'serie_2': {
-        'id': '720649',
-        'nombre': 'Indicador 720649',
-        'unidad': 'Por determinar',
+
+    'produccion_capacidad_planta': {
+        'id': '710380',
+        'nombre': 'Capacidad de planta utilizada (Manufactura)',
+        'unidad': 'Porcentaje',
         'frecuencia': 'mensual'
     },
-    
-    'serie_3': {
-        'id': '496336',
-        'nombre': 'Indicador 496336',
-        'unidad': 'Por determinar',
+
+    'produccion_bruta_manufactura': {
+        'id': '5300000038',
+        'nombre': 'Producción bruta total — Sector 31-33 Industrias manufactureras',
+        'unidad': 'Miles de pesos',
+        'frecuencia': 'anual'
+    },
+
+    'produccion_valor_construccion': {
+        'id': '723135',
+        'nombre': 'Valor de producción total — Sector 23 Construcción',
+        'unidad': 'Miles de pesos',
         'frecuencia': 'mensual'
     },
-    
-    'serie_4': {
-        'id': '496353',
-        'nombre': 'Indicador 496353',
-        'unidad': 'Por determinar',
+
+    'produccion_tendencia_manufactura': {
+        'id': '701490',
+        'nombre': 'Índice Agregado de Tendencia — Industrias manufactureras',
+        'unidad': 'Índice',
         'frecuencia': 'mensual'
     },
-    
-    'serie_5': {
-        'id': '496352',
-        'nombre': 'Indicador 496352',
-        'unidad': 'Por determinar',
-        'frecuencia': 'mensual'
-    },
-    
-    'serie_6': {
-        'id': '496456',
-        'nombre': 'Indicador 496456',
-        'unidad': 'Por determinar',
-        'frecuencia': 'mensual'
-    },
-    
-    'serie_7': {
-        'id': '496455',
-        'nombre': 'Indicador 496455',
-        'unidad': 'Por determinar',
-        'frecuencia': 'mensual'
-    },
-    
-    'serie_8': {
-        'id': '496438',
-        'nombre': 'Indicador 496438',
-        'unidad': 'Por determinar',
-        'frecuencia': 'mensual'
-    },
-    
-    'serie_9': {
-        'id': '496386',
-        'nombre': 'Indicador 496386',
-        'unidad': 'Por determinar',
-        'frecuencia': 'mensual'
-    },
-    
-    'serie_10': {
-        'id': '496434',
-        'nombre': 'Indicador 496434',
-        'unidad': 'Por determinar',
+
+    'produccion_confianza_empresarial': {
+        'id': '701570',
+        'nombre': 'Indicador de Confianza Empresarial — Industrias manufactureras',
+        'unidad': 'Índice',
         'frecuencia': 'mensual'
     },
 }
-
 
 # ============================================================================
 # FUNCIONES DE DESCARGA

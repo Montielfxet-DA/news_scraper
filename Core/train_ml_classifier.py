@@ -436,7 +436,6 @@ def actualizar_bd_con_ml(clasificador, regresor, db_path: str):
 
 # ============================================================================
 # CLASE PÚBLICA: MLRelevanceFilter
-# (Reemplaza a NewsRelevanceFilter en el sistema principal)
 # ============================================================================
 
 class MLRelevanceFilter:
@@ -549,7 +548,7 @@ class MLRelevanceFilter:
 
 
 # ============================================================================
-# MODO INTERACTIVO: probar predicción con texto libre
+# MODO INTERACTIVO
 # ============================================================================
 
 def modo_prediccion_interactiva():
@@ -683,39 +682,17 @@ def main():
     # 5. Actualizar BD con predicciones ML
     actualizar_bd_con_ml(clasificador, regresor, DB_PATH)
 
-    # 6. Instrucciones de uso
-    print("\n" + "="*70)
-    print("🚀 INTEGRACIÓN EN TU SISTEMA PRINCIPAL")
+    print("="*70)
+    print("Continuación")
     print("="*70)
     print("""
-Para usar el filtro ML en steel_impact_system_REAL.py,
-REEMPLAZA la línea:
-
-  from Core.news_relevance_filter import NewsRelevanceFilter
-  filtro = NewsRelevanceFilter(min_score=2)
-
-POR:
-
-  from train_ml_classifier import MLRelevanceFilter
-  filtro = MLRelevanceFilter()
-
-¡El resto del código no cambia!  El MLRelevanceFilter tiene
-la misma interfaz (filtrar_noticias, es_relevante).
-""")
-
-    print("="*70)
-    print("📅 PRÓXIMOS PASOS")
-    print("="*70)
-    print("""
-  1. Integra MLRelevanceFilter en steel_impact_system_REAL.py (ver arriba)
-  2. Ejecuta el sistema normalmente y observa los nuevos scores ML
-  3. Cuando tengas 100 noticias más etiquetadas, re-entrena:
+  1. Al obtener 100 noticias, se debe re-entrenar:
        python train_ml_classifier.py
-  4. Para actualizar la BD sin re-entrenar:
+  2. Para actualizar la BD sin re-entrenar:
        python train_ml_classifier.py --update-db
-  5. Para evaluar el modelo actual:
+  3. Para evaluar el modelo actual:
        python train_ml_classifier.py --eval
-  6. Para probar con una noticia de texto libre:
+  4. Para probar con una noticia de texto libre:
        python train_ml_classifier.py --predict
 """)
 

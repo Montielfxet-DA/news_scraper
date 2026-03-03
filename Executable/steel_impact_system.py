@@ -290,7 +290,7 @@ class RealNewsCollector:
             if titulo and contenido:
                 return {
                     'titulo': titulo,
-                    'contenido': contenido[:1000],  # Primeros 1000 caracteres
+                    'contenido': contenido[:2000],  # Primeros 2000 caracteres
                     'url': url,
                     'fecha': datetime.now(),
                     'fuente': 'Web Scraping'
@@ -310,7 +310,7 @@ class RealNewsCollector:
         print("\n🔍 RECOLECTANDO NOTICIAS REALES...")
         print("=" * 80)
 
-        # 1. NewsAPI (si está configurado)
+        # 1. NewsAPI
         if USE_NEWSAPI and self.newsapi_key and self.newsapi_key != "e9a1a7c23b694a419fca45af9bfe3994":
             print("\n📰 Fuente: NewsAPI")
             for keyword in self.keywords_busqueda[:10]:  # Limitar para no exceder cuota
@@ -319,7 +319,7 @@ class RealNewsCollector:
                 todas_noticias.extend(noticias)
                 print(f"    ✓ {len(noticias)} noticias encontradas")
 
-        # 2. Google News (gratuito)
+        # 2. Google News
         print("\n📰 Fuente: Google News")
         for keyword in self.keywords_busqueda[:30]:  # Primeras 30 keywords
             print(f"  • Buscando: '{keyword}'")
@@ -327,25 +327,16 @@ class RealNewsCollector:
             todas_noticias.extend(noticias)
             print(f"    ✓ {len(noticias)} noticias encontradas")
 
-        # 3. RSS Feeds de medios mexicanos - ACTUALIZADOS
+        # 3. RSS Feeds de medios mexicanos
         print("\n📰 Fuente: Feeds RSS")
         rss_feeds = [
-            # El Economista (mantener - mejorar headers)
             'https://www.eleconomista.com.mx/rss/empresas.xml',
             'https://www.eleconomista.com.mx/rss/economia.xml',
-
-            # El Universal (URL actualizada)
             'https://www.eluniversal.com.mx/rss.xml',
-
-            # El Financiero (mantener)
             'https://www.elfinanciero.com.mx/rss/economia/',
-
-            # Milenio (URL actualizada)
             'https://www.milenio.com/feed',
-
-            # NUEVAS FUENTES AGREGADAS
             'https://www.jornada.com.mx/rss/economia.xml',
-            'https://heraldodemexico.com.mx/rss/feed.html?r=6',  # Economía
+            'https://heraldodemexico.com.mx/rss/feed.html?r=6',
             'https://editorial.aristeguinoticias.com/category/dinero-y-economia/feed/',
             'https://www.sinembargo.mx/feed',
             'https://www.excelsior.com.mx/rss.xml',
@@ -373,7 +364,7 @@ class RealNewsCollector:
         noticias_recientes = [n for n in noticias_unicas
                               if n.get('fecha', datetime.now()) >= fecha_limite]
 
-        # Ordenar por fecha (más recientes primero)
+        # Ordenar por fecha (orden descendente)
         noticias_recientes.sort(key=lambda x: x.get('fecha', datetime.now()), reverse=True)
 
         print(f"\n✅ TOTAL: {len(noticias_recientes)} noticias únicas recolectadas")
@@ -383,7 +374,7 @@ class RealNewsCollector:
 
 
 # ============================================================================
-# MÓDULO DE GENERACIÓN DE REPORTES (igual que antes)
+# MÓDULO DE GENERACIÓN DE REPORTES
 # ============================================================================
 
 class ReportGenerator:
@@ -593,7 +584,7 @@ def main():
         print(f"   Fuente: {n.get('fuente', 'N/A')} | Fecha: {n['fecha'].strftime('%Y-%m-%d')}")
     print()
 
-    # NUEVO: Filtrar noticias irrelevantes
+    # Filtrar noticias irrelevantes
     print("\nPASO 1.5: Filtrado de Relevancia")
     print("-" * 80)
 
@@ -614,7 +605,7 @@ def main():
 
         with open(os.path.join(OUTPUT_DIR, 'noticias_rechazadas.json'), 'w', encoding='utf-8') as f:
             json.dump(rechazadas_data, f, indent=2, ensure_ascii=False)
-        print(f"  ℹ️ Noticias rechazadas guardadas en: noticias_rechazadas.json")
+        print(f"   Noticias rechazadas guardadas en: noticias_rechazadas.json")
 
     # Continuar solo con noticias relevantes
     noticias = noticias_relevantes
@@ -654,7 +645,7 @@ def main():
             analisis['fuente'] = noticia.get('fuente', 'Desconocida')
             analisis['url'] = noticia.get('url', '')
 
-            # NUEVO: Determinar relevancia automática
+            # Determinar relevancia automática
             relevancia_auto = 'incierto'
             if noticia.get('relevancia_score', 0) >= 5:
                 relevancia_auto = 'relevante'
@@ -664,7 +655,7 @@ def main():
             analisis['relevancia_auto'] = relevancia_auto
             analisis['relevancia_score'] = noticia.get('relevancia_score', 0)
 
-            # NUEVO: Guardar en base de datos
+            # Guardar en base de datos
             noticia_id = db.guardar_noticia({
                 'titulo': noticia['titulo'],
                 'contenido': noticia['contenido'],
@@ -693,7 +684,7 @@ def main():
 
     # Mostrar estadísticas de la BD
     print("\n" + "-" * 80)
-    print("📊 ESTADÍSTICAS DE LA BASE DE DATOS")
+    print(" ESTADÍSTICAS DE LA BASE DE DATOS")
     print("-" * 80)
     stats_db = db.obtener_estadisticas()
     print(f"   Total en BD: {stats_db['total']} noticias")
@@ -721,13 +712,13 @@ def main():
 
     score_general = np.mean([r['score_impacto'] for r in resultados])
 
-    print("\n📊 IMPACTO PROMEDIO EN INDICADORES:")
+    print("\n IMPACTO PROMEDIO EN INDICADORES:")
     for indicador, valor in impacto_agregado.items():
         emoji = "📈" if valor > 0 else "📉" if valor < 0 else "➡️"
         signo = "+" if valor > 0 else ""
         print(f"   {emoji} {indicador.title()}: {signo}{valor:.1f}%")
 
-    print(f"\n🎯 SCORE GENERAL: {score_general:.2f}")
+    print(f"\n SCORE GENERAL: {score_general:.2f}")
 
     if score_general > 0.3:
         print("   ✅ Tendencia: POSITIVA para la industria")
@@ -784,16 +775,16 @@ def main():
         print(f"  ⚠️ Error generando Excel: {e}")
 
     print("\n" + "=" * 80)
-    print("✅ ANÁLISIS DE NOTICIAS REALES COMPLETADO")
+    print(" ANÁLISIS DE NOTICIAS REALES COMPLETADO")
     print("=" * 80 + "\n")
 
-    print("📁 Archivos generados:")
+    print(" Archivos generados:")
     print(f"   • {os.path.basename(output_files['json'])}")
     print(f"   • {os.path.basename(output_files['pdf'])}")
     print(f"   • {os.path.basename(output_files['excel'])}")
     print()
 
-    print("🗄️ Base de datos:")
+    print("️ Base de datos:")
     print(f"   • {os.path.abspath(db.db_path)}")
     print(f"   • {stats_db['total']} noticias almacenadas")
     print()

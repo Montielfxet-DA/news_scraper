@@ -174,7 +174,7 @@ class NewsLabelerGUI:
         self.btn_no_relevante.pack(side=tk.LEFT, padx=8)
 
         self.btn_saltar = tk.Button(
-            buttons_frame, text="⏭️ SALTAR", font=("Arial", 10, "bold"),
+            buttons_frame, text="⏭ SALTAR", font=("Arial", 10, "bold"),
             bg="#95a5a6", fg="white", width=14, height=2,
             command=self.saltar, cursor="hand2", relief=tk.RAISED, bd=3
         )
